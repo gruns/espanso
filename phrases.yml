@@ -1,0 +1,550 @@
+matches:
+  - triggers: ['isnt']
+    replace: "isn't"
+    word: true
+    propagate_case: true
+  - triggers: ['amt']
+    replace: "amount"
+    word: true
+    propagate_case: true
+  - triggers: ['rly']
+    replace: "really"
+    word: true
+    propagate_case: true
+  - triggers: ['sg']
+    replace: "sounds good"
+    word: true
+    propagate_case: true
+  - triggers: []
+    replace: "Enter phrase contents"
+    word: true
+    propagate_case: true
+  - triggers: ['pting']
+    replace: "pointing"
+    word: true
+    propagate_case: true
+  - triggers: ['rdy']
+    replace: "ready"
+    word: true
+    propagate_case: true
+  - triggers: ['accts']
+    replace: "accounts"
+    word: true
+    propagate_case: true
+  - triggers: ['mtgs']
+    replace: "meetings"
+    word: true
+    propagate_case: true
+  - triggers: ['fwdd']
+    replace: "forwarded"
+    word: true
+    propagate_case: true
+  - triggers: ['impl']
+    replace: "implementation"
+    word: true
+    propagate_case: true
+  - triggers: ['dmg']
+    replace: "damage"
+    word: true
+    propagate_case: true
+  - triggers: ['/shrug']
+    replace: "¯\\_(ツ)_/¯"
+    word: true
+    propagate_case: true
+  - triggers: ['evt']
+    replace: "event"
+    word: true
+    propagate_case: true
+  - triggers: ['txn']
+    replace: "transaction"
+    word: true
+    propagate_case: true
+  - triggers: ['walkthrus']
+    replace: "walkthroughs"
+    word: true
+    propagate_case: true
+  - triggers: ['ctx']
+    replace: "context"
+    word: true
+    propagate_case: true
+  - triggers: ['diffc']
+    replace: "difference"
+    word: true
+    propagate_case: true
+  - triggers: ['wknds']
+    replace: "weekends"
+    word: true
+    propagate_case: true
+  - triggers: ['optim']
+    replace: "optimization"
+    word: true
+    propagate_case: true
+  - triggers: ['str8']
+    replace: "straight"
+    word: true
+    propagate_case: true
+  - triggers: ['xmissions']
+    replace: "transmissions"
+    word: true
+    propagate_case: true
+  - triggers: ['vid']
+    replace: "video"
+    word: true
+    propagate_case: true
+  - triggers: ['pkgs']
+    replace: "packages"
+    word: true
+    propagate_case: true
+  - triggers: ['xfers']
+    replace: "transfers"
+    word: true
+    propagate_case: true
+  - triggers: ['lvl']
+    replace: "level"
+    word: true
+    propagate_case: true
+  - triggers: ['orch']
+    replace: "orchestrator"
+    word: true
+    propagate_case: true
+  - triggers: ['lvls']
+    replace: "levels"
+    word: true
+    propagate_case: true
+  - triggers: ['bw']
+    replace: "bandwidth"
+    word: true
+    propagate_case: true
+  - triggers: ['obvi']
+    replace: "obviously"
+    word: true
+    propagate_case: true
+  - triggers: ['mo']
+    replace: "month"
+    word: true
+    propagate_case: true
+  - triggers: ['orchs']
+    replace: "orchestrators"
+    word: true
+    propagate_case: true
+  - triggers: ['mos']
+    replace: "months"
+    word: true
+    propagate_case: true
+  - triggers: ['rn']
+    replace: "right now"
+    word: true
+    propagate_case: true
+  - triggers: ['gh']
+    replace: "github"
+    word: true
+    propagate_case: true
+  - triggers: ['thats']
+    replace: "that's"
+    word: true
+    propagate_case: true
+  - triggers: ['pnts']
+    replace: "points"
+    word: true
+    propagate_case: true
+  - triggers: ['pwer', 'pwr']
+    replace: "power"
+    word: true
+    propagate_case: true
+  - triggers: ['thruout']
+    replace: "thoughout"
+    word: true
+    propagate_case: true
+  - triggers: ['pkg']
+    replace: "package "
+    word: true
+    propagate_case: true
+  - triggers: ['addrs']
+    replace: "addresses"
+    word: true
+    propagate_case: true
+  - triggers: ['reqs']
+    replace: "requests"
+    word: true
+    propagate_case: true
+  - triggers: ['w/in']
+    replace: "within"
+    word: true
+    propagate_case: true
+  - triggers: ['havent']
+    replace: "haven't"
+    word: true
+    propagate_case: true
+  - triggers: ['xfer']
+    replace: "transfer"
+    word: true
+    propagate_case: true
+  - triggers: ['thruput']
+    replace: "throughput"
+    word: true
+    propagate_case: true
+  - triggers: ['w/e']
+    replace: "whatever"
+    word: true
+    propagate_case: true
+  - triggers: ['repro']
+    replace: "reproduce"
+    word: true
+    propagate_case: true
+  - triggers: ['tho']
+    replace: "though"
+    word: true
+    propagate_case: true
+  - triggers: ['/trademark', '/tm', '\trademark', '\tm']
+    replace: "™"
+    word: true
+    propagate_case: true
+  - triggers: ['yt']
+    replace: "youtube"
+    word: true
+    propagate_case: true
+  - triggers: ['perm']
+    replace: "permission"
+    word: true
+    propagate_case: true
+  - triggers: ['redirs']
+    replace: "redirects"
+    word: true
+    propagate_case: true
+  - triggers: ['attn']
+    replace: "attention"
+    word: true
+    propagate_case: true
+  - triggers: ['fwds']
+    replace: "forwards"
+    word: true
+    propagate_case: true
+  - triggers: ['pnting']
+    replace: "pointing"
+    word: true
+    propagate_case: true
+  - triggers: ['exps']
+    replace: "experiences"
+    word: true
+    propagate_case: true
+  - triggers: ['wo', 'w/o']
+    replace: "without"
+    word: true
+    propagate_case: true
+  - triggers: ['youll']
+    replace: "you'll"
+    word: true
+    propagate_case: true
+  - triggers: ['evts']
+    replace: "events"
+    word: true
+    propagate_case: true
+  - triggers: ['acct']
+    replace: "account"
+    word: true
+    propagate_case: true
+  - triggers: ['werent']
+    replace: "weren't"
+    word: true
+    propagate_case: true
+  - triggers: ['nows']
+    replace: "now's"
+    word: true
+    propagate_case: true
+  - triggers: ['mtn']
+    replace: "mountain"
+    word: true
+    propagate_case: true
+  - triggers: ['thru']
+    replace: "through"
+    word: true
+    propagate_case: true
+  - triggers: ['exp']
+    replace: "experience"
+    word: true
+    propagate_case: true
+  - triggers: ['ppl']
+    replace: "people"
+    word: true
+    propagate_case: true
+  - triggers: ['msgd']
+    replace: "messaged"
+    word: true
+    propagate_case: true
+  - triggers: ['perms']
+    replace: "permissions"
+    word: true
+    propagate_case: true
+  - triggers: ['dmd']
+    replace: "DM'd"
+    word: true
+    propagate_case: true
+  - triggers: ['msg']
+    replace: "message"
+    word: true
+    propagate_case: true
+  - triggers: ['avging']
+    replace: "averaging"
+    word: true
+    propagate_case: true
+  - triggers: ['avg']
+    replace: "average"
+    word: true
+    propagate_case: true
+  - triggers: ['xmission']
+    replace: "transmission"
+    word: true
+    propagate_case: true
+  - triggers: ['pnt']
+    replace: "point"
+    word: true
+    propagate_case: true
+  - triggers: ['depts']
+    replace: "departments"
+    word: true
+    propagate_case: true
+  - triggers: ['dbl']
+    replace: "double"
+    word: true
+    propagate_case: true
+  - triggers: ['amts']
+    replace: "amounts"
+    word: true
+    propagate_case: true
+  - triggers: ['gws']
+    replace: "gateways"
+    word: true
+    propagate_case: true
+  - triggers: ['wasnt']
+    replace: "wasn't"
+    word: true
+    propagate_case: true
+  - triggers: ['weve']
+    replace: "we've"
+    word: true
+    propagate_case: true
+  - triggers: ['avgs']
+    replace: "averages"
+    word: true
+    propagate_case: true
+  - triggers: ['difft']
+    replace: "different"
+    word: true
+    propagate_case: true
+  - triggers: ['impls']
+    replace: "implementations"
+    word: true
+    propagate_case: true
+  - triggers: ['mtg']
+    replace: "meeting"
+    word: true
+    propagate_case: true
+  - triggers: ['addr']
+    replace: "address"
+    word: true
+    propagate_case: true
+  - triggers: ['ss']
+    replace: "screenshot"
+    word: true
+    propagate_case: true
+  - triggers: ['doesnt']
+    replace: "doesn't"
+    word: true
+    propagate_case: true
+  - triggers: ['tkts']
+    replace: "tickets"
+    word: true
+    propagate_case: true
+  - triggers: ['w/', 'w']
+    replace: "with"
+    word: true
+    propagate_case: true
+  - triggers: ['abt']
+    replace: "about"
+    word: true
+    propagate_case: true
+  - triggers: ['Im']
+    replace: "I'm"
+    word: true
+    propagate_case: true
+  - triggers: ['perf']
+    replace: "performance"
+    word: true
+    propagate_case: true
+  - triggers: ['fwding']
+    replace: "forwarding"
+    word: true
+    propagate_case: true
+  - triggers: ['b4']
+    replace: "before"
+    word: true
+    propagate_case: true
+  - triggers: ['dld']
+    replace: "downloaded"
+    word: true
+    propagate_case: true
+  - triggers: ['resps']
+    replace: "responses"
+    word: true
+    propagate_case: true
+  - triggers: ['fns']
+    replace: "functions"
+    word: true
+    propagate_case: true
+  - triggers: ['bt']
+    replace: "be there"
+    word: true
+    propagate_case: true
+  - triggers: ['vball']
+    replace: "volleyball"
+    word: true
+    propagate_case: true
+  - triggers: ['wknd']
+    replace: "weekend"
+    word: true
+    propagate_case: true
+  - triggers: ['anyones']
+    replace: "anyone's"
+    word: true
+    propagate_case: true
+  - triggers: ['youd']
+    replace: "you'd"
+    word: true
+    propagate_case: true
+  - triggers: ['req']
+    replace: "request"
+    word: true
+    propagate_case: true
+  - triggers: ['unfort']
+    replace: "unfortunately"
+    word: true
+    propagate_case: true
+  - triggers: ['implt']
+    replace: "implement"
+    word: true
+    propagate_case: true
+  - triggers: ['fn']
+    replace: "function"
+    word: true
+    propagate_case: true
+  - triggers: ['mgr']
+    replace: "manager"
+    word: true
+    propagate_case: true
+  - triggers: ['hows']
+    replace: "how's"
+    word: true
+    propagate_case: true
+  - triggers: ['diffcs']
+    replace: "differences"
+    word: true
+    propagate_case: true
+  - triggers: ['dept']
+    replace: "department"
+    word: true
+    propagate_case: true
+  - triggers: ['fc']
+    replace: "filecoin"
+    word: true
+    propagate_case: true
+  - triggers: ['msgs']
+    replace: "messages"
+    word: true
+    propagate_case: true
+  - triggers: ['nvm']
+    replace: "nevermind"
+    word: true
+    propagate_case: true
+  - triggers: ['optims']
+    replace: "optimizations"
+    word: true
+    propagate_case: true
+  - triggers: ['xferred']
+    replace: "transferred"
+    word: true
+    propagate_case: true
+  - triggers: ['bkt']
+    replace: "bucket"
+    word: true
+    propagate_case: true
+  - triggers: ['resp']
+    replace: "response"
+    word: true
+    propagate_case: true
+  - triggers: ['std']
+    replace: "standard"
+    word: true
+    propagate_case: true
+  - triggers: ['mgrs']
+    replace: "mangers"
+    word: true
+    propagate_case: true
+  - triggers: ['xferring']
+    replace: "transferring"
+    word: true
+    propagate_case: true
+  - triggers: ['i18l']
+    replace: "international"
+    word: true
+    propagate_case: true
+  - triggers: ['mgmt']
+    replace: "management"
+    word: true
+    propagate_case: true
+  - triggers: ['nvr']
+    replace: "never"
+    word: true
+    propagate_case: true
+  - triggers: ['tkt']
+    replace: "ticket"
+    word: true
+    propagate_case: true
+  - triggers: ['wks']
+    replace: "weeks"
+    word: true
+    propagate_case: true
+  - triggers: ['pwords']
+    replace: "passwords"
+    word: true
+    propagate_case: true
+  - triggers: ['wk']
+    replace: "week
+"
+    word: true
+    propagate_case: true
+  - triggers: ['bc', 'b/c']
+    replace: "because"
+    word: true
+    propagate_case: true
+  - triggers: ['btwn']
+    replace: "between"
+    word: true
+    propagate_case: true
+  - triggers: ['tmrw']
+    replace: "tomorrow"
+    word: true
+    propagate_case: true
+  - triggers: ['mkt']
+    replace: "market"
+    word: true
+    propagate_case: true
+  - triggers: ['fwd']
+    replace: "forward"
+    word: true
+    propagate_case: true
+  - triggers: ['txns']
+    replace: "transactions"
+    word: true
+    propagate_case: true
+  - triggers: ['sss']
+    replace: "screenshots"
+    word: true
+    propagate_case: true
+  - triggers: ['pword']
+    replace: "password"
+    word: true
+    propagate_case: true
+  - triggers: ['gw']
+    replace: "gateway"
+    word: true
+    propagate_case: true

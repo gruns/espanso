@@ -1,0 +1,325 @@
+matches:
+  - triggers: ['/brain', '\brain']
+    replace: "🧠"
+    word: true
+    propagate_case: false
+  - triggers: ['/drool', '\drool']
+    replace: "🤤"
+    word: true
+    propagate_case: false
+  - triggers: ['/takeoff', '\takeoff']
+    replace: "🛫"
+    word: true
+    propagate_case: false
+  - triggers: ['\cowboy', '/cowboy']
+    replace: "🤠"
+    word: true
+    propagate_case: false
+  - triggers: ['/1', '\1']
+    replace: "👍"
+    word: true
+    propagate_case: false
+  - triggers: ['/surprise', '\surprise', '\gasp', '\shock', '/shock', '/gasp']
+    replace: "😮"
+    word: true
+    propagate_case: false
+  - triggers: ['/mage', '/wizard']
+    replace: "🧙"
+    word: true
+    propagate_case: false
+  - triggers: ['/-/', '\-/']
+    replace: "😕"
+    word: true
+    propagate_case: false
+  - triggers: ['\cross', '/f', '\f', '\crossed', '/cross', '/crossed']
+    replace: "🤞"
+    word: true
+    propagate_case: false
+  - triggers: ['\u', '/upside', '/u']
+    replace: "🙃"
+    word: true
+    propagate_case: false
+  - triggers: ['/tada', '/t', '\t']
+    replace: "🎉"
+    word: true
+    propagate_case: false
+  - triggers: ['\burrito', '/burrito']
+    replace: "🌯"
+    word: true
+    propagate_case: false
+  - triggers: ['\blush', '\b', '/b', '/blush']
+    replace: "😊"
+    word: true
+    propagate_case: false
+  - triggers: ['/i', '/imp', '\i']
+    replace: "😈"
+    word: true
+    propagate_case: false
+  - triggers: ['/wine', '\wine']
+    replace: "🍷"
+    word: true
+    propagate_case: false
+  - triggers: ['\zipper', '/zipper']
+    replace: "🤐"
+    word: true
+    propagate_case: false
+  - triggers: ['\eek', '/eek', '/eep', '/grimace', '\eep']
+    replace: "😬"
+    word: true
+    propagate_case: false
+  - triggers: ['\tennis', '/tennis']
+    replace: "🎾"
+    word: true
+    propagate_case: false
+  - triggers: ['/home', '\house', '\home', '/house']
+    replace: "🏠"
+    word: true
+    propagate_case: false
+  - triggers: ['/bed', '\bed']
+    replace: "🛏️"
+    word: true
+    propagate_case: false
+  - triggers: ['/rabbit', '/bunny', '\bunny', '\rabbit']
+    replace: "🐇"
+    word: true
+    propagate_case: false
+  - triggers: ['\check', '/check']
+    replace: "✔️"
+    word: true
+    propagate_case: false
+  - triggers: ['/dog', '\dog']
+    replace: "🐕"
+    word: true
+    propagate_case: false
+  - triggers: ['\eyeroll', '/eyeroll']
+    replace: "🙄"
+    word: true
+    propagate_case: false
+  - triggers: ['\vb', '/volley', '/volleyball', '/vb']
+    replace: "🏐"
+    word: true
+    propagate_case: false
+  - triggers: ['\up', '/up']
+    replace: "☝️"
+    word: true
+    propagate_case: false
+  - triggers: ['\pinched', '/chefskiss', '\chefs', '/pinched', '/pinch', '/chefs', '\chefskiss', '\pinch']
+    replace: "🤌"
+    word: true
+    propagate_case: false
+  - triggers: ['\P', '/P', '/tongue']
+    replace: "😛"
+    word: true
+    propagate_case: false
+  - triggers: ['/m', '\muscle', '/muscle', '\m']
+    replace: "💪"
+    word: true
+    propagate_case: false
+  - triggers: ['\j', '/j', '/joy']
+    replace: "😂"
+    word: true
+    propagate_case: false
+  - triggers: ['\o', '/o', '/ok', '\ok']
+    replace: "👌"
+    word: true
+    propagate_case: false
+  - triggers: ['/fire', '\fire']
+    replace: "🔥"
+    word: true
+    propagate_case: false
+  - triggers: ['/boom', '\boom']
+    replace: "💥"
+    word: true
+    propagate_case: false
+  - triggers: ['/stareyes', '\stareyes']
+    replace: "🤩"
+    word: true
+    propagate_case: false
+  - triggers: ['/horns', '/metal', '/rock']
+    replace: "🤘"
+    word: true
+    propagate_case: false
+  - triggers: ['/sad', '\sad', '\(', '/(']
+    replace: "😞"
+    word: true
+    propagate_case: false
+  - triggers: ['/cry', '\sob', '\cry', '/sob']
+    replace: "😭"
+    word: true
+    propagate_case: false
+  - triggers: ['\plane', '/plane']
+    replace: "✈️"
+    word: true
+    propagate_case: false
+  - triggers: ['\tear', "/'", "\\'", '/tear']
+    replace: "😢"
+    word: true
+    propagate_case: false
+  - triggers: ['\pizza', '/pizza']
+    replace: "🍕"
+    word: true
+    propagate_case: false
+  - triggers: ['\snowman', '/snowman']
+    replace: "☃️"
+    word: true
+    propagate_case: false
+  - triggers: ['/l', '/laughing']
+    replace: "😆"
+    word: true
+    propagate_case: false
+  - triggers: ['/sushi']
+    replace: "🍣"
+    word: true
+    propagate_case: false
+  - triggers: ['\8', '/sunglasses', '/8']
+    replace: "😎"
+    word: true
+    propagate_case: false
+  - triggers: ['/bullseye', '\bullseye']
+    replace: "🎯"
+    word: true
+    propagate_case: false
+  - triggers: ['\star', '/star']
+    replace: "🌠"
+    word: true
+    propagate_case: false
+  - triggers: ['\sun', '/sun']
+    replace: "☀️"
+    word: true
+    propagate_case: false
+  - triggers: ['/eyes', '\eyes']
+    replace: "👀"
+    word: true
+    propagate_case: false
+  - triggers: ['\crown', '/crown']
+    replace: "👑"
+    word: true
+    propagate_case: false
+  - triggers: ['/D', '\D']
+    replace: "😃"
+    word: true
+    propagate_case: false
+  - triggers: ['/baby', '\baby']
+    replace: "👶"
+    word: true
+    propagate_case: false
+  - triggers: ['/xmas', '/xmastree', '/christmas']
+    replace: "🎄"
+    word: true
+    propagate_case: false
+  - triggers: ['\night', '/night']
+    replace: "🌃"
+    word: true
+    propagate_case: false
+  - triggers: ['\clap', '/clap']
+    replace: "👏"
+    word: true
+    propagate_case: false
+  - triggers: ['\)', '/)']
+    replace: "🙂"
+    word: true
+    propagate_case: false
+  - triggers: ['\-1', '/-1']
+    replace: "👎"
+    word: true
+    propagate_case: false
+  - triggers: ['/dancer', '\dancer']
+    replace: "💃"
+    word: true
+    propagate_case: false
+  - triggers: ['/beach', '\beach']
+    replace: "🏖️"
+    word: true
+    propagate_case: false
+  - triggers: ['\apple', '/apple']
+    replace: "🍎"
+    word: true
+    propagate_case: false
+  - triggers: ['/facepalm', '\facepalm']
+    replace: "🤦‍"
+    word: true
+    propagate_case: false
+  - triggers: ['\h', '/heart', '/h']
+    replace: "❤️"
+    word: true
+    propagate_case: false
+  - triggers: ['/p', '\p', '/pray']
+    replace: "🙏"
+    word: true
+    propagate_case: false
+  - triggers: ['\moon', '/moon']
+    replace: "🌕"
+    word: true
+    propagate_case: false
+  - triggers: ['/party', '\party']
+    replace: "🥳"
+    word: true
+    propagate_case: false
+  - triggers: ['/santa']
+    replace: "🎅"
+    word: true
+    propagate_case: false
+  - triggers: ['/rocket', '\rocket']
+    replace: "🚀"
+    word: true
+    propagate_case: false
+  - triggers: ['/wave', '\wave']
+    replace: "👋"
+    word: true
+    propagate_case: false
+  - triggers: ['/alien', '\alien']
+    replace: "👽"
+    word: true
+    propagate_case: false
+  - triggers: ['/shaka', '\shaka']
+    replace: "🤙"
+    word: true
+    propagate_case: false
+  - triggers: ['\cat', '/cat']
+    replace: "🐈"
+    word: true
+    propagate_case: false
+  - triggers: ['\r', '/raised', '/r']
+    replace: "🙌"
+    word: true
+    propagate_case: false
+  - triggers: ['\k', '/k', '/kiss']
+    replace: "😘"
+    word: true
+    propagate_case: false
+  - triggers: ['/;)', '\w', '/wink', '/;', '/w']
+    replace: "😉"
+    word: true
+    propagate_case: false
+  - triggers: ['\robot', '/robot']
+    replace: "🤖"
+    word: true
+    propagate_case: false
+  - triggers: ['/zombie', '\zombie']
+    replace: "🧟"
+    word: true
+    propagate_case: false
+  - triggers: ['\nerd', '/nerd']
+    replace: "🤓"
+    word: true
+    propagate_case: false
+  - triggers: ['/avocado', '\avocado']
+    replace: "🥑"
+    word: true
+    propagate_case: false
+  - triggers: ['\hush', '/hush']
+    replace: "🤫"
+    word: true
+    propagate_case: false
+  - triggers: ['/think', '\think', '/thinking']
+    replace: "🤔"
+    word: true
+    propagate_case: false
+  - triggers: ['\poop', '/hankey', '/poop']
+    replace: "💩"
+    word: true
+    propagate_case: false
+  - triggers: ['/sleep', '/zzz']
+    replace: "😴"
+    word: true
+    propagate_case: false
