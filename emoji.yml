@@ -331,3 +331,7 @@ matches:
     replace: "🤗"
     word: true
     propagate_case: false
+  - triggers: ['/poof', '\poof']
+    replace: "💨"
+    word: true
+    propagate_case: false
