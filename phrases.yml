@@ -548,3 +548,7 @@ matches:
     replace: "gateway"
     word: true
     propagate_case: true
+  - triggers: ['fav']
+    replace: "favorite"
+    word: true
+    propagate_case: true
