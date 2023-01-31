@@ -327,7 +327,7 @@ matches:
     replace: "averages"
     word: true
     propagate_case: true
-  - triggers: ['difft']
+  - triggers: [different']
     replace: "different"
     word: true
     propagate_case: true
