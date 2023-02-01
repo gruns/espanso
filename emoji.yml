@@ -335,3 +335,7 @@ matches:
     replace: "💨"
     word: true
     propagate_case: false
+  - triggers: ['/cake', '\cake']
+    replace: "🎂"
+    word: true
+    propagate_case: false
