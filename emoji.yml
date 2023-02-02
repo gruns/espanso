@@ -235,7 +235,7 @@ matches:
     replace: "🍎"
     word: true
     propagate_case: false
-  - triggers: ['/facepalm', '\facepalm']
+  - triggers: ['/facepalm', '\facepalm', '/fp', '\fp']
     replace: "🤦‍"
     word: true
     propagate_case: false
