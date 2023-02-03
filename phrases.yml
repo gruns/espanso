@@ -435,7 +435,7 @@ matches:
     replace: "how's"
     word: true
     propagate_case: true
-  - triggers: ['diffcs']
+  - triggers: ['diffs', 'diffcs']
     replace: "differences"
     word: true
     propagate_case: true
