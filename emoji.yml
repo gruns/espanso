@@ -140,7 +140,7 @@ matches:
     word: true
     propagate_case: false
   - triggers: ['/sad', '\sad', '\(', '/(']
-    replace: "😞"
+    replace: "🙁"
     word: true
     propagate_case: false
   - triggers: ['/cry', '\sob', '\cry', '/sob']
