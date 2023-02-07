@@ -343,3 +343,7 @@ matches:
     replace: "🍩"
     word: true
     propagate_case: false
+  - triggers: ['/champagne', '\champagne']
+    replace: "🍾"
+    word: true
+    propagate_case: false
