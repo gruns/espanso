@@ -351,3 +351,7 @@ matches:
     replace: "🏙️"
     word: true
     propagate_case: false
+  - triggers: ['/100', '\100']
+    replace: "💯"
+    word: true
+    propagate_case: false
