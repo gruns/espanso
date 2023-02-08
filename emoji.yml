@@ -347,3 +347,7 @@ matches:
     replace: "🍾"
     word: true
     propagate_case: false
+  - triggers: ['/city', '\city']
+    replace: "🏙️"
+    word: true
+    propagate_case: false
