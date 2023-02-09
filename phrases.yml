@@ -556,3 +556,7 @@ matches:
     replace: "year"
     word: true
     propagate_case: true
+  - triggers: ['u']
+    replace: "you"
+    word: true
+    propagate_case: true
