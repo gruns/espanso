@@ -12,6 +12,10 @@ matches:
     word: true
     propagate_case: true
   - triggers: ['sg']
+    replace: "sound good"
+    word: true
+    propagate_case: true
+  - triggers: ['ssg']
     replace: "sounds good"
     word: true
     propagate_case: true
@@ -558,5 +562,17 @@ matches:
     propagate_case: true
   - triggers: ['u']
     replace: "you"
+    word: true
+    propagate_case: true
+  - triggers: ['urself']
+    replace: "yourself"
+    word: true
+    propagate_case: true
+  - triggers: ['q']
+    replace: "question"
+    word: true
+    propagate_case: true
+  - triggers: ['qs']
+    replace: "questions"
     word: true
     propagate_case: true
