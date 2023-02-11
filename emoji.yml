@@ -359,3 +359,7 @@ matches:
     replace: "😋"
     word: true
     propagate_case: false
+  - triggers: ['/butter', '\butter']
+    replace: "🧈"
+    word: true
+    propagate_case: false
