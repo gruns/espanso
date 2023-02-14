@@ -363,3 +363,7 @@ matches:
     replace: "🧈"
     word: true
     propagate_case: false
+  - triggers: ['/sunrise', '\sunrise']
+    replace: "🌅"
+    word: true
+    propagate_case: false
