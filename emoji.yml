@@ -371,3 +371,7 @@ matches:
     replace: "🍺"
     word: true
     propagate_case: false
+  - triggers: ['/ski', '\ski', '/skier', '\skier']
+    replace: "⛷️"
+    word: true
+    propagate_case: false
