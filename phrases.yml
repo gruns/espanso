@@ -156,7 +156,7 @@ matches:
     word: true
     propagate_case: true
   - triggers: ['thruout']
-    replace: "thoughout"
+    replace: "throughout"
     word: true
     propagate_case: true
   - triggers: ['pkg']

@@ -1,0 +1,9 @@
+matches:
+  - triggers: ['iss']
+    replace: "issue"
+    word: true
+    propagate_case: true
+  - triggers: ['isss']
+    replace: "issues"
+    word: true
+    propagate_case: true
