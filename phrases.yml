@@ -47,6 +47,10 @@ matches:
     replace: "implementation"
     word: true
     propagate_case: true
+  - triggers: ['impling']
+    replace: "implementing"
+    word: true
+    propagate_case: true
   - triggers: ['dmg']
     replace: "damage"
     word: true
@@ -417,6 +421,10 @@ matches:
     propagate_case: true
   - triggers: ['req']
     replace: "request"
+    word: true
+    propagate_case: true
+  - triggers: ['reqd']
+    replace: "requested"
     word: true
     propagate_case: true
   - triggers: ['unfort']
