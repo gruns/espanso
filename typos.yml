@@ -1,0 +1,13 @@
+matches:
+  - triggers: ['teh']
+    replace: "the"
+    word: true
+    propagate_case: true
+  - triggers: ['hte']
+    replace: "the"
+    word: true
+    propagate_case: true
+  - triggers: ['fo']
+    replace: "of"
+    word: true
+    propagate_case: true
