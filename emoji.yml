@@ -375,3 +375,7 @@ matches:
     replace: "⛷️"
     word: true
     propagate_case: false
+  - triggers: ['/saturn', '\saturn']
+    replace: "🪐"
+    word: true
+    propagate_case: false
