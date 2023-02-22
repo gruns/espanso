@@ -379,3 +379,7 @@ matches:
     replace: "🪐"
     word: true
     propagate_case: false
+  - triggers: ['/fish', '\fish']
+    replace: "🐟"
+    word: true
+    propagate_case: false
