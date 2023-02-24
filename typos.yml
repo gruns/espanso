@@ -11,3 +11,7 @@ matches:
     replace: "of"
     word: true
     propagate_case: true
+  - triggers: ['tht']
+    replace: "that"
+    word: true
+    propagate_case: true
