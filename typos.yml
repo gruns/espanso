@@ -15,3 +15,7 @@ matches:
     replace: "that"
     word: true
     propagate_case: true
+  - triggers: ['nad']
+    replace: "and"
+    word: true
+    propagate_case: true
