@@ -435,6 +435,14 @@ matches:
     replace: "implement"
     word: true
     propagate_case: true
+  - triggers: ['impls', 'implts']
+    replace: "implements"
+    word: true
+    propagate_case: true
+  - triggers: ['impld', 'impltd']
+    replace: "implemented"
+    word: true
+    propagate_case: true
   - triggers: ['fn']
     replace: "function"
     word: true
