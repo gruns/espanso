@@ -584,15 +584,19 @@ matches:
     replace: "yourself"
     word: true
     propagate_case: true
-  - triggers: ['q']
+  - triggers: ['qu']
     replace: "question"
     word: true
     propagate_case: true
-  - triggers: ['qs']
+  - triggers: ['qus']
     replace: "questions"
     word: true
     propagate_case: true
   - triggers: ['twd']
     replace: "toward"
+    word: true
+    propagate_case: true
+  - triggers: ['twds']
+    replace: "towards"
     word: true
     propagate_case: true
