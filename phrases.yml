@@ -600,3 +600,7 @@ matches:
     replace: "towards"
     word: true
     propagate_case: true
+  - triggers: ['smth']
+    replace: "something"
+    word: true
+    propagate_case: true
