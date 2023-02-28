@@ -383,3 +383,7 @@ matches:
     replace: "🐟"
     word: true
     propagate_case: false
+  - triggers: ['/deal', '\deal', '/handshake', '\handshake']
+    replace: "🤝"
+    word: true
+    propagate_case: false
