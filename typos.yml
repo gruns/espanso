@@ -19,3 +19,7 @@ matches:
     replace: "and"
     word: true
     propagate_case: true
+  - triggers: ['ot']
+    replace: "to"
+    word: true
+    propagate_case: true
