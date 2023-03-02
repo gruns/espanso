@@ -604,3 +604,7 @@ matches:
     replace: "something"
     word: true
     propagate_case: true
+  - triggers: ['aftn']
+    replace: "afternoon"
+    word: true
+    propagate_case: true
