@@ -608,3 +608,7 @@ matches:
     replace: "afternoon"
     word: true
     propagate_case: true
+  - triggers: ['inbtwn']
+    replace: "inbetween"
+    word: true
+    propagate_case: true
