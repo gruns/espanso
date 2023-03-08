@@ -11,3 +11,7 @@ matches:
     replace: "priority"
     word: true
     propagate_case: true
+  - triggers: ['cfg']
+    replace: "config"
+    word: true
+    propagate_case: true
