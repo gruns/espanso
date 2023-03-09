@@ -612,3 +612,7 @@ matches:
     replace: "inbetween"
     word: true
     propagate_case: true
+  - triggers: ['gobtwn', 'go-btwn']
+    replace: "go-between"
+    word: true
+    propagate_case: true
