@@ -27,3 +27,7 @@ matches:
     replace: "to"
     word: true
     propagate_case: true
+  - triggers: ['ths']
+    replace: "this"
+    word: true
+    propagate_case: true
