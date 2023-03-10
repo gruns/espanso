@@ -620,3 +620,7 @@ matches:
     replace: "hour"
     word: true
     propagate_case: true
+  - triggers: ['hrs']
+    replace: "hours"
+    word: true
+    propagate_case: true
