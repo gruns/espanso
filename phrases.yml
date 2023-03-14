@@ -624,3 +624,7 @@ matches:
     replace: "hours"
     word: true
     propagate_case: true
+  - triggers: ['ltr', 'l8r']
+    replace: "later"
+    word: true
+    propagate_case: true
