@@ -11,7 +11,7 @@ matches:
     replace: "priority"
     word: true
     propagate_case: true
-  - triggers: ['cfg']
-    replace: "config"
+  - triggers: ['tz']
+    replace: "timezone"
     word: true
     propagate_case: true
