@@ -31,3 +31,7 @@ matches:
     replace: "this"
     word: true
     propagate_case: true
+  - triggers: ['fro']
+    replace: "from"
+    word: true
+    propagate_case: true
