@@ -23,3 +23,7 @@ matches:
     replace: "hardware"
     word: true
     propagate_case: true
+  - triggers: ['vuln']
+    replace: "vulnerability"
+    word: true
+    propagate_case: true
