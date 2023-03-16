@@ -286,7 +286,6 @@ matches:
   - triggers: ['dmd']
     replace: "DM'd"
     word: true
-    propagate_case: true
   - triggers: ['msg']
     replace: "message"
     word: true
