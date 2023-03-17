@@ -387,3 +387,7 @@ matches:
     replace: "🤝"
     word: true
     propagate_case: false
+  - triggers: ['/melt', '\melt']
+    replace: "🫠"
+    word: true
+    propagate_case: false
