@@ -391,3 +391,7 @@ matches:
     replace: "🫠"
     word: true
     propagate_case: false
+  - triggers: ['/dance', '\dance', '/dancer', '\dancer']
+    replace: "💃"
+    word: true
+    propagate_case: false
