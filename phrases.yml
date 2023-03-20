@@ -627,7 +627,7 @@ matches:
     replace: "later"
     word: true
     propagate_case: true
-  - triggers: ['addnl']
+  - triggers: ['addnl', 'addtnl']
     replace: "additional"
     word: true
     propagate_case: true
