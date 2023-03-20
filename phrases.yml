@@ -631,3 +631,7 @@ matches:
     replace: "additional"
     word: true
     propagate_case: true
+  - triggers: ['%age']
+    replace: "percentage"
+    word: true
+    propagate_case: true
