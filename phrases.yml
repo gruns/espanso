@@ -547,6 +547,10 @@ matches:
     replace: "market"
     word: true
     propagate_case: true
+  - triggers: ['mkts']
+    replace: "markets"
+    word: true
+    propagate_case: true
   - triggers: ['fwd']
     replace: "forward"
     word: true
