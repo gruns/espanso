@@ -395,3 +395,7 @@ matches:
     replace: "💃"
     word: true
     propagate_case: false
+  - triggers: ['/yawn', '\yawn']
+    replace: "🥱"
+    word: true
+    propagate_case: false
