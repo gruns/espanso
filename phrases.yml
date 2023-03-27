@@ -314,6 +314,10 @@ matches:
     replace: "double"
     word: true
     propagate_case: true
+  - triggers: ['dbld']
+    replace: "doubled"
+    word: true
+    propagate_case: true
   - triggers: ['amts']
     replace: "amounts"
     word: true
