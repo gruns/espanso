@@ -399,3 +399,7 @@ matches:
     replace: "🥱"
     word: true
     propagate_case: false
+  - triggers: ['/rain', '\rain']
+    replace: "🌧️"
+    word: true
+    propagate_case: false
