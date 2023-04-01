@@ -43,14 +43,6 @@ matches:
     replace: "forwarded"
     word: true
     propagate_case: true
-  - triggers: ['impl']
-    replace: "implementation"
-    word: true
-    propagate_case: true
-  - triggers: ['impling']
-    replace: "implementing"
-    word: true
-    propagate_case: true
   - triggers: ['dmg']
     replace: "damage"
     word: true
@@ -342,8 +334,16 @@ matches:
     replace: "different"
     word: true
     propagate_case: true
+  - triggers: ['impl']
+    replace: "implementation"
+    word: true
+    propagate_case: true
   - triggers: ['impls']
     replace: "implementations"
+    word: true
+    propagate_case: true
+  - triggers: ['impling']
+    replace: "implementing"
     word: true
     propagate_case: true
   - triggers: ['mtg']
