@@ -430,6 +430,10 @@ matches:
     replace: "requested"
     word: true
     propagate_case: true
+  - triggers: ['reqing']
+    replace: "requesting"
+    word: true
+    propagate_case: true
   - triggers: ['unfort']
     replace: "unfortunately"
     word: true
