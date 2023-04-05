@@ -11,6 +11,10 @@ matches:
     replace: "priority"
     word: true
     propagate_case: true
+  - triggers: ['prios']
+    replace: "priorities"
+    word: true
+    propagate_case: true
   - triggers: ['tz']
     replace: "timezone"
     word: true
