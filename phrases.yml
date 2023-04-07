@@ -458,6 +458,10 @@ matches:
     replace: "manager"
     word: true
     propagate_case: true
+  - triggers: ['mgrs']
+    replace: "managers"
+    word: true
+    propagate_case: true
   - triggers: ['hows']
     replace: "how's"
     word: true
