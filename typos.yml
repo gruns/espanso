@@ -39,3 +39,7 @@ matches:
     replace: "that"
     word: true
     propagate_case: true
+  - triggers: ['nto']
+    replace: "not"
+    word: true
+    propagate_case: true
