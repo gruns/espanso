@@ -490,6 +490,10 @@ matches:
     replace: "optimizations"
     word: true
     propagate_case: true
+  - triggers: ['optiming']
+    replace: "optimizing"
+    word: true
+    propagate_case: true
   - triggers: ['xferred']
     replace: "transferred"
     word: true
