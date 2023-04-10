@@ -43,3 +43,7 @@ matches:
     replace: "not"
     word: true
     propagate_case: true
+  - triggers: ['fr']
+    replace: "for"
+    word: true
+    propagate_case: true
