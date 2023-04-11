@@ -31,3 +31,7 @@ matches:
     replace: "vulnerability"
     word: true
     propagate_case: true
+  - triggers: ['ts']
+    replace: "timestamp"
+    word: true
+    propagate_case: true
