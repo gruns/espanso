@@ -407,3 +407,7 @@ matches:
     replace: "🌧️"
     word: true
     propagate_case: false
+  - triggers: ['/globe', '\globe']
+    replace: "🌎"
+    word: true
+    propagate_case: false
