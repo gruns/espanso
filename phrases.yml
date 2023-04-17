@@ -11,16 +11,8 @@ matches:
     replace: "really"
     word: true
     propagate_case: true
-  - triggers: ['sg']
-    replace: "sound good"
-    word: true
-    propagate_case: true
-  - triggers: ['ssg']
+  - triggers: ['sg', 'ssg']
     replace: "sounds good"
-    word: true
-    propagate_case: true
-  - triggers: []
-    replace: "Enter phrase contents"
     word: true
     propagate_case: true
   - triggers: ['pting']
