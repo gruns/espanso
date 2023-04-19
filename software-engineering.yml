@@ -39,3 +39,7 @@ matches:
     replace: "timestamps"
     word: true
     propagate_case: true
+  - triggers: ['svc']
+    replace: "service"
+    word: true
+    propagate_case: true
