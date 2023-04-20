@@ -139,6 +139,10 @@ matches:
     replace: "points"
     word: true
     propagate_case: true
+  - triggers: ['pnted']
+    replace: "pointed"
+    word: true
+    propagate_case: true
   - triggers: ['pwer', 'pwr']
     replace: "power"
     word: true
