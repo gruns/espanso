@@ -334,6 +334,10 @@ matches:
     replace: "different"
     word: true
     propagate_case: true
+  - triggers: ['difftly']
+    replace: "differently"
+    word: true
+    propagate_case: true
   - triggers: ['impl']
     replace: "implementation"
     word: true
