@@ -510,20 +510,12 @@ matches:
     replace: "standard"
     word: true
     propagate_case: true
-  - triggers: ['mgrs']
-    replace: "mangers"
-    word: true
-    propagate_case: true
   - triggers: ['xferring']
     replace: "transferring"
     word: true
     propagate_case: true
   - triggers: ['i18l']
     replace: "international"
-    word: true
-    propagate_case: true
-  - triggers: ['mgmt']
-    replace: "management"
     word: true
     propagate_case: true
   - triggers: ['nvr']
