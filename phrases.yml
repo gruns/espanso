@@ -539,8 +539,15 @@ matches:
     word: true
     propagate_case: true
   - triggers: ['wk']
-    replace: "week
-"
+    replace: "week"
+    word: true
+    propagate_case: true
+  - triggers: ['wkd', 'wke']
+    replace: "weekend"
+    word: true
+    propagate_case: true
+  - triggers: ['wkly']
+    replace: "weekly"
     word: true
     propagate_case: true
   - triggers: ['bc', 'b/c']
