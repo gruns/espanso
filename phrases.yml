@@ -526,6 +526,10 @@ matches:
     replace: "ticket"
     word: true
     propagate_case: true
+  - triggers: ['tix', 'tkts']
+    replace: "tickets"
+    word: true
+    propagate_case: true
   - triggers: ['wks']
     replace: "weeks"
     word: true
