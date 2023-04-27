@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/sick', '\sick']
+    replace: "🤒"
+    word: true
+    propagate_case: false
   - triggers: ['/brain', '\brain']
     replace: "🧠"
     word: true
