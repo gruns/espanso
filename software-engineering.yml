@@ -1,4 +1,12 @@
 matches:
+  - triggers: ['co']
+    replace: "company"
+    word: true
+    propagate_case: true
+  - triggers: ['cos']
+    replace: "companies"
+    word: true
+    propagate_case: true
   - triggers: ['iss']
     replace: "issue"
     word: true
