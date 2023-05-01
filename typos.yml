@@ -47,3 +47,7 @@ matches:
     replace: "for"
     word: true
     propagate_case: true
+  - triggers: ['thta']
+    replace: "that"
+    word: true
+    propagate_case: true
