@@ -59,6 +59,10 @@ matches:
     replace: "walkthroughs"
     word: true
     propagate_case: true
+  - triggers: ['passthru']
+    replace: "passthrough"
+    word: true
+    propagate_case: true
   - triggers: ['ctx']
     replace: "context"
     word: true
