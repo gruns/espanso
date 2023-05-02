@@ -606,6 +606,10 @@ matches:
     replace: "year"
     word: true
     propagate_case: true
+  - triggers: ['yrs']
+    replace: "years"
+    word: true
+    propagate_case: true
   - triggers: ['u']
     replace: "you"
     word: true
