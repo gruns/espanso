@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['endpnt']
+    replace: "endpoint"
+    word: true
+    propagate_case: true
   - triggers: ['co']
     replace: "company"
     word: true
