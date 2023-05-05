@@ -662,6 +662,10 @@ matches:
     replace: "later"
     word: true
     propagate_case: true
+  - triggers: ['addn', 'addtn']
+    replace: "addition"
+    word: true
+    propagate_case: true
   - triggers: ['addnl', 'addtnl']
     replace: "additional"
     word: true
