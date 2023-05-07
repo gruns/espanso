@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/grow', '\grow', '/growth', '\growth']
+    replace: "📈"
+    word: true
+    propagate_case: false
   - triggers: ['/sick', '\sick']
     replace: "🤒"
     word: true
