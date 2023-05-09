@@ -3,6 +3,10 @@ matches:
     replace: "📈"
     word: true
     propagate_case: false
+  - triggers: ['/cocktail', '\cocktail']
+    replace: "🍸"
+    word: true
+    propagate_case: false
   - triggers: ['/sick', '\sick']
     replace: "🤒"
     word: true
