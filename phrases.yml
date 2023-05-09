@@ -67,6 +67,10 @@ matches:
     replace: "context"
     word: true
     propagate_case: true
+  - triggers: ['flw']
+    replace: "follow"
+    word: true
+    propagate_case: true
   - triggers: ['diffc']
     replace: "difference"
     word: true
