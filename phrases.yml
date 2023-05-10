@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['some1']
+    replace: "someone"
+    word: true
+    propagate_case: true
   - triggers: ['btr']
     replace: "better"
     word: true
