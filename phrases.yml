@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['reqm', 'reqt', 'reqmt']
+    replace: "requirement"
+    word: true
+    propagate_case: true
   - triggers: ['some1']
     replace: "someone"
     word: true
