@@ -3,6 +3,10 @@ matches:
     replace: "requirement"
     word: true
     propagate_case: true
+  - triggers: ['reqms', 'reqts', 'reqmts']
+    replace: "requirements"
+    word: true
+    propagate_case: true
   - triggers: ['some1']
     replace: "someone"
     word: true
