@@ -7,6 +7,10 @@ matches:
     replace: "🍸"
     word: true
     propagate_case: false
+  - triggers: ['/v', '\v', '/peace', '\peace']
+    replace: "✌️"
+    word: true
+    propagate_case: false
   - triggers: ['/sick', '\sick']
     replace: "🤒"
     word: true
