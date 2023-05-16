@@ -35,6 +35,10 @@ matches:
     replace: "🤠"
     word: true
     propagate_case: false
+  - triggers: ['\thread', '/thread']
+    replace: "🧵"
+    word: true
+    propagate_case: false
   - triggers: ['/1', '\1']
     replace: "👍"
     word: true
