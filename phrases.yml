@@ -83,6 +83,10 @@ matches:
     replace: "follow"
     word: true
     propagate_case: true
+  - triggers: ['flwing']
+    replace: "following"
+    word: true
+    propagate_case: true
   - triggers: ['diffc']
     replace: "difference"
     word: true
