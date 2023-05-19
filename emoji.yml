@@ -51,6 +51,10 @@ matches:
     replace: "🧙"
     word: true
     propagate_case: false
+  - triggers: ['/shield', '\shield']
+    replace: "🛡️"
+    word: true
+    propagate_case: false
   - triggers: ['/-/', '\-/']
     replace: "😕"
     word: true
