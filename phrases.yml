@@ -698,6 +698,10 @@ matches:
     replace: "additional"
     word: true
     propagate_case: true
+  - triggers: ['addnly', 'addtnly']
+    replace: "additionally"
+    word: true
+    propagate_case: true
   - triggers: ['%age']
     replace: "percentage"
     word: true
