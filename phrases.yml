@@ -666,7 +666,7 @@ matches:
     replace: "something"
     word: true
     propagate_case: true
-  - triggers: ['aftn']
+  - triggers: ['aftn', 'aftrn']
     replace: "afternoon"
     word: true
     propagate_case: true
