@@ -75,7 +75,7 @@ matches:
     replace: "🌯"
     word: true
     propagate_case: false
-  - triggers: ['\blush', '\b', '/b', '/blush']
+  - triggers: ['/blush', '\blush', '\b', '/b']
     replace: "😊"
     word: true
     propagate_case: false
