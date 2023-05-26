@@ -678,6 +678,10 @@ matches:
     replace: "go-between"
     word: true
     propagate_case: true
+  - triggers: ['btm']
+    replace: "bottom"
+    word: true
+    propagate_case: true
   - triggers: ['hr']
     replace: "hour"
     word: true
