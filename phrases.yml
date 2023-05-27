@@ -103,6 +103,10 @@ matches:
     replace: "straight"
     word: true
     propagate_case: true
+  - triggers: ['mb']
+    replace: "maybe"
+    word: true
+    propagate_case: true
   - triggers: ['xmissions']
     replace: "transmissions"
     word: true
