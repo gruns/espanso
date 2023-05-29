@@ -63,6 +63,10 @@ matches:
     replace: "event"
     word: true
     propagate_case: true
+  - triggers: ['ccd']
+    replace: "cc'd"
+    word: true
+    propagate_case: true
   - triggers: ['txn']
     replace: "transaction"
     word: true
