@@ -67,6 +67,10 @@ matches:
     replace: "cc'd"
     word: true
     propagate_case: true
+  - triggers: ['bccd']
+    replace: "bcc'd"
+    word: true
+    propagate_case: true
   - triggers: ['txn']
     replace: "transaction"
     word: true
