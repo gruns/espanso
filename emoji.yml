@@ -99,6 +99,10 @@ matches:
     replace: "🎾"
     word: true
     propagate_case: false
+  - triggers: ['/peep', '\peep', '/peek', '/peek']
+    replace: "🫣"
+    word: true
+    propagate_case: false
   - triggers: ['/home', '\house', '\home', '/house']
     replace: "🏠"
     word: true
