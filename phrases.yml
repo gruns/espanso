@@ -47,6 +47,10 @@ matches:
     replace: "meetings"
     word: true
     propagate_case: true
+  - triggers: ['hv']
+    replace: "have"
+    word: true
+    propagate_case: true
   - triggers: ['fwdd']
     replace: "forwarded"
     word: true
