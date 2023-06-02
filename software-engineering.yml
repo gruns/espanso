@@ -3,6 +3,10 @@ matches:
     replace: "endpoint"
     word: true
     propagate_case: true
+  - triggers: ['cust']
+    replace: "customer"
+    word: true
+    propagate_case: true
   - triggers: ['co']
     replace: "company"
     word: true
