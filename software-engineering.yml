@@ -31,6 +31,14 @@ matches:
     replace: "priorities"
     word: true
     propagate_case: true
+  - triggers: ['engr']
+    replace: "engineer"
+    word: true
+    propagate_case: true
+  - triggers: ['engg', 'enging']
+    replace: "engineering"
+    word: true
+    propagate_case: true
   - triggers: ['tz']
     replace: "timezone"
     word: true
