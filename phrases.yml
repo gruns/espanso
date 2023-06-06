@@ -11,6 +11,10 @@ matches:
     replace: "someone"
     word: true
     propagate_case: true
+  - triggers: ['every1']
+    replace: "everyone"
+    word: true
+    propagate_case: true
   - triggers: ['btr']
     replace: "better"
     word: true
