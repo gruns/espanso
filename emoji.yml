@@ -35,6 +35,10 @@ matches:
     replace: "🛬"
     word: true
     propagate_case: false
+  - triggers: ['/ghost', '\ghost']
+    replace: "👻"
+    word: true
+    propagate_case: false
   - triggers: ['\cowboy', '/cowboy']
     replace: "🤠"
     word: true
