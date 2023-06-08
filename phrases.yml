@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['kb']
+    replace: "keyboard"
+    word: true
+    propagate_case: true
   - triggers: ['reqm', 'reqt', 'reqmt']
     replace: "requirement"
     word: true
