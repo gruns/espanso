@@ -71,6 +71,10 @@ matches:
     replace: "🤞"
     word: true
     propagate_case: false
+  - triggers: ['\toilet', '/toilet']
+    replace: "🚽"
+    word: true
+    propagate_case: false
   - triggers: ['\u', '/upside', '/u']
     replace: "🙃"
     word: true
