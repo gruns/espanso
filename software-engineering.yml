@@ -35,6 +35,10 @@ matches:
     replace: "engineer"
     word: true
     propagate_case: true
+  - triggers: ['engs', 'engrs']
+    replace: "engineers"
+    word: true
+    propagate_case: true
   - triggers: ['engg', 'enging']
     replace: "engineering"
     word: true
