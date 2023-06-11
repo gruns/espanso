@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['ch', 'chn', 'chnl']
+    replace: "channel"
+    word: true
+    propagate_case: true
   - triggers: ['endpnt']
     replace: "endpoint"
     word: true
