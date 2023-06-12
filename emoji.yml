@@ -255,7 +255,7 @@ matches:
     replace: "🌃"
     word: true
     propagate_case: false
-  - triggers: ['\clap', '/clap']
+  - triggers: ['/c', '\c', '\clap', '/clap']
     replace: "👏"
     word: true
     propagate_case: false
