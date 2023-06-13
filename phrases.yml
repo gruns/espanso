@@ -51,6 +51,10 @@ matches:
     replace: "accounts"
     word: true
     propagate_case: true
+  - triggers: ['inspo']
+    replace: "inspiration"
+    word: true
+    propagate_case: true
   - triggers: ['mtgs']
     replace: "meetings"
     word: true
