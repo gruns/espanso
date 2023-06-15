@@ -7,6 +7,10 @@ matches:
     replace: "endpoint"
     word: true
     propagate_case: true
+  - triggers: ['endpnts']
+    replace: "endpoints"
+    word: true
+    propagate_case: true
   - triggers: ['cust']
     replace: "customer"
     word: true
