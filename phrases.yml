@@ -107,6 +107,10 @@ matches:
     replace: "follow"
     word: true
     propagate_case: true
+  - triggers: ['flwd']
+    replace: "followed"
+    word: true
+    propagate_case: true
   - triggers: ['flwing']
     replace: "following"
     word: true
