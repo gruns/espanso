@@ -115,6 +115,10 @@ matches:
     replace: "following"
     word: true
     propagate_case: true
+  - triggers: ['fup', 'flwup']
+    replace: "follow-up"
+    word: true
+    propagate_case: true
   - triggers: ['diffc']
     replace: "difference"
     word: true
