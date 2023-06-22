@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/q', '/qu', '\q', '\qu', '/question', '\question']
+    replace: "❓"
+    word: true
+    propagate_case: false
   - triggers: ['/grow', '\grow', '/growth', '\growth']
     replace: "📈"
     word: true
