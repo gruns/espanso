@@ -3,7 +3,7 @@ matches:
     replace: "keyboard"
     word: true
     propagate_case: true
-  - triggers: ['reqm', 'reqt', 'reqmt']
+  - triggers: ['rqm', 'reqm', 'reqt', 'reqmt']
     replace: "requirement"
     word: true
     propagate_case: true
