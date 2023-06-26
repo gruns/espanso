@@ -27,6 +27,10 @@ matches:
     replace: "🤒"
     word: true
     propagate_case: false
+  - triggers: ['/warn', '\warn', '/warning', '\warning']
+    replace: "⚠️"
+    word: true
+    propagate_case: false
   - triggers: ['/phew', '\phew']
     replace: "😮‍💨"
     word: true
