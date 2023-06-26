@@ -119,7 +119,7 @@ matches:
     replace: "follow-up"
     word: true
     propagate_case: true
-  - triggers: ['diffc']
+  - triggers: ['diffc', 'diffce']
     replace: "difference"
     word: true
     propagate_case: true
