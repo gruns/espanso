@@ -518,8 +518,12 @@ matches:
     replace: "implements"
     word: true
     propagate_case: true
-  - triggers: ['impld', 'impltd']
+  - triggers: ['impld', 'impltd', 'implted']
     replace: "implemented"
+    word: true
+    propagate_case: true
+  - triggers: ['impltn', 'impltt', 'implttn']
+    replace: "implementation"
     word: true
     propagate_case: true
   - triggers: ['fn']
