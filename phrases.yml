@@ -538,6 +538,10 @@ matches:
     replace: "managers"
     word: true
     propagate_case: true
+  - triggers: ['mge', 'mng']
+    replace: "manage"
+    word: true
+    propagate_case: true
   - triggers: ['hows']
     replace: "how's"
     word: true
