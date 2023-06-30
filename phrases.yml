@@ -542,6 +542,10 @@ matches:
     replace: "manage"
     word: true
     propagate_case: true
+  - triggers: ['mgd']
+    replace: "managed"
+    word: true
+    propagate_case: true
   - triggers: ['hows']
     replace: "how's"
     word: true
