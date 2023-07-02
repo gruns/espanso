@@ -111,6 +111,10 @@ matches:
     replace: "😊"
     word: true
     propagate_case: false
+  - triggers: ['/racecar', '\racecar']
+    replace: "🏎️"
+    word: true
+    propagate_case: false
   - triggers: ['/i', '/imp', '\i']
     replace: "😈"
     word: true
