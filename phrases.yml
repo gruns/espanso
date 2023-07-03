@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['touchpnt']
+    replace: "touchpoint"
+    word: true
+    propagate_case: true
   - triggers: ['kb']
     replace: "keyboard"
     word: true
