@@ -11,7 +11,7 @@ matches:
     replace: "requirement"
     word: true
     propagate_case: true
-  - triggers: ['reqms', 'reqts', 'reqmts']
+  - triggers: ['reqms', 'reqts', 'reqmts', 'reqmnts']
     replace: "requirements"
     word: true
     propagate_case: true
