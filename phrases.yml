@@ -107,6 +107,10 @@ matches:
     replace: "context"
     word: true
     propagate_case: true
+  - triggers: ['unru']
+    replace: "unruhestifter"
+    word: true
+    propagate_case: true
   - triggers: ['flw']
     replace: "follow"
     word: true
