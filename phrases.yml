@@ -15,6 +15,10 @@ matches:
     replace: "requirements"
     word: true
     propagate_case: true
+  - triggers: ['hed']
+    replace: "he'd"
+    word: true
+    propagate_case: true
   - triggers: ['some1']
     replace: "someone"
     word: true
