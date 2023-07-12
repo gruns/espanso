@@ -1,4 +1,8 @@
 matches:
+  - triggers: ["neednt"]
+    replace: "needn't"
+    word: true
+    propagate_case: true
   - triggers: ['touchpnt']
     replace: "touchpoint"
     word: true
