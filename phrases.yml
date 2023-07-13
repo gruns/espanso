@@ -1,4 +1,8 @@
 matches:
+  - triggers: ["thot"]
+    replace: "thought"
+    word: true
+    propagate_case: true
   - triggers: ["neednt"]
     replace: "needn't"
     word: true
