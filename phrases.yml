@@ -271,7 +271,7 @@ matches:
     replace: "whatever"
     word: true
     propagate_case: true
-  - triggers: ['w/es']
+  - triggers: ['w/es', "'w/e's"]
     replace: "whatever's"
     word: true
     propagate_case: true
