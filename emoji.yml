@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/palmtree', '\palmtree', '/palm', '\palm']
+    replace: "🌴"
+    word: true
+    propagate_case: false
   - triggers: ['/crab', '\crab']
     replace: "🦀"
     word: true
