@@ -387,6 +387,10 @@ matches:
     replace: "🤫"
     word: true
     propagate_case: false
+  - triggers: ['\eu', '/eu', '\europe', '/europe']
+    replace: "🇪🇺"
+    word: true
+    propagate_case: false
   - triggers: ['/think', '\think', '/thinking']
     replace: "🤔"
     word: true
