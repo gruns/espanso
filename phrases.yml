@@ -434,11 +434,11 @@ matches:
     replace: "differently"
     word: true
     propagate_case: true
-  - triggers: ['impl']
+  - triggers: ['impl', 'impln', 'implnt']
     replace: "implementation"
     word: true
     propagate_case: true
-  - triggers: ['impls']
+  - triggers: ['impls', 'implns', 'implnts']
     replace: "implementations"
     word: true
     propagate_case: true
