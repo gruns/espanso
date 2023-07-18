@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['mgs']
+    replace: "manages"
+    word: true
+    propagate_case: true
   - triggers: ["thot"]
     replace: "thought"
     word: true
