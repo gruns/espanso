@@ -3,6 +3,10 @@ matches:
     replace: "manages"
     word: true
     propagate_case: true
+  - triggers: ['mging']
+    replace: "managing"
+    word: true
+    propagate_case: true
   - triggers: ["thot"]
     replace: "thought"
     word: true
