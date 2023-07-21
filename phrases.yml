@@ -7,6 +7,10 @@ matches:
     replace: "managing"
     word: true
     propagate_case: true
+  - triggers: ['mgmt']
+    replace: "management"
+    word: true
+    propagate_case: true
   - triggers: ["thot"]
     replace: "thought"
     word: true
