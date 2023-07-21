@@ -634,6 +634,10 @@ matches:
     replace: "international"
     word: true
     propagate_case: true
+  - triggers: ['i18ly']
+    replace: "internationally"
+    word: true
+    propagate_case: true
   - triggers: ['nvr']
     replace: "never"
     word: true
