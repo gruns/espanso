@@ -35,6 +35,10 @@ matches:
     replace: "requirements"
     word: true
     propagate_case: true
+  - triggers: ['vmail']
+    replace: "voicemail"
+    word: true
+    propagate_case: true
   - triggers: ['hed']
     replace: "he'd"
     word: true
