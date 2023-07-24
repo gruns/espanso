@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['wtr']
+    replace: "water"
+    word: true
+    propagate_case: true
   - triggers: ['mgs']
     replace: "manages"
     word: true
