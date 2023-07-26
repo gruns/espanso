@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['incld']
+    replace: "included"
+    word: true
+    propagate_case: true
   - triggers: ['wtr']
     replace: "water"
     word: true
