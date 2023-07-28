@@ -3,6 +3,10 @@ matches:
     replace: "included"
     word: true
     propagate_case: true
+  - triggers: ['inclg', 'incli', 'incling']
+    replace: "including"
+    word: true
+    propagate_case: true
   - triggers: ['wtr']
     replace: "water"
     word: true
