@@ -51,3 +51,7 @@ matches:
     replace: "that"
     word: true
     propagate_case: true
+  - triggers: ['liek']
+    replace: "like"
+    word: true
+    propagate_case: true
