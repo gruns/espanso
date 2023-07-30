@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/computer', '\computer', 'desktop', '\desktop']
+    replace: "🖥️"
+    word: true
+    propagate_case: false
   - triggers: ['/palmtree', '\palmtree', '/palm', '\palm']
     replace: "🌴"
     word: true
