@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['nxt']
+    replace: "next"
+    word: true
+    propagate_case: true
   - triggers: ['esp']
     replace: "especially"
     word: true
