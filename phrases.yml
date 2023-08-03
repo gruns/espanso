@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['qty']
+    replace: "quantity"
+    word: true
+    propagate_case: true
   - triggers: ['nxt']
     replace: "next"
     word: true
