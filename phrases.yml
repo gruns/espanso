@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['gr8']
+    replace: "great"
+    word: true
+    propagate_case: true
   - triggers: ['qty']
     replace: "quantity"
     word: true
