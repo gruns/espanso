@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/clown', '\clown']
+    replace: "🤡"
+    word: true
+    propagate_case: false
   - triggers: ['/computer', '\computer', 'desktop', '\desktop']
     replace: "🖥️"
     word: true
