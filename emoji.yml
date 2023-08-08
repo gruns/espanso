@@ -7,6 +7,10 @@ matches:
     replace: "🖥️"
     word: true
     propagate_case: false
+  - triggers: ['/bread', '\bread', '/baguette', '\/baguette']
+    replace: "🥖"
+    word: true
+    propagate_case: false
   - triggers: ['/palmtree', '\palmtree', '/palm', '\palm']
     replace: "🌴"
     word: true
