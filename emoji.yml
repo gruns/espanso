@@ -415,7 +415,7 @@ matches:
     replace: "😴"
     word: true
     propagate_case: false
-  - triggers: ['/sparkle', '/sparkles']
+  - triggers: ['/sparkle', '/sparkles', '/magic', '\magic']
     replace: "✨"
     word: true
     propagate_case: false
