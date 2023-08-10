@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/snake', '\snake']
+    replace: "🐍"
+    word: true
+    propagate_case: false
   - triggers: ['/clown', '\clown']
     replace: "🤡"
     word: true
