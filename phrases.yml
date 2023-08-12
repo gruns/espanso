@@ -7,6 +7,10 @@ matches:
     replace: "monday"
     word: true
     propagate_case: true
+  - triggers: ['mons']
+    replace: "mondays"
+    word: true
+    propagate_case: true
   - triggers: ['gr8']
     replace: "great"
     word: true
