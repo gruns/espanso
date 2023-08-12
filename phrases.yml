@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['thatd']
+    replace: "that'd"
+    word: true
+    propagate_case: true
   - triggers: ['mon']
     replace: "monday"
     word: true
