@@ -15,6 +15,10 @@ matches:
     replace: "customer"
     word: true
     propagate_case: true
+  - triggers: ['custs']
+    replace: "customers"
+    word: true
+    propagate_case: true
   - triggers: ['co']
     replace: "company"
     word: true
