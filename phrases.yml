@@ -494,7 +494,7 @@ matches:
     replace: "implementation"
     word: true
     propagate_case: true
-  - triggers: ['impls', 'implns', 'implnts']
+  - triggers: ['impls', 'implns', 'impltns']
     replace: "implementations"
     word: true
     propagate_case: true
