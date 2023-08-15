@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/nails', '\nails']
+    replace: "💅"
+    word: true
+    propagate_case: false
   - triggers: ['/snake', '\snake']
     replace: "🐍"
     word: true
