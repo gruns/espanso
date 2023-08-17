@@ -11,6 +11,10 @@ matches:
     replace: "mondays"
     word: true
     propagate_case: true
+  - triggers: ['tue', 'tues']
+    replace: "tuesday"
+    word: true
+    propagate_case: true
   - triggers: ['gr8']
     replace: "great"
     word: true
