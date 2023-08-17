@@ -734,6 +734,10 @@ matches:
     replace: "tomorrow"
     word: true
     propagate_case: true
+  - triggers: ['yest']
+    replace: "yesterday"
+    word: true
+    propagate_case: true
   - triggers: ['mkt']
     replace: "market"
     word: true
