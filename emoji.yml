@@ -1,6 +1,6 @@
 matches:
-  - triggers: ['/nails', '\nails']
-    replace: "💅"
+  - triggers: ['/!', '\!', '/exclamation', '\exclamation']
+    replace: "❗️"
     word: true
     propagate_case: false
   - triggers: ['/snake', '\snake']
