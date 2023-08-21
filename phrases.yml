@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['obvi']
+    replace: "obviously"
+    word: true
+    propagate_case: true
   - triggers: ['thatd']
     replace: "that'd"
     word: true
