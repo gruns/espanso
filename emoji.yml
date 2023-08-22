@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/monocle', '\monocle']
+    replace: "🧐"
+    word: true
+    propagate_case: false
   - triggers: ['/satellite', '\satellite']
     replace: "🛰️"
     word: true
