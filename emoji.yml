@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/satellite', '\satellite']
+    replace: "🛰️"
+    word: true
+    propagate_case: false
   - triggers: ['/!', '\!', '/exclamation', '\exclamation']
     replace: "❗️"
     word: true
