@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['wa', 'wt']
+    replace: "what"
+    word: true
+    propagate_case: true
   - triggers: ['obvi']
     replace: "obviously"
     word: true
