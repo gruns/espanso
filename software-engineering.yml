@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['availi', 'availa']
+    replace: "availability"
+    word: true
+    propagate_case: true
   - triggers: ['ch', 'chn', 'chnl']
     replace: "channel"
     word: true
