@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['clickthru']
+    replace: "clickthrough"
+    word: true
+    propagate_case: true
   - triggers: ['availi', 'availa']
     replace: "availability"
     word: true
