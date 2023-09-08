@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['everyt']
+    replace: "everything"
+    word: true
+    propagate_case: true
   - triggers: ['wa', 'wt']
     replace: "what"
     word: true
