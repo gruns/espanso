@@ -3,6 +3,10 @@ matches:
     replace: "clickthrough"
     word: true
     propagate_case: true
+  - triggers: ['clickthrus']
+    replace: "clickthroughs"
+    word: true
+    propagate_case: true
   - triggers: ['availi', 'availa']
     replace: "availability"
     word: true
