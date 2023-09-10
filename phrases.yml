@@ -602,6 +602,10 @@ matches:
     replace: "weekend"
     word: true
     propagate_case: true
+  - triggers: ['ne1', 'any1']
+    replace: "anyone"
+    word: true
+    propagate_case: true
   - triggers: ['anyones']
     replace: "anyone's"
     word: true
