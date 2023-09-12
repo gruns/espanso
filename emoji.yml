@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/right', '\right', '/>', '\>']
+    replace: "➡️"
+    word: true
+    propagate_case: false
   - triggers: ['/monocle', '\monocle']
     replace: "🧐"
     word: true
