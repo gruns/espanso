@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['str8fwd']
+    replace: "straightforward"
+    word: true
+    propagate_case: true
   - triggers: ['everyt']
     replace: "everything"
     word: true
