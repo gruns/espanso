@@ -3,6 +3,10 @@ matches:
     replace: "straightforward"
     word: true
     propagate_case: true
+  - triggers: ['mvmt']
+    replace: "movement"
+    word: true
+    propagate_case: true
   - triggers: ['everyt']
     replace: "everything"
     word: true
