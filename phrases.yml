@@ -538,7 +538,7 @@ matches:
     replace: "implementations"
     word: true
     propagate_case: true
-  - triggers: ['impling']
+  - triggers: ['impling', 'implting']
     replace: "implementing"
     word: true
     propagate_case: true
