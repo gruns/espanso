@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/bomb', '\bomb']
+    replace: "‍💣"
+    word: true
+    propagate_case: false
   - triggers: ['/right', '\right', '/>', '\>']
     replace: "➡️"
     word: true
