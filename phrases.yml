@@ -1,5 +1,9 @@
 matches:
-  - triggers: ['str8fwd']
+  - triggers: ['tgt']
+    replace: "target"
+    word: true
+    propagate_case: true
+  - triggers: ['straightfwd', 'str8fwd']
     replace: "straightforward"
     word: true
     propagate_case: true
