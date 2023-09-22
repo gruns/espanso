@@ -1,6 +1,6 @@
 matches:
-  - triggers: ['/bomb', '\bomb']
-    replace: "‍💣"
+  - triggers: ['/left', '\left', '/<', '\<']
+    replace: "⬅️"
     word: true
     propagate_case: false
   - triggers: ['/right', '\right', '/>', '\>']
