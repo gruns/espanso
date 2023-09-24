@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['wdyt']
+    replace: "what do you think"
+    word: true
+    propagate_case: true
   - triggers: ['tgt']
     replace: "target"
     word: true
