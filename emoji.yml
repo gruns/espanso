@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/runner', '\runner']
+    replace: "‍🏃"
+    word: true
+    propagate_case: false
   - triggers: ['/left', '\left', '/<', '\<']
     replace: "⬅️"
     word: true
