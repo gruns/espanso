@@ -3,6 +3,10 @@ matches:
     replace: "what do you think"
     word: true
     propagate_case: true
+  - triggers: ['wdym']
+    replace: "what do you mean"
+    word: true
+    propagate_case: true
   - triggers: ['tgt']
     replace: "target"
     word: true
