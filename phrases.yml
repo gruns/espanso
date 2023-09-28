@@ -67,6 +67,10 @@ matches:
     replace: "friday"
     word: true
     propagate_case: true
+  - triggers: ['satu', 'satur']
+    replace: "saturday"
+    word: true
+    propagate_case: true
   - triggers: ['gr8']
     replace: "great"
     word: true
