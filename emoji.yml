@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/huff', '\huff', '/exhale', '\exhale']
+    replace: "‍😮‍💨"
+    word: true
+    propagate_case: false
   - triggers: ['/runner', '\runner']
     replace: "‍🏃"
     word: true
