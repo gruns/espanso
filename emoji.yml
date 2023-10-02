@@ -7,6 +7,10 @@ matches:
     replace: "‍🏃"
     word: true
     propagate_case: false
+  - triggers: ['/hotdog', '\hotdog']
+    replace: "‍🌭"
+    word: true
+    propagate_case: false
   - triggers: ['/left', '\left', '/<', '\<']
     replace: "⬅️"
     word: true
