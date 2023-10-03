@@ -1,6 +1,6 @@
 matches:
-  - triggers: ['clickthru']
-    replace: "clickthrough"
+  - triggers: ['pkt']
+    replace: "packet"
     word: true
     propagate_case: true
   - triggers: ['clickthrus']
