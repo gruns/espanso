@@ -3,6 +3,10 @@ matches:
     replace: "packet"
     word: true
     propagate_case: true
+  - triggers: ['pkts']
+    replace: "packets"
+    word: true
+    propagate_case: true
   - triggers: ['clickthrus']
     replace: "clickthroughs"
     word: true
