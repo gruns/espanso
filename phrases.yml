@@ -203,6 +203,10 @@ matches:
     replace: "damage"
     word: true
     propagate_case: true
+  - triggers: ['dmgs']
+    replace: "damages"
+    word: true
+    propagate_case: true
   - triggers: ['/shrug']
     replace: "¯\\_(ツ)_/¯"
     word: true
