@@ -227,7 +227,7 @@ matches:
     replace: "transaction"
     word: true
     propagate_case: true
-  - triggers: ['microtxn']
+  - triggers: ['mtxn', 'microtxn']
     replace: "microtransaction"
     word: true
     propagate_case: true
