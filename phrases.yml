@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['tdnl', 'trdnl']
+    replace: "traditional"
+    word: true
+    propagate_case: true
   - triggers: ['wdyt']
     replace: "what do you think"
     word: true
