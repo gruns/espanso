@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['ovr']
+    replace: "over"
+    word: true
+    propagate_case: true
   - triggers: ['tdnl', 'trdnl']
     replace: "traditional"
     word: true
