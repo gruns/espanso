@@ -311,10 +311,6 @@ matches:
     replace: "level"
     word: true
     propagate_case: true
-  - triggers: ['orch']
-    replace: "orchestrator"
-    word: true
-    propagate_case: true
   - triggers: ['lvls']
     replace: "levels"
     word: true
@@ -329,6 +325,10 @@ matches:
     propagate_case: true
   - triggers: ['mo']
     replace: "month"
+    word: true
+    propagate_case: true
+  - triggers: ['orch']
+    replace: "orchestrator"
     word: true
     propagate_case: true
   - triggers: ['orchs']
