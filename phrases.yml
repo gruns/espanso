@@ -379,6 +379,10 @@ matches:
     replace: "addresses"
     word: true
     propagate_case: true
+  - triggers: ['addrd']
+    replace: "addressed"
+    word: true
+    propagate_case: true
   - triggers: ['reqs']
     replace: "requests"
     word: true
