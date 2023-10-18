@@ -491,6 +491,10 @@ matches:
     replace: "people"
     word: true
     propagate_case: true
+  - triggers: ['ppls', "ppl's"]
+    replace: "people's"
+    word: true
+    propagate_case: true
   - triggers: ['tn']
     replace: "tonight"
     word: true
