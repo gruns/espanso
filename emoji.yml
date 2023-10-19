@@ -11,6 +11,10 @@ matches:
     replace: "‍🎁"
     word: true
     propagate_case: false
+  - triggers: ['/banana', '\banana']
+    replace: "‍🍌"
+    word: true
+    propagate_case: false
   - triggers: ['/huff', '\huff', '/exhale', '\exhale']
     replace: "‍😮‍💨"
     word: true
