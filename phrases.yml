@@ -574,7 +574,7 @@ matches:
     replace: "differently"
     word: true
     propagate_case: true
-  - triggers: ['impl', 'impln', 'implnt']
+  - triggers: ['impl', 'impln', 'impltn']
     replace: "implementation"
     word: true
     propagate_case: true
