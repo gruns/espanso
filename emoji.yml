@@ -79,7 +79,7 @@ matches:
     replace: "❓"
     word: true
     propagate_case: false
-  - triggers: ['/grow', '\grow', '/growth', '\growth']
+  - triggers: ['/grow', '\grow', '/growth', '\growth', '/graph', '\graph']
     replace: "📈"
     word: true
     propagate_case: false
