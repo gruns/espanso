@@ -359,6 +359,10 @@ matches:
     replace: "pointed"
     word: true
     propagate_case: true
+  - triggers: ['pntr', 'pnter']
+    replace: "pointer"
+    word: true
+    propagate_case: true
   - triggers: ['pntrs', 'pnters']
     replace: "pointers"
     word: true
