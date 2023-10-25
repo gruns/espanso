@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['contd']
+    replace: "continued"
+    word: true
+    propagate_case: true
   - triggers: ['ovr']
     replace: "over"
     word: true
