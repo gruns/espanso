@@ -31,6 +31,10 @@ matches:
     replace: "‍🪦"
     word: true
     propagate_case: false
+  - triggers: ['/*', '\*', '/-', '\-']
+    replace: "‍●"
+    word: true
+    propagate_case: false
   - triggers: ['/left', '\left', '/<', '\<']
     replace: "⬅️"
     word: true
