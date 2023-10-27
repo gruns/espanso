@@ -702,6 +702,10 @@ matches:
     replace: "functions"
     word: true
     propagate_case: true
+  - triggers: ['fnty', 'fntly']
+    replace: "functionality"
+    word: true
+    propagate_case: true
   - triggers: ['mgr']
     replace: "manager"
     word: true
