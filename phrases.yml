@@ -642,10 +642,6 @@ matches:
     replace: "responses"
     word: true
     propagate_case: true
-  - triggers: ['fns']
-    replace: "functions"
-    word: true
-    propagate_case: true
   - triggers: ['bt']
     replace: "be there"
     word: true
@@ -698,12 +694,12 @@ matches:
     replace: "implemented"
     word: true
     propagate_case: true
-  - triggers: ['impltn', 'impltt', 'implttn']
-    replace: "implementation"
-    word: true
-    propagate_case: true
   - triggers: ['fn']
     replace: "function"
+    word: true
+    propagate_case: true
+  - triggers: ['fns']
+    replace: "functions"
     word: true
     propagate_case: true
   - triggers: ['mgr']
