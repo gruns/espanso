@@ -19,7 +19,7 @@ matches:
     replace: "availability"
     word: true
     propagate_case: true
-  - triggers: ['ch', 'chn', 'chnl']
+  - triggers: ['chn', 'chnl']
     replace: "channel"
     word: true
     propagate_case: true
