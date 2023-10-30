@@ -139,6 +139,10 @@ matches:
     replace: "keyboard"
     word: true
     propagate_case: true
+  - triggers: ['rqr', 'reqr']
+    replace: "require"
+    word: true
+    propagate_case: true
   - triggers: ['rqm', 'reqm', 'reqt', 'reqmt']
     replace: "requirement"
     word: true
