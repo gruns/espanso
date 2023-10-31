@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/nrg', '\nrg', '/energy', '\energy']
+    replace: "‍⚡"
+    word: true
+    propagate_case: false
   - triggers: ['/eggplant', '\eggplant']
     replace: "‍🍆"
     word: true
