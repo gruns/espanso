@@ -143,6 +143,10 @@ matches:
     replace: "require"
     word: true
     propagate_case: true
+  - triggers: ['rqrs', 'reqrs']
+    replace: "requires"
+    word: true
+    propagate_case: true
   - triggers: ['rqrd', 'reqrd']
     replace: "required"
     word: true
