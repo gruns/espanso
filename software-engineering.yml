@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['redir']
+    replace: "redirect"
+    word: true
+    propagate_case: true
   - triggers: ['pkt']
     replace: "packet"
     word: true
