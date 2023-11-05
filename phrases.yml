@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['syno']
+    replace: "synonym"
+    word: true
+    propagate_case: true
   - triggers: ['contd']
     replace: "continued"
     word: true
