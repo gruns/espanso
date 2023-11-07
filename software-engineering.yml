@@ -59,14 +59,6 @@ matches:
     replace: "issues"
     word: true
     propagate_case: true
-  - triggers: ['prio']
-    replace: "priority"
-    word: true
-    propagate_case: true
-  - triggers: ['prios']
-    replace: "priorities"
-    word: true
-    propagate_case: true
   - triggers: ['engr']
     replace: "engineer"
     word: true

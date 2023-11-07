@@ -1,4 +1,12 @@
 matches:
+  - triggers: ['prio']
+    replace: "priority"
+    word: true
+    propagate_case: true
+  - triggers: ['prios']
+    replace: "priorities"
+    word: true
+    propagate_case: true
   - triggers: ['syno']
     replace: "synonym"
     word: true
