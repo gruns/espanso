@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/peach', '\peach']
+    replace: "‍🍑"
+    word: true
+    propagate_case: false
   - triggers: ['/nrg', '\nrg', '/energy', '\energy']
     replace: "‍⚡"
     word: true
