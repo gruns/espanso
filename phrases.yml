@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['cal']
+    replace: "calendar"
+    word: true
+    propagate_case: true
   - triggers: ['prio']
     replace: "priority"
     word: true
