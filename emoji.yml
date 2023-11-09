@@ -47,6 +47,10 @@ matches:
     replace: "‍🌃"
     word: true
     propagate_case: false
+  - triggers: ['/salute', '\salute']
+    replace: "‍🫡"
+    word: true
+    propagate_case: false
   - triggers: ['/left', '\left', '/<', '\<']
     replace: "⬅️"
     word: true
