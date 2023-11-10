@@ -11,6 +11,10 @@ matches:
     replace: "priorities"
     word: true
     propagate_case: true
+  - triggers: ['prioing']
+    replace: "prioritizing"
+    word: true
+    propagate_case: true
   - triggers: ['syno']
     replace: "synonym"
     word: true
