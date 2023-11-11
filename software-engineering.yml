@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['archi', 'archtr']
+    replace: "architecture"
+    word: true
+    propagate_case: true
   - triggers: ['redir']
     replace: "redirect"
     word: true
