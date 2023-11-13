@@ -3,6 +3,10 @@ matches:
     replace: "tonight"
     word: true
     propagate_case: true
+  - triggers: ['lang']
+    replace: "language"
+    word: true
+    propagate_case: true
   - triggers: ['cal']
     replace: "calendar"
     word: true
