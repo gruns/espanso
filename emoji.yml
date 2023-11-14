@@ -51,15 +51,15 @@ matches:
     replace: "‍🫡"
     word: true
     propagate_case: false
-  - triggers: ['/left', '\left', '/<', '\<']
-    replace: "⬅️"
+  - triggers: ['/meridian', '\/meridian', '/meridians', '\/meridians']
+    replace: "‍🌐"
     word: true
     propagate_case: false
   - triggers: ['/right', '\right', '/>', '\>']
     replace: "➡️"
     word: true
     propagate_case: false
-  - triggers: ['/monocle', '\monocle']
+  - triggers: ['/monocle', '\monocle', '/eyeglass', '\eyeglass']
     replace: "🧐"
     word: true
     propagate_case: false
