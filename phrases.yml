@@ -7,6 +7,10 @@ matches:
     replace: "language"
     word: true
     propagate_case: true
+  - triggers: ['langs']
+    replace: "languages"
+    word: true
+    propagate_case: true
   - triggers: ['cal']
     replace: "calendar"
     word: true
