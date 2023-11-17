@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['evr']
+    replace: "ever"
+    word: true
+    propagate_case: true
   - triggers: ['teh']
     replace: "the"
     word: true
