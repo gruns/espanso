@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['imprt', 'imprnt']
+    replace: "improvement"
+    word: true
+    propagate_case: true
   - triggers: ['tn']
     replace: "tonight"
     word: true
