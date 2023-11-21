@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['oppty']
+    replace: "opportunity"
+    word: true
+    propagate_case: true
   - triggers: ['imprt', 'imprnt']
     replace: "improvement"
     word: true
