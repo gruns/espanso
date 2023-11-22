@@ -63,6 +63,10 @@ matches:
     replace: "‍☎️"
     word: true
     propagate_case: false
+  - triggers: ['/family', '\family']
+    replace: "👨‍👩‍👧‍👦"
+    word: true
+    propagate_case: false
   - triggers: ['/right', '\right', '/>', '\>']
     replace: "➡️"
     word: true
