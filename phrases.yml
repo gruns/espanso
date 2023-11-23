@@ -1,5 +1,5 @@
 matches:
-  - triggers: ['oppty']
+  - triggers: ['opty', 'oppty']
     replace: "opportunity"
     word: true
     propagate_case: true
