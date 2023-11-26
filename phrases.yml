@@ -11,10 +11,6 @@ matches:
     replace: "improvement"
     word: true
     propagate_case: true
-  - triggers: ['tn']
-    replace: "tonight"
-    word: true
-    propagate_case: true
   - triggers: ['lang']
     replace: "language"
     word: true
@@ -35,7 +31,7 @@ matches:
     replace: "priorities"
     word: true
     propagate_case: true
-  - triggers: ['prioing']
+  - triggers: ['prioing', 'priozing']
     replace: "prioritizing"
     word: true
     propagate_case: true
