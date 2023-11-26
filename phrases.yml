@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['4get']
+    replace: "forget"
+    word: true
+    propagate_case: true
   - triggers: ['opty', 'oppty']
     replace: "opportunity"
     word: true
