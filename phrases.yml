@@ -31,6 +31,10 @@ matches:
     replace: "priorities"
     word: true
     propagate_case: true
+  - triggers: ['prioz']
+    replace: "prioritize"
+    word: true
+    propagate_case: true
   - triggers: ['prioing', 'priozing']
     replace: "prioritizing"
     word: true
