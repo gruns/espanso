@@ -79,6 +79,10 @@ matches:
     replace: "☠️"
     word: true
     propagate_case: false
+  - triggers: ['/skull', '\skull']
+    replace: "💀"
+    word: true
+    propagate_case: false
   - triggers: ['/right', '\right', '/>', '\>']
     replace: "➡️"
     word: true
