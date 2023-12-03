@@ -39,6 +39,10 @@ matches:
     replace: "prioritizing"
     word: true
     propagate_case: true
+  - triggers: ['hw']
+    replace: "homework"
+    word: true
+    propagate_case: true
   - triggers: ['syno']
     replace: "synonym"
     word: true
