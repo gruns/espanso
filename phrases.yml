@@ -319,6 +319,10 @@ matches:
     replace: "context"
     word: true
     propagate_case: true
+  - triggers: ['ctxs']
+    replace: "contexts"
+    word: true
+    propagate_case: true
   - triggers: ['unru']
     replace: "unruhestifter"
     word: true
