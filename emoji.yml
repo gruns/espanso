@@ -91,6 +91,10 @@ matches:
     replace: "🦅"
     word: true
     propagate_case: false
+  - triggers: ['/uparrow', '\uparrow']
+    replace: "⬆️"
+    word: true
+    propagate_case: false
   - triggers: ['/right', '\right', '/>', '\>']
     replace: "➡️"
     word: true
