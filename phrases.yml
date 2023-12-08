@@ -355,6 +355,10 @@ matches:
     replace: "optimization"
     word: true
     propagate_case: true
+  - triggers: ['optimz']
+    replace: "optimize"
+    word: true
+    propagate_case: true
   - triggers: ['str8']
     replace: "straight"
     word: true
