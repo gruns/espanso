@@ -159,7 +159,7 @@ matches:
     replace: "🤒"
     word: true
     propagate_case: false
-  - triggers: ['/warn', '\warn', '/warning', '\warning', '/alert', '\alert']
+  - triggers: ['/warn', '\warn', '/warning', '\warning', '/alert', '\alert', '/important', '\important']
     replace: "⚠️"
     word: true
     propagate_case: false
