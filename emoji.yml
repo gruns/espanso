@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/x', '\x']
+    replace: "‍❌"
+    word: true
+    propagate_case: false
   - triggers: ['/peach', '\peach']
     replace: "‍🍑"
     word: true
