@@ -678,10 +678,6 @@ matches:
     replace: "screenshot"
     word: true
     propagate_case: true
-  - triggers: ['doesnt']
-    replace: "doesn't"
-    word: true
-    propagate_case: true
   - triggers: ['w/', 'w']
     replace: "with"
     word: true
