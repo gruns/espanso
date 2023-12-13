@@ -730,6 +730,10 @@ matches:
     replace: "anyone's"
     word: true
     propagate_case: true
+  - triggers: ['anyt']
+    replace: "anything"
+    word: true
+    propagate_case: true
   - triggers: ['youd']
     replace: "you'd"
     word: true
