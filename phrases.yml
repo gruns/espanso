@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['b4hand']
+    replace: "beforehand"
+    word: true
+    propagate_case: true
   - triggers: ['4get']
     replace: "forget"
     word: true
