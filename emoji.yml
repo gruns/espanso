@@ -315,7 +315,7 @@ matches:
     replace: "☝️"
     word: true
     propagate_case: false
-  - triggers: ['\pinched', '/chefskiss', '\chefs', '/pinched', '/pinch', '/chefs', '\chefskiss', '\pinch']
+  - triggers: ['/chef', '\chef', '\pinched', '/chefskiss', '\chefs', '/pinched', '/pinch', '/chefs', '\chefskiss', '\pinch']
     replace: "🤌"
     word: true
     propagate_case: false
