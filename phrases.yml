@@ -43,6 +43,10 @@ matches:
     replace: "prioritizing"
     word: true
     propagate_case: true
+  - triggers: ['priozn']
+    replace: "prioritization"
+    word: true
+    propagate_case: true
   - triggers: ['hw']
     replace: "homework"
     word: true
