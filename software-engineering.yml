@@ -71,7 +71,7 @@ matches:
     replace: "engineers"
     word: true
     propagate_case: true
-  - triggers: ['engg', 'enging']
+  - triggers: ['engg', 'enging', 'engring']
     replace: "engineering"
     word: true
     propagate_case: true
