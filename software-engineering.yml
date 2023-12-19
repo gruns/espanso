@@ -83,7 +83,7 @@ matches:
     replace: "timezones"
     word: true
     propagate_case: true
-  - triggers: ['hdw']
+  - triggers: ['hwr', 'hdw']
     replace: "hardware"
     word: true
     propagate_case: true
