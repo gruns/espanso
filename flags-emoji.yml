@@ -1,0 +1,5 @@
+matches:
+  - triggers: ['/swe', '\swe', '/sweden', '\sweden']
+    replace: "🇸🇪"
+    word: true
+    propagate_case: false
