@@ -3,3 +3,7 @@ matches:
     replace: "🇸🇪"
     word: true
     propagate_case: false
+  - triggers: ['/uk', '\uk']
+    replace: "🇬🇧"
+    word: true
+    propagate_case: false
