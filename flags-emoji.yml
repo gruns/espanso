@@ -7,3 +7,7 @@ matches:
     replace: "🇬🇧"
     word: true
     propagate_case: false
+  - triggers: ['/de', '\de', '/germany', '\germany']
+    replace: "🇩🇪"
+    word: true
+    propagate_case: false
