@@ -1,0 +1,7 @@
+matches:
+  - triggers: ["111"]
+    replace: "222"
+    word: true
+  - regex: "[\\ss\\W]333\\s"
+    replace: " 444 "
+    word: true
