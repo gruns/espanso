@@ -12,3 +12,4 @@ These expansions are broken down into categories, one category per file:
   * [/emoji.yml]: Shorthand for commonly used emojis. E.g. `/)` for the 🙂 emoji.
   * [/flags-emoji.yml]: Country flag emojis. E.g. `/swe` for 🇸🇪.
   * [/typos.yml]: Fixes for common typos. E.g. `teh` -> `the`.
+  * [/tests.yml]: Miscellaneos expansion tests. Not meant for real-world usage.
