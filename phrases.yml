@@ -175,10 +175,6 @@ matches:
     replace: "manages"
     word: true
     propagate_case: true
-  - triggers: ['mging']
-    replace: "managing"
-    word: true
-    propagate_case: true
   - triggers: ['mgmt']
     replace: "management"
     word: true
