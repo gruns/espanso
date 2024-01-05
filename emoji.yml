@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/palmup', '\palmup']
+    replace: "‍🫴"
+    word: true
+    propagate_case: false
   - triggers: ['/brainblown', '\brainblown', '/mindblown', '\mindblown']
     replace: "‍🤯"
     word: true
