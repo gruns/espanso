@@ -3,6 +3,10 @@ matches:
     replace: "‍🫴"
     word: true
     propagate_case: false
+  - triggers: ['/palmdn', '\palmdn', '/palmdown', '\palmdown']
+    replace: "‍🫳"
+    word: true
+    propagate_case: false
   - triggers: ['/brainblown', '\brainblown', '/mindblown', '\mindblown']
     replace: "‍🤯"
     word: true
