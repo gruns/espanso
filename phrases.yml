@@ -746,6 +746,10 @@ matches:
     replace: "anything"
     word: true
     propagate_case: true
+  - triggers: ['anyw']
+    replace: "anywhere"
+    word: true
+    propagate_case: true
   - triggers: ['youd']
     replace: "you'd"
     word: true
