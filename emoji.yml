@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/rollercoaster', '\rollercoaster']
+    replace: "‍🎢"
+    word: true
+    propagate_case: false
   - triggers: ['/palmup', '\palmup']
     replace: "‍🫴"
     word: true
