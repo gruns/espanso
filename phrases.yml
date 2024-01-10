@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['bgd']
+    replace: "background"
+    word: true
+    propagate_case: true
   - triggers: ['accoms']
     replace: "accommodations"
     word: true
