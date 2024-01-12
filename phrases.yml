@@ -774,7 +774,7 @@ matches:
     replace: "unfortunately"
     word: true
     propagate_case: true
-  - triggers: ['implt', 'implnt']
+  - triggers: ['impt', 'implt', 'implnt']
     replace: "implement"
     word: true
     propagate_case: true
