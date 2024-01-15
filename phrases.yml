@@ -794,7 +794,7 @@ matches:
     replace: "functions"
     word: true
     propagate_case: true
-  - triggers: ['fnty', 'fntly']
+  - triggers: ['fnty', 'fntly', 'fnality']
     replace: "functionality"
     word: true
     propagate_case: true
