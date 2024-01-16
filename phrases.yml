@@ -810,8 +810,12 @@ matches:
     replace: "manage"
     word: true
     propagate_case: true
-  - triggers: ['mgd']
+  - triggers: ['mgd', 'mngd']
     replace: "managed"
+    word: true
+    propagate_case: true
+  - triggers: ['mging', 'mnging']
+    replace: "managing"
     word: true
     propagate_case: true
   - triggers: ['hows']
