@@ -914,7 +914,7 @@ matches:
     replace: "because"
     word: true
     propagate_case: true
-  - triggers: ['btwn']
+  - triggers: ['btwn', 'betwn']
     replace: "between"
     word: true
     propagate_case: true
