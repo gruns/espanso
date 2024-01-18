@@ -623,7 +623,7 @@ matches:
     replace: "🫠"
     word: true
     propagate_case: false
-  - triggers: ['/dance', '\dance', '/dancer', '\dancer']
+  - triggers: ['/dance', '\dance', '/dancer', '\dancer', '/dancing', '\dancing']
     replace: "💃"
     word: true
     propagate_case: false
