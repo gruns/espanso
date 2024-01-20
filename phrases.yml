@@ -922,6 +922,10 @@ matches:
     replace: "tomorrow"
     word: true
     propagate_case: true
+  - triggers: ['tmrws']
+    replace: "tomorrow's"
+    word: true
+    propagate_case: true
   - triggers: ['yest']
     replace: "yesterday"
     word: true
