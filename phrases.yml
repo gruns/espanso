@@ -942,6 +942,10 @@ matches:
     replace: "markets"
     word: true
     propagate_case: true
+  - triggers: ['mktp', 'mktplace']
+    replace: "marketplace"
+    word: true
+    propagate_case: true
   - triggers: ['fwd']
     replace: "forward"
     word: true
