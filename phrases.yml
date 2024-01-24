@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['acqn']
+    replace: "acquisition"
+    word: true
+    propagate_case: true
   - triggers: ['bgd']
     replace: "background"
     word: true
