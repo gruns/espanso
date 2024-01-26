@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['avl', 'avbl']
+    replace: "available"
+    word: true
+    propagate_case: true
   - triggers: ['acqn']
     replace: "acquisition"
     word: true
