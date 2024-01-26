@@ -3,6 +3,10 @@ matches:
     replace: "available"
     word: true
     propagate_case: true
+  - triggers: ['avly', 'avlty', 'avblty']
+    replace: "availablity"
+    word: true
+    propagate_case: true
   - triggers: ['acqn']
     replace: "acquisition"
     word: true
