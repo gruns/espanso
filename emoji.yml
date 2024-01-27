@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/sandwich', '\sandwich']
+    replace: "‍🥪"
+    word: true
+    propagate_case: false
   - triggers: ['/hearts', '\hearts']
     replace: "‍💕"
     word: true
