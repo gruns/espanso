@@ -1,4 +1,8 @@
 matches:
+  - triggers: ["/')", "\')"]
+    replace: "‍🥲"
+    word: true
+    propagate_case: false
   - triggers: ['/sandwich', '\sandwich']
     replace: "‍🥪"
     word: true
