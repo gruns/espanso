@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/shark', '\shark']
+    replace: "‍🦈"
+    word: true
+    propagate_case: false
   - triggers: ["/')", "\')"]
     replace: "‍🥲"
     word: true
