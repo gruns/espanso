@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['hwo']
+    replace: "how"
+    word: true
+    propagate_case: true
   - triggers: ['evr']
     replace: "ever"
     word: true
