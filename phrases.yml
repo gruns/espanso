@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['nos']
+    replace: "numbers"
+    word: true
+    propagate_case: true
   - triggers: ['avl', 'avbl']
     replace: "available"
     word: true
