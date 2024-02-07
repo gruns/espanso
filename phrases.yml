@@ -183,6 +183,10 @@ matches:
     replace: "especially"
     word: true
     propagate_case: true
+  - triggers: ['incls', 'inclds']
+    replace: "includes"
+    word: true
+    propagate_case: true
   - triggers: ['incld']
     replace: "included"
     word: true
