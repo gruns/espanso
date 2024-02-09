@@ -187,7 +187,7 @@ matches:
     replace: "includes"
     word: true
     propagate_case: true
-  - triggers: ['incld']
+  - triggers: ['incld', 'incldd']
     replace: "included"
     word: true
     propagate_case: true
