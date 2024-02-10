@@ -13,3 +13,7 @@ These expansions are broken down into categories, one category per file:
   * [flags-emoji.yml](flags-emoji.yml): Country flag emojis. E.g. `/swe` for 🇸🇪.
   * [typos.yml](typos.yml): Fixes for common typos. E.g. `teh` -> `the`.
   * [tests.yml](tests.yml): Miscellaneous expansion tests. Not meant for real-world usage.
+
+Also add additional word separators to `~/Library/Application Support/espanso/config/default.yml`:
+
+  * `word_separators: [" ", ",", ".", "?", "!", ")", "}", "]", ">", "\r", "\n", "\t", "\'", "\"", "\x0c", ":", ";"]`
