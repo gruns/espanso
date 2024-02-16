@@ -1,0 +1,5 @@
+matches:
+  - triggers: ['jd']
+    replace: "JD"
+    word: true
+    propagate_case: true
