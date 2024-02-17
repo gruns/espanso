@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['emp', 'empy']
+    replace: "employee"
+    word: true
+    propagate_case: true
   - triggers: ['jd']
     replace: "JD"
     word: true
