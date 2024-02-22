@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['theer']
+    replace: "there"
+    word: true
+    propagate_case: true
   - triggers: ['hwo']
     replace: "how"
     word: true
