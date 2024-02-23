@@ -283,10 +283,6 @@ matches:
     replace: "sounds good"
     word: true
     propagate_case: true
-  - triggers: ['pting']
-    replace: "pointing"
-    word: true
-    propagate_case: true
   - triggers: ['rdy']
     replace: "ready"
     word: true
@@ -794,10 +790,6 @@ matches:
     replace: "requesting"
     word: true
     propagate_case: true
-  - triggers: ['unfort']
-    replace: "unfortunately"
-    word: true
-    propagate_case: true
   - triggers: ['impt', 'implt', 'implnt']
     replace: "implement"
     word: true
@@ -924,10 +916,6 @@ matches:
     propagate_case: true
   - triggers: ['wk']
     replace: "week"
-    word: true
-    propagate_case: true
-  - triggers: ['wkd', 'wke']
-    replace: "weekend"
     word: true
     propagate_case: true
   - triggers: ['wkly']
