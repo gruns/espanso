@@ -3,6 +3,10 @@ matches:
     replace: "there"
     word: true
     propagate_case: true
+  - triggers: ['shoudl']
+    replace: "should"
+    word: true
+    propagate_case: true
   - triggers: ['hwo']
     replace: "how"
     word: true
