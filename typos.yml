@@ -15,11 +15,7 @@ matches:
     replace: "ever"
     word: true
     propagate_case: true
-  - triggers: ['teh']
-    replace: "the"
-    word: true
-    propagate_case: true
-  - triggers: ['hte']
+  - triggers: ['teh', 'hte']
     replace: "the"
     word: true
     propagate_case: true
@@ -27,19 +23,11 @@ matches:
     replace: "of"
     word: true
     propagate_case: true
-  - triggers: ['htat']
+  - triggers: ['tht', 'htat', 'taht', 'thta']
     replace: "that"
     word: true
     propagate_case: true
-  - triggers: ['tht']
-    replace: "that"
-    word: true
-    propagate_case: true
-  - triggers: ['nd']
-    replace: "and"
-    word: true
-    propagate_case: true
-  - triggers: ['nad']
+  - triggers: ['nd', 'nad']
     replace: "and"
     word: true
     propagate_case: true
@@ -55,20 +43,12 @@ matches:
     replace: "from"
     word: true
     propagate_case: true
-  - triggers: ['taht']
-    replace: "that"
-    word: true
-    propagate_case: true
   - triggers: ['nto']
     replace: "not"
     word: true
     propagate_case: true
   - triggers: ['fr']
     replace: "for"
-    word: true
-    propagate_case: true
-  - triggers: ['thta']
-    replace: "that"
     word: true
     propagate_case: true
   - triggers: ['liek']
