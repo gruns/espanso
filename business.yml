@@ -3,6 +3,10 @@ matches:
     replace: "employee"
     word: true
     propagate_case: true
+  - triggers: ['emps', 'emps', 'empies', 'empies', 'empees', 'empees']
+    replace: "employees"
+    word: true
+    propagate_case: true
   - triggers: ['jd']
     replace: "JD"
     word: true
