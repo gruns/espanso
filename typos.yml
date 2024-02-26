@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['dotn']
+    replace: "don't"
+    word: true
+    propagate_case: true
   - triggers: ['theer']
     replace: "there"
     word: true
