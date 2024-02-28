@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['sumz', 'sumrz']
+    replace: "summarize"
+    word: true
+    propagate_case: true
   - triggers: ['nos']
     replace: "numbers"
     word: true
