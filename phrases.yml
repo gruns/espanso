@@ -3,6 +3,10 @@ matches:
     replace: "summarize"
     word: true
     propagate_case: true
+  - triggers: ['freqly']
+    replace: "frequently"
+    word: true
+    propagate_case: true
   - triggers: ['nos']
     replace: "numbers"
     word: true
