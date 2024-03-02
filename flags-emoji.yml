@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/rus', '\rus', '/russian', '\russian']
+    replace: "🇷🇺"
+    word: true
+    propagate_case: false
   - triggers: ['/usa', '\usa']
     replace: "🇺🇸"
     word: true
