@@ -3,6 +3,10 @@ matches:
     replace: "🇷🇺"
     word: true
     propagate_case: false
+  - triggers: ['/italy', '\italy']
+    replace: "🇮🇹"
+    word: true
+    propagate_case: false
   - triggers: ['/usa', '\usa']
     replace: "🇺🇸"
     word: true
