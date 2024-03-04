@@ -7,6 +7,10 @@ matches:
     replace: "frequently"
     word: true
     propagate_case: true
+  - triggers: ['imptt']
+    replace: "important"
+    word: true
+    propagate_case: true
   - triggers: ['nos']
     replace: "numbers"
     word: true
