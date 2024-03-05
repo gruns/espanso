@@ -15,6 +15,10 @@ matches:
     replace: "numbers"
     word: true
     propagate_case: true
+  - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
+    replace: "unavailable"
+    word: true
+    propagate_case: true
   - triggers: ['avl', 'avbl']
     replace: "available"
     word: true
