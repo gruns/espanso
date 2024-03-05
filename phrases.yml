@@ -19,7 +19,7 @@ matches:
     replace: "unavailable"
     word: true
     propagate_case: true
-  - triggers: ['avl', 'avbl']
+  - triggers: ['avl', 'avbl', 'avalbl', 'availb', 'availbl']
     replace: "available"
     word: true
     propagate_case: true
