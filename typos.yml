@@ -11,6 +11,10 @@ matches:
     replace: "there"
     word: true
     propagate_case: true
+  - triggers: ['gaurantee']
+    replace: "guarantee"
+    word: true
+    propagate_case: true
   - triggers: ['shoudl']
     replace: "should"
     word: true
