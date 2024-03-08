@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/gorilla', '\gorilla', '/ape', '\ape']
+    replace: "🦍️️"
+    word: true
+    propagate_case: false
   - triggers: ['/package', '\package']
     replace: "📦️️"
     word: true
