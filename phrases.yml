@@ -23,6 +23,10 @@ matches:
     replace: "available"
     word: true
     propagate_case: true
+  - triggers: ['avli', 'avly', 'avlty', 'avblty', 'availy', 'availby', 'availbly', 'availblty']
+    replace: "availability"
+    word: true
+    propagate_case: true
   - triggers: ['unf', 'unft', 'unfy', 'unfly', 'unftly']
     replace: "unfortunately"
     word: true
