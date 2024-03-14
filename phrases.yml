@@ -43,10 +43,6 @@ matches:
     replace: "background"
     word: true
     propagate_case: true
-  - triggers: ['accoms']
-    replace: "accommodations"
-    word: true
-    propagate_case: true
   - triggers: ['b4hand']
     replace: "beforehand"
     word: true
