@@ -31,6 +31,10 @@ matches:
     replace: "unfortunately"
     word: true
     propagate_case: true
+  - triggers: ['uncf', 'uncomf']
+    replace: "uncomfortable"
+    word: true
+    propagate_case: true
   - triggers: ['acqn']
     replace: "acquisition"
     word: true
