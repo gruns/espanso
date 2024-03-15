@@ -15,6 +15,10 @@ matches:
     replace: "🪴️️"
     word: true
     propagate_case: false
+  - triggers: ['/turkey', '\turkey']
+    replace: "🦃️️"
+    word: true
+    propagate_case: false
   - triggers: ['/package', '\package']
     replace: "📦️️"
     word: true
