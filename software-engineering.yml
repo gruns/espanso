@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['svr']
+    replace: "server"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
