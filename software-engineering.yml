@@ -3,6 +3,10 @@ matches:
     replace: "server"
     word: true
     propagate_case: true
+  - triggers: ['svrs']
+    replace: "servers"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
