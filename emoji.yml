@@ -31,6 +31,10 @@ matches:
     replace: "🪦️️"
     word: true
     propagate_case: false
+  - triggers: ['/memo', '\memo', '/task', '\task', '/note', '\note']
+    replace: "📝️️"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
