@@ -51,7 +51,7 @@ matches:
     replace: "forget"
     word: true
     propagate_case: true
-  - triggers: ['opty', 'oppty']
+  - triggers: ['opty', 'oppty', 'optty', 'optty']
     replace: "opportunity"
     word: true
     propagate_case: true
