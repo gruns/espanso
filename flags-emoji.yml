@@ -7,6 +7,10 @@ matches:
     replace: "🇮🇹"
     word: true
     propagate_case: false
+  - triggers: ['/mex', '\mex', '/mexico', '\mexico']
+    replace: "🇲🇽"
+    word: true
+    propagate_case: false
   - triggers: ['/usa', '\usa']
     replace: "🇺🇸"
     word: true
