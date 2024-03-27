@@ -11,6 +11,10 @@ matches:
     replace: "🇲🇽"
     word: true
     propagate_case: false
+  - triggers: ['/est', '\est', '/estonia', '\estonia']
+    replace: "🇪🇪"
+    word: true
+    propagate_case: false
   - triggers: ['/usa', '\usa']
     replace: "🇺🇸"
     word: true
