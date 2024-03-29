@@ -15,6 +15,10 @@ matches:
     replace: "🇪🇪"
     word: true
     propagate_case: false
+  - triggers: ['/can', '\can', '/canada', '\canada']
+    replace: "🇨🇦"
+    word: true
+    propagate_case: false
   - triggers: ['/usa', '\usa']
     replace: "🇺🇸"
     word: true
