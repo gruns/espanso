@@ -55,6 +55,10 @@ matches:
     replace: "opportunity"
     word: true
     propagate_case: true
+  - triggers: ['opties', 'oppties', 'optties']
+    replace: "opportunities"
+    word: true
+    propagate_case: true
   - triggers: ['imprt', 'imprnt']
     replace: "improvement"
     word: true
