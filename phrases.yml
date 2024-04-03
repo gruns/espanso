@@ -75,7 +75,7 @@ matches:
     replace: "calendar"
     word: true
     propagate_case: true
-  - triggers: ['prio']
+  - triggers: ['prio', 'prioty']
     replace: "priority"
     word: true
     propagate_case: true
