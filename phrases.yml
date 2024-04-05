@@ -79,7 +79,7 @@ matches:
     replace: "priority"
     word: true
     propagate_case: true
-  - triggers: ['prios']
+  - triggers: ['prios', 'priots']
     replace: "priorities"
     word: true
     propagate_case: true
