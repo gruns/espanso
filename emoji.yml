@@ -63,6 +63,10 @@ matches:
     replace: "🚕️"
     word: true
     propagate_case: false
+  - triggers: ['/candy', '\candy']
+    replace: "🍬️"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
