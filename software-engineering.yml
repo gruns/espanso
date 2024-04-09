@@ -7,6 +7,10 @@ matches:
     replace: "servers"
     word: true
     propagate_case: true
+  - triggers: ['scrn']
+    replace: "screen"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
