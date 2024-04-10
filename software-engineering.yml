@@ -11,6 +11,10 @@ matches:
     replace: "screen"
     word: true
     propagate_case: true
+  - triggers: ['ntn']
+    replace: "notion"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
