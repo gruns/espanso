@@ -83,7 +83,7 @@ matches:
     replace: "priorities"
     word: true
     propagate_case: true
-  - triggers: ['prioz']
+  - triggers: ['prioz', 'priotz']
     replace: "prioritize"
     word: true
     propagate_case: true
