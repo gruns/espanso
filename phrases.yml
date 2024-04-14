@@ -91,7 +91,7 @@ matches:
     replace: "prioritized"
     word: true
     propagate_case: true
-  - triggers: ['prioing', 'priozing']
+  - triggers: ['prioing', 'priozing', 'priotzing']
     replace: "prioritizing"
     word: true
     propagate_case: true
