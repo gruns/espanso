@@ -95,6 +95,10 @@ matches:
     replace: "🥐"
     word: true
     propagate_case: false
+  - triggers: ['/calendar', '\calendar']
+    replace: "📅"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
