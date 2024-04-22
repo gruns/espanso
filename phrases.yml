@@ -95,7 +95,7 @@ matches:
     replace: "prioritizing"
     word: true
     propagate_case: true
-  - triggers: ['priozn']
+  - triggers: ['priozn', 'priotzn']
     replace: "prioritization"
     word: true
     propagate_case: true
