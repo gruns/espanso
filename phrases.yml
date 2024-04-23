@@ -107,6 +107,10 @@ matches:
     replace: "synonym"
     word: true
     propagate_case: true
+  - triggers: ['synos']
+    replace: "synonyms"
+    word: true
+    propagate_case: true
   - triggers: ['contd']
     replace: "continued"
     word: true
