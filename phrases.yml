@@ -111,6 +111,10 @@ matches:
     replace: "synonyms"
     word: true
     propagate_case: true
+  - triggers: ['cont', 'contu', 'contue']
+    replace: "continue"
+    word: true
+    propagate_case: true
   - triggers: ['contd']
     replace: "continued"
     word: true
