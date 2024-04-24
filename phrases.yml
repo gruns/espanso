@@ -119,6 +119,10 @@ matches:
     replace: "continued"
     word: true
     propagate_case: true
+  - triggers: ['conting']
+    replace: "continuing"
+    word: true
+    propagate_case: true
   - triggers: ['ovr']
     replace: "over"
     word: true
