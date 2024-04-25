@@ -19,6 +19,10 @@ matches:
     replace: "assistant"
     word: true
     propagate_case: true
+  - triggers: ['api']
+    replace: "API"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
