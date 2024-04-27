@@ -123,6 +123,10 @@ matches:
     replace: "continuing"
     word: true
     propagate_case: true
+  - triggers: ['stmt']
+    replace: "statement"
+    word: true
+    propagate_case: true
   - triggers: ['ovr']
     replace: "over"
     word: true
