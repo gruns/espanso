@@ -127,6 +127,10 @@ matches:
     replace: "statement"
     word: true
     propagate_case: true
+  - triggers: ['stmts']
+    replace: "statements"
+    word: true
+    propagate_case: true
   - triggers: ['ovr']
     replace: "over"
     word: true
