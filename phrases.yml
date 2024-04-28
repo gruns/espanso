@@ -135,7 +135,7 @@ matches:
     replace: "over"
     word: true
     propagate_case: true
-  - triggers: ['tdnl', 'trdnl']
+  - triggers: ['tdnl', 'trdnl', 'tradnl']
     replace: "traditional"
     word: true
     propagate_case: true
