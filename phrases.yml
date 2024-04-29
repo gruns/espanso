@@ -159,7 +159,7 @@ matches:
     replace: "movement"
     word: true
     propagate_case: true
-  - triggers: ['everyt']
+  - triggers: ['evryt', 'everyt', 'everyth']
     replace: "everything"
     word: true
     propagate_case: true
