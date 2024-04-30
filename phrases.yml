@@ -163,7 +163,7 @@ matches:
     replace: "everything"
     word: true
     propagate_case: true
-  - triggers: ['wa', 'wt']
+  - triggers: ['wt']
     replace: "what"
     word: true
     propagate_case: true
