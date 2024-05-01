@@ -247,7 +247,7 @@ matches:
     replace: "water"
     word: true
     propagate_case: true
-  - triggers: ['mgs']
+  - triggers: ['mgs', 'mngs']
     replace: "manages"
     word: true
     propagate_case: true
