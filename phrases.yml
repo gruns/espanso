@@ -279,6 +279,10 @@ matches:
     replace: "keyboard"
     word: true
     propagate_case: true
+  - triggers: ['kbs']
+    replace: "keyboards"
+    word: true
+    propagate_case: true
   - triggers: ['rqr', 'reqr']
     replace: "require"
     word: true
