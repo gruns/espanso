@@ -299,7 +299,7 @@ matches:
     replace: "requiring"
     word: true
     propagate_case: true
-  - triggers: ['rqm', 'reqm', 'reqt', 'reqmt']
+  - triggers: ['rqm', 'reqm', 'reqt', 'reqmt', 'reqrmt']
     replace: "requirement"
     word: true
     propagate_case: true
