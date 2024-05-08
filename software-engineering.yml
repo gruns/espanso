@@ -23,6 +23,9 @@ matches:
     replace: "API"
     word: true
     propagate_case: true
+  - triggers: ['apis']
+    replace: "APIs"
+    word: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
