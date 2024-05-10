@@ -115,6 +115,10 @@ matches:
     replace: "🫶"
     word: true
     propagate_case: false
+  - triggers: ['/smoking', '\smoking', '\cigarette', '\cigarette']
+    replace: "🚬"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
