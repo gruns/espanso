@@ -315,6 +315,10 @@ matches:
     replace: "he'd"
     word: true
     propagate_case: true
+  - triggers: ['n1', 'no1']
+    replace: "no one"
+    word: true
+    propagate_case: true
   - triggers: ['some1']
     replace: "someone"
     word: true
