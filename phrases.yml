@@ -319,7 +319,7 @@ matches:
     replace: "no one"
     word: true
     propagate_case: true
-  - triggers: ['some1']
+  - triggers: ['s1', 'so1', 'sm1', 'some1']
     replace: "someone"
     word: true
     propagate_case: true
