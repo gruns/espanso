@@ -323,6 +323,10 @@ matches:
     replace: "someone"
     word: true
     propagate_case: true
+  - triggers: ["so1s", "so1's", "sm1s", "sm1's", "some1s", "some1's"]
+    replace: "someone's"
+    word: true
+    propagate_case: true
   - triggers: ['every1']
     replace: "everyone"
     word: true
