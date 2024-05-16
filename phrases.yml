@@ -327,7 +327,7 @@ matches:
     replace: "someone's"
     word: true
     propagate_case: true
-  - triggers: ['every1']
+  - triggers: ['e1', 'every1']
     replace: "everyone"
     word: true
     propagate_case: true
