@@ -331,6 +331,10 @@ matches:
     replace: "everyone"
     word: true
     propagate_case: true
+  - triggers: ['evw', 'everyw']
+    replace: "everywhere"
+    word: true
+    propagate_case: true
   - triggers: ['btr']
     replace: "better"
     word: true
