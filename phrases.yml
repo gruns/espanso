@@ -407,6 +407,10 @@ matches:
     replace: "transaction"
     word: true
     propagate_case: true
+  - triggers: ['txns']
+    replace: "transactions"
+    word: true
+    propagate_case: true
   - triggers: ['mtxn', 'microtxn']
     replace: "microtransaction"
     word: true
@@ -1040,10 +1044,6 @@ matches:
     propagate_case: true
   - triggers: ['fwd']
     replace: "forward"
-    word: true
-    propagate_case: true
-  - triggers: ['txns']
-    replace: "transactions"
     word: true
     propagate_case: true
   - triggers: ['sss']
