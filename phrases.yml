@@ -419,6 +419,10 @@ matches:
     replace: "microtransaction"
     word: true
     propagate_case: true
+  - triggers: ['mtxns', 'microtxns']
+    replace: "microtransactions"
+    word: true
+    propagate_case: true
   - triggers: ['walkthrus']
     replace: "walkthroughs"
     word: true
