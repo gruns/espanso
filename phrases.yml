@@ -411,6 +411,10 @@ matches:
     replace: "transactions"
     word: true
     propagate_case: true
+  - triggers: ['txnal']
+    replace: "transactional"
+    word: true
+    propagate_case: true
   - triggers: ['mtxn', 'microtxn']
     replace: "microtransaction"
     word: true
