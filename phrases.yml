@@ -463,7 +463,7 @@ matches:
     replace: "follow-ups"
     word: true
     propagate_case: true
-  - triggers: ['diffc', 'diffce']
+  - triggers: ['difc', 'diffc', 'diffce']
     replace: "difference"
     word: true
     propagate_case: true
