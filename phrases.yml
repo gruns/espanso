@@ -27,6 +27,10 @@ matches:
     replace: "availability"
     word: true
     propagate_case: true
+  - triggers: ['unft']
+    replace: "unfortunate"
+    word: true
+    propagate_case: true
   - triggers: ['unf', 'unft', 'unfy', 'unfly', 'unftly']
     replace: "unfortunately"
     word: true
