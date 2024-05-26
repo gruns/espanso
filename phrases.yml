@@ -31,7 +31,7 @@ matches:
     replace: "unfortunate"
     word: true
     propagate_case: true
-  - triggers: ['unf', 'unft', 'unfy', 'unfly', 'unftly']
+  - triggers: ['unf', 'unfy', 'unfly', 'unftly']
     replace: "unfortunately"
     word: true
     propagate_case: true
