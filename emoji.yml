@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/koala', '\koala']
+    replace: "🐨️️"
+    word: true
+    propagate_case: false
   - triggers: ['/gorilla', '\gorilla', '/ape', '\ape']
     replace: "🦍️️"
     word: true
