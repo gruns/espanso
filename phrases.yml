@@ -479,6 +479,10 @@ matches:
     replace: "optimization"
     word: true
     propagate_case: true
+  - triggers: ['optimd', 'optimzd']
+    replace: "optimized"
+    word: true
+    propagate_case: true
   - triggers: ['optimz']
     replace: "optimize"
     word: true
