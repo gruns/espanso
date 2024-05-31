@@ -29,6 +29,9 @@ matches:
   - triggers: ['dc']
     replace: "datacenter"
     word: true
+  - triggers: ['dcs']
+    replace: "datacenters"
+    word: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
