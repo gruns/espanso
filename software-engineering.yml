@@ -32,6 +32,10 @@ matches:
   - triggers: ['dcs']
     replace: "datacenters"
     word: true
+  - triggers: ['repro']
+    replace: "reproduce"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
