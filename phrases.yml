@@ -499,6 +499,10 @@ matches:
     replace: "transmissions"
     word: true
     propagate_case: true
+  - triggers: ['pkging']
+    replace: "packaging"
+    word: true
+    propagate_case: true
   - triggers: ['vid']
     replace: "video"
     word: true
