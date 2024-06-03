@@ -511,6 +511,10 @@ matches:
     replace: "packages"
     word: true
     propagate_case: true
+  - triggers: ['lvg']
+    replace: "leverage"
+    word: true
+    propagate_case: true
   - triggers: ['xfers']
     replace: "transfers"
     word: true
