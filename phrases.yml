@@ -607,6 +607,10 @@ matches:
     replace: "addresses"
     word: true
     propagate_case: true
+  - triggers: ['addring']
+    replace: "addressing"
+    word: true
+    propagate_case: true
   - triggers: ['addrd']
     replace: "addressed"
     word: true
