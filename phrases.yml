@@ -555,6 +555,10 @@ matches:
     replace: "orchestrators"
     word: true
     propagate_case: true
+  - triggers: ['mly', 'monly']
+    replace: "monthly"
+    word: true
+    propagate_case: true
   - triggers: ['mos']
     replace: "months"
     word: true
