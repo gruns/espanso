@@ -155,6 +155,10 @@ matches:
     replace: "🥟"
     word: true
     propagate_case: false
+  - triggers: ['/maple', '\maple', '/mapleleaf', '\mapleleaf']
+    replace: "🍁"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
