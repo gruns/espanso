@@ -643,10 +643,6 @@ matches:
     replace: "whatever's"
     word: true
     propagate_case: true
-  - triggers: ['repro']
-    replace: "reproduce"
-    word: true
-    propagate_case: true
   - triggers: ['tho']
     replace: "though"
     word: true
