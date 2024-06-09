@@ -723,10 +723,10 @@ matches:
     replace: "people's"
     word: true
     propagate_case: true
-  - triggers: ['tn']
+  - triggers: ['tn', '2nit', '2nite']
     replace: "tonight"
     word: true
-    propagate_case: true
+    propagate_case: false
   - triggers: ['msgd']
     replace: "messaged"
     word: true
