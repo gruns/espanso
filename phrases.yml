@@ -750,6 +750,10 @@ matches:
     replace: "average"
     word: true
     propagate_case: true
+  - triggers: ['cnt']
+    replace: "count"
+    word: true
+    propagate_case: true
   - triggers: ['xmission']
     replace: "transmission"
     word: true
