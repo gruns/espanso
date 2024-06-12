@@ -754,6 +754,10 @@ matches:
     replace: "count"
     word: true
     propagate_case: true
+  - triggers: ['cnts']
+    replace: "counts"
+    word: true
+    propagate_case: true
   - triggers: ['xmission']
     replace: "transmission"
     word: true
