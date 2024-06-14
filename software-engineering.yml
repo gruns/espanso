@@ -40,6 +40,10 @@ matches:
     replace: "reproduced"
     word: true
     propagate_case: true
+  - triggers: ['eml']
+    replace: "email"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
