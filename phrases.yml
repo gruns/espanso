@@ -774,6 +774,10 @@ matches:
     replace: "double"
     word: true
     propagate_case: true
+  - triggers: ['dbling']
+    replace: "doubling"
+    word: true
+    propagate_case: true
   - triggers: ['dbld']
     replace: "doubled"
     word: true
