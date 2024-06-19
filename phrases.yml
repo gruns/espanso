@@ -982,10 +982,6 @@ matches:
     replace: "department"
     word: true
     propagate_case: true
-  - triggers: ['fc']
-    replace: "filecoin"
-    word: true
-    propagate_case: true
   - triggers: ['msgs']
     replace: "messages"
     word: true
