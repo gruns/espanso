@@ -930,6 +930,10 @@ matches:
     replace: "implements"
     word: true
     propagate_case: true
+  - triggers: ['fnal']
+    replace: "functional"
+    word: true
+    propagate_case: true
   - triggers: ['impld', 'impltd', 'implted']
     replace: "implemented"
     word: true
