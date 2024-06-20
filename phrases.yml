@@ -982,6 +982,10 @@ matches:
     replace: "department"
     word: true
     propagate_case: true
+  - triggers: ['msging']
+    replace: "messaging"
+    word: true
+    propagate_case: true
   - triggers: ['msgs']
     replace: "messages"
     word: true
