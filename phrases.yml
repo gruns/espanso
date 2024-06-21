@@ -986,6 +986,10 @@ matches:
     replace: "messaging"
     word: true
     propagate_case: true
+  - triggers: ['msgr', 'msger']
+    replace: "messager"
+    word: true
+    propagate_case: true
   - triggers: ['msgs']
     replace: "messages"
     word: true
