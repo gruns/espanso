@@ -163,6 +163,10 @@ matches:
     replace: "🚗️"
     word: true
     propagate_case: false
+  - triggers: ['/mailbox', '\mailbox']
+    replace: "📫️"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
