@@ -998,6 +998,10 @@ matches:
     replace: "messages"
     word: true
     propagate_case: true
+  - triggers: ['optml']
+    replace: "optimal"
+    word: true
+    propagate_case: true
   - triggers: ['nvm']
     replace: "nevermind"
     word: true
