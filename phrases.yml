@@ -1022,6 +1022,10 @@ matches:
     replace: "bucket"
     word: true
     propagate_case: true
+  - triggers: ['stds']
+    replace: "standards"
+    word: true
+    propagate_case: true
   - triggers: ['resp']
     replace: "response"
     word: true
