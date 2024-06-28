@@ -1074,6 +1074,10 @@ matches:
     replace: "weekly"
     word: true
     propagate_case: true
+  - triggers: ['bco']
+    replace: "become"
+    word: true
+    propagate_case: true
   - triggers: ['bc', 'b/c']
     replace: "because"
     word: true
