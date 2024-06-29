@@ -44,6 +44,10 @@ matches:
     replace: "email"
     word: true
     propagate_case: true
+  - triggers: ['netw']
+    replace: "network"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
