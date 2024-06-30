@@ -48,6 +48,10 @@ matches:
     replace: "network"
     word: true
     propagate_case: true
+  - triggers: ['fmting']
+    replace: "formatting"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
