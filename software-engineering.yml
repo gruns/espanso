@@ -52,6 +52,10 @@ matches:
     replace: "formatting"
     word: true
     propagate_case: true
+  - triggers: ['creds']
+    replace: "credentials"
+    word: true
+    propagate_case: true
   - triggers: ['archi', 'archtr']
     replace: "architecture"
     word: true
