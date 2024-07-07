@@ -1086,7 +1086,7 @@ matches:
     replace: "between"
     word: true
     propagate_case: true
-  - triggers: ['tmrw']
+  - triggers: ['tmr', 'tmrw']
     replace: "tomorrow"
     word: true
     propagate_case: true
