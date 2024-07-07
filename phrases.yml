@@ -1098,7 +1098,7 @@ matches:
     replace: "today"
     word: true
     propagate_case: true
-  - triggers: ['yest']
+  - triggers: ['yst', 'yest']
     replace: "yesterday"
     word: true
     propagate_case: true
