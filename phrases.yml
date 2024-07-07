@@ -1094,7 +1094,7 @@ matches:
     replace: "tomorrow's"
     word: true
     propagate_case: true
-  - triggers: ['tdy']
+  - triggers: ['td', 'tdy', '2day']
     replace: "today"
     word: true
     propagate_case: true
