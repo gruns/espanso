@@ -199,6 +199,10 @@ matches:
     replace: "💳"
     word: true
     propagate_case: false
+  - triggers: ['/ring', '\ring']
+    replace: "💍"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
