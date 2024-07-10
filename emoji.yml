@@ -203,6 +203,10 @@ matches:
     replace: "💍"
     word: true
     propagate_case: false
+  - triggers: ['/flowers', '\flowers', '/bouquet', '\bouquet']
+    replace: "💐"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
