@@ -1110,7 +1110,7 @@ matches:
     replace: "markets"
     word: true
     propagate_case: true
-  - triggers: ['mktp', 'mktplace']
+  - triggers: ['mktp', 'mktpl', 'mktplace']
     replace: "marketplace"
     word: true
     propagate_case: true
