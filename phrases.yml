@@ -1146,6 +1146,10 @@ matches:
     replace: "favorite"
     word: true
     propagate_case: true
+  - triggers: ['favs']
+    replace: "favorites"
+    word: true
+    propagate_case: true
   - triggers: ['yr']
     replace: "year"
     word: true
