@@ -1122,6 +1122,10 @@ matches:
     replace: "marketing"
     word: true
     propagate_case: true
+  - triggers: ['mktshare']
+    replace: "marketshare"
+    word: true
+    propagate_case: true
   - triggers: ['fwd']
     replace: "forward"
     word: true
