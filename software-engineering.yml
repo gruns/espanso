@@ -80,7 +80,7 @@ matches:
     replace: "clickthroughs"
     word: true
     propagate_case: true
-  - triggers: ['availi', 'availa']
+  - triggers: ['availi', 'availa', 'availty']
     replace: "availability"
     word: true
     propagate_case: true
