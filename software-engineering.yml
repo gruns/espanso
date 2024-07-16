@@ -112,6 +112,10 @@ matches:
     replace: "companies"
     word: true
     propagate_case: true
+  - triggers: ["co's"]
+    replace: "company's"
+    word: true
+    propagate_case: true
   - triggers: ['iss']
     replace: "issue"
     word: true
