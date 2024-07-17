@@ -124,6 +124,10 @@ matches:
     replace: "issues"
     word: true
     propagate_case: true
+  - triggers: ['issd']
+    replace: "issued"
+    word: true
+    propagate_case: true
   - triggers: ['engr']
     replace: "engineer"
     word: true
