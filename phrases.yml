@@ -1162,6 +1162,10 @@ matches:
     replace: "years"
     word: true
     propagate_case: true
+  - triggers: ['yrly']
+    replace: "yearly"
+    word: true
+    propagate_case: true
   - triggers: ['u']
     replace: "you"
     word: true
