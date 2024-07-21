@@ -1178,7 +1178,7 @@ matches:
     replace: "question"
     word: true
     propagate_case: true
-  - triggers: ['qus']
+  - triggers: ['qs', 'qus']
     replace: "questions"
     word: true
     propagate_case: true
