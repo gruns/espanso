@@ -1186,7 +1186,7 @@ matches:
     replace: "toward"
     word: true
     propagate_case: true
-  - triggers: ['twds']
+  - triggers: ['twds', 'twrds']
     replace: "towards"
     word: true
     propagate_case: true
