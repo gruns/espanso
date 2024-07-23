@@ -1190,7 +1190,7 @@ matches:
     replace: "towards"
     word: true
     propagate_case: true
-  - triggers: ['sm', 'smth']
+  - triggers: ['sm', 'smt', 'smth']
     replace: "something"
     word: true
     propagate_case: true
