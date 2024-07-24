@@ -1194,6 +1194,10 @@ matches:
     replace: "something"
     word: true
     propagate_case: true
+  - triggers: ['smti', 'smtm', 'smtime', 'someti']
+    replace: "sometime"
+    word: true
+    propagate_case: true
   - triggers: ['aftn', 'aftrn']
     replace: "afternoon"
     word: true
