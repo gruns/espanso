@@ -1198,6 +1198,10 @@ matches:
     replace: "sometime"
     word: true
     propagate_case: true
+  - triggers: ['smw']
+    replace: "somewhere"
+    word: true
+    propagate_case: true
   - triggers: ['aftn', 'aftrn']
     replace: "afternoon"
     word: true
