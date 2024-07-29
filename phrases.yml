@@ -1206,7 +1206,7 @@ matches:
     replace: "somewhat"
     word: true
     propagate_case: true
-  - triggers: ['aftn', 'aftrn']
+  - triggers: ['aftn', 'aftrn', 'aftern']
     replace: "afternoon"
     word: true
     propagate_case: true
