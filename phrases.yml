@@ -1202,6 +1202,10 @@ matches:
     replace: "somewhere"
     word: true
     propagate_case: true
+  - triggers: ['smwt', 'smwht', 'somew', 'somewh']
+    replace: "somewhat"
+    word: true
+    propagate_case: true
   - triggers: ['aftn', 'aftrn']
     replace: "afternoon"
     word: true
