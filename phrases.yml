@@ -1214,6 +1214,10 @@ matches:
     replace: "afternoons"
     word: true
     propagate_case: true
+  - triggers: ['mn', 'mrn', 'mrng']
+    replace: "morning"
+    word: true
+    propagate_case: true
   - triggers: ['inbtwn']
     replace: "inbetween"
     word: true
