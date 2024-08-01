@@ -1218,6 +1218,10 @@ matches:
     replace: "morning"
     word: true
     propagate_case: true
+  - triggers: ['mns', 'mrns', 'mrngs']
+    replace: "mornings"
+    word: true
+    propagate_case: true
   - triggers: ['inbtwn']
     replace: "inbetween"
     word: true
