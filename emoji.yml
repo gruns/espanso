@@ -223,6 +223,10 @@ matches:
     replace: "‍💔"
     word: true
     propagate_case: false
+  - triggers: ['/train', '\train']
+    replace: "‍🚄"
+    word: true
+    propagate_case: false
   - triggers: ['/angry', '\angry', '/enraged', '\enraged']
     replace: "‍😡"
     word: true
