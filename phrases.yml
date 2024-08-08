@@ -1222,6 +1222,10 @@ matches:
     replace: "mornings"
     word: true
     propagate_case: true
+  - triggers: ['nt']
+    replace: "night"
+    word: true
+    propagate_case: true
   - triggers: ['inbtwn']
     replace: "inbetween"
     word: true
