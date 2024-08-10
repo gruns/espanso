@@ -156,6 +156,10 @@ matches:
     replace: "hardware"
     word: true
     propagate_case: true
+  - triggers: ['vulnb', 'vulnbl']
+    replace: "vulnerable"
+    word: true
+    propagate_case: true
   - triggers: ['vuln']
     replace: "vulnerability"
     word: true
