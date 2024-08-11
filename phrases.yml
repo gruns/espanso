@@ -1230,6 +1230,10 @@ matches:
     replace: "nights"
     word: true
     propagate_case: true
+  - triggers: ['evn', 'evng']
+    replace: "evening"
+    word: true
+    propagate_case: true
   - triggers: ['inbtwn']
     replace: "inbetween"
     word: true
