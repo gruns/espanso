@@ -1265,6 +1265,10 @@ matches:
     replace: "addition"
     word: true
     propagate_case: true
+  - triggers: ['addns', 'addtns']
+    replace: "additions"
+    word: true
+    propagate_case: true
   - triggers: ['addnl', 'addtnl']
     replace: "additional"
     word: true
