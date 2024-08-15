@@ -1277,6 +1277,10 @@ matches:
     replace: "additionally"
     word: true
     propagate_case: true
+  - triggers: ['pct']
+    replace: "percent"
+    word: true
+    propagate_case: true
   - triggers: ['%age']
     replace: "percentage"
     word: true
