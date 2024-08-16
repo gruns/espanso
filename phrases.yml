@@ -1281,7 +1281,7 @@ matches:
     replace: "percent"
     word: true
     propagate_case: true
-  - triggers: ['%age']
+  - triggers: ['%age', 'pctage']
     replace: "percentage"
     word: true
     propagate_case: true
