@@ -188,3 +188,7 @@ matches:
     replace: "filecoin"
     word: true
     propagate_case: true
+  - triggers: ['sc']
+    replace: "stablecoin"
+    word: true
+    propagate_case: true
