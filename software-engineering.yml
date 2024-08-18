@@ -192,3 +192,7 @@ matches:
     replace: "stablecoin"
     word: true
     propagate_case: true
+  - triggers: ['scs']
+    replace: "stablecoins"
+    word: true
+    propagate_case: true
