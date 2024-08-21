@@ -271,6 +271,10 @@ matches:
     replace: "‍🥪"
     word: true
     propagate_case: false
+  - triggers: ['/fheart', '\fheart', '/fireheart', '\fireheart', '/heartfire', '\heartfire']
+    replace: "‍❤️‍🔥"
+    word: true
+    propagate_case: false
   - triggers: ['/hearts', '\hearts']
     replace: "‍💕"
     word: true
