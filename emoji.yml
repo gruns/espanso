@@ -351,7 +351,7 @@ matches:
     replace: "‍●"
     word: true
     propagate_case: false
-  - triggers: ['/nightsky', '\nightsky']
+  - triggers: ['/nightsky', '\nightsky', '/stars', '\stars']
     replace: "‍🌃"
     word: true
     propagate_case: false
