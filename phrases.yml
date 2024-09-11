@@ -15,6 +15,10 @@ matches:
     replace: "else's"
     word: true
     propagate_case: true
+  - triggers: ['w8']
+    replace: "wait"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
