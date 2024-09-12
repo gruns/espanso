@@ -19,6 +19,10 @@ matches:
     replace: "wait"
     word: true
     propagate_case: true
+  - triggers: ['w8ed']
+    replace: "waited"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
