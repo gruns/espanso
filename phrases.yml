@@ -23,6 +23,10 @@ matches:
     replace: "waited"
     word: true
     propagate_case: true
+  - triggers: ['w8ing']
+    replace: "waiting"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
