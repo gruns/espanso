@@ -479,10 +479,6 @@ matches:
     replace: "⚠️"
     word: true
     propagate_case: false
-  - triggers: ['/phew', '\phew']
-    replace: "😮‍💨"
-    word: true
-    propagate_case: false
   - triggers: ['\taco', '/taco']
     replace: "🌮"
     word: true
