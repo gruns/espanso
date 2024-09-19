@@ -595,6 +595,10 @@ matches:
     replace: "🛏️"
     word: true
     propagate_case: false
+  - triggers: ['/check', '\check', '/ck', '\ck']
+    replace: "✅"
+    word: true
+    propagate_case: false
   - triggers: ['/rabbit', '/bunny', '\bunny', '\rabbit']
     replace: "🐇"
     word: true
