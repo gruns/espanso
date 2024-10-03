@@ -27,6 +27,10 @@ matches:
     replace: "waiting"
     word: true
     propagate_case: true
+  - triggers: ['nyc']
+    replace: "NYC"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
