@@ -31,6 +31,10 @@ matches:
     replace: "NYC"
     word: true
     propagate_case: true
+  - triggers: ['sf']
+    replace: "SF"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
