@@ -35,6 +35,10 @@ matches:
     replace: "SF"
     word: true
     propagate_case: true
+  - triggers: ['embs']
+    replace: "embarrass"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
