@@ -607,10 +607,6 @@ matches:
     replace: "🐇"
     word: true
     propagate_case: false
-  - triggers: ['\check', '/check']
-    replace: "✔️"
-    word: true
-    propagate_case: false
   - triggers: ['/dog', '\dog']
     replace: "🐕"
     word: true
