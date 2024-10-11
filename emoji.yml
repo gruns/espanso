@@ -643,7 +643,7 @@ matches:
     replace: "👌"
     word: true
     propagate_case: false
-  - triggers: ['/fire', '\fire']
+  - triggers: ['/fire', '\fire', '/flame', '\flame']
     replace: "🔥"
     word: true
     propagate_case: false
