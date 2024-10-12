@@ -39,6 +39,10 @@ matches:
     replace: "embarrass"
     word: true
     propagate_case: true
+  - triggers: ['embt']
+    replace: "embarrassment"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
