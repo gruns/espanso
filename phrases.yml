@@ -47,6 +47,10 @@ matches:
     replace: "embarrassing"
     word: true
     propagate_case: true
+  - triggers: ['thoro']
+    replace: "thorough"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
