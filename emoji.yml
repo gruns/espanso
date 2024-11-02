@@ -647,7 +647,7 @@ matches:
     replace: "🔥"
     word: true
     propagate_case: false
-  - triggers: ['/boom', '\boom']
+  - triggers: ['/boom', '\boom', '/bang', '\bang']
     replace: "💥"
     word: true
     propagate_case: false
