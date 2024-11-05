@@ -51,6 +51,10 @@ matches:
     replace: "thorough"
     word: true
     propagate_case: true
+  - triggers: ['itd']
+    replace: "it'd"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
