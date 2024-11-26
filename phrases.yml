@@ -55,6 +55,10 @@ matches:
     replace: "it'd"
     word: true
     propagate_case: true
+  - triggers: ['prob', 'proly', 'probly']
+    replace: "probably"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
