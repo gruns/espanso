@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/smilecry', '\smilecry']
+    replace: "🥲"
+    word: true
+    propagate_case: false
   - triggers: ['/koala', '\koala']
     replace: "🐨️️"
     word: true
