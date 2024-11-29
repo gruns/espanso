@@ -315,7 +315,7 @@ matches:
     replace: "‍🍑"
     word: true
     propagate_case: false
-  - triggers: ['/bolt', '\bolt', '/lightning', '\lightning']
+  - triggers: ['/nrg', '\nrg', '/energy', '\energy', '/power', '\power', '/pwr', '\pwr', '/bolt', '\bolt', '/lightning', '\lightning']
     replace: "‍⚡"
     word: true
     propagate_case: false
