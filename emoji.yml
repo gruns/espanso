@@ -499,7 +499,7 @@ matches:
     replace: "🛫"
     word: true
     propagate_case: false
-  - triggers: ['/land', '\land', '/landing', '\landing']
+  - triggers: ['/land', '\land', '/landing', '\landing', '/arrive', '\arrive']
     replace: "🛬"
     word: true
     propagate_case: false
