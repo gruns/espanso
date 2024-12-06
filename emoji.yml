@@ -715,7 +715,7 @@ matches:
     replace: "👀"
     word: true
     propagate_case: false
-  - triggers: ['\crown', '/crown']
+  - triggers: ['\crown', '/crown', '\king', '/king']
     replace: "👑"
     word: true
     propagate_case: false
