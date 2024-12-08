@@ -63,6 +63,10 @@ matches:
     replace: "similar"
     word: true
     propagate_case: true
+  - triggers: ['potly']
+    replace: "potentially"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
