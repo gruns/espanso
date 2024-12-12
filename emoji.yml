@@ -1,6 +1,6 @@
 matches:
   - triggers: ['/facepalm', '\facepalm', '/fp', '\fp']
-    replace: "🤦‍♂️‍"
+    replace: "🤦‍♂️"
     word: true
     propagate_case: false
   - triggers: ['/smilecry', '\smilecry']
