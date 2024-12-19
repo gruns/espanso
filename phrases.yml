@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['sz']
+    replace: "size"
+    word: true
+    propagate_case: true
   - triggers: ['oppo']
     replace: "opposite"
     word: true
