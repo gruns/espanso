@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['ro']
+    replace: "or"
+    word: true
+    propagate_case: true
   - triggers: ['dotn']
     replace: "don't"
     word: true
