@@ -3,6 +3,10 @@ matches:
     replace: "size"
     word: true
     propagate_case: true
+  - triggers: ['szs']
+    replace: "sizes"
+    word: true
+    propagate_case: true
   - triggers: ['oppo']
     replace: "opposite"
     word: true
