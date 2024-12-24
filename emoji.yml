@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/battery', '\battery']
+    replace: "🔋"
+    word: true
+    propagate_case: false
   - triggers: ['/facepalm', '\facepalm', '/fp', '\fp']
     replace: "🤦‍♂️"
     word: true
