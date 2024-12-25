@@ -15,6 +15,10 @@ matches:
     replace: "🐨️️"
     word: true
     propagate_case: false
+  - triggers: ['/gorilla', '\gorilla', '/ape', '\ape']
+    replace: "🦍"
+    word: true
+    propagate_case: false
   - triggers: ['/brick', '\brick']
     replace: "🧱️️"
     word: true
