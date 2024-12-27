@@ -35,6 +35,10 @@ matches:
     replace: "waiting"
     word: true
     propagate_case: true
+  - triggers: ['w8list']
+    replace: "waitlist"
+    word: true
+    propagate_case: true
   - triggers: ['nyc']
     replace: "NYC"
     word: true
