@@ -763,7 +763,7 @@ matches:
     replace: "🍎"
     word: true
     propagate_case: false
-  - triggers: ['\h', '/heart', '/h']
+  - triggers: ['/h', '\h', '/heart', '\heart']
     replace: "❤️"
     word: true
     propagate_case: false
