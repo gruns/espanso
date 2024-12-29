@@ -79,6 +79,10 @@ matches:
     replace: "potentially"
     word: true
     propagate_case: true
+  - triggers: ['accom']
+    replace: "accommodation"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
