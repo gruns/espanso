@@ -771,6 +771,10 @@ matches:
     replace: "❤️"
     word: true
     propagate_case: false
+  - triggers: ['/wh', '\hh', '/wheart', '\wheart']
+    replace: "🤍"
+    word: true
+    propagate_case: false
   - triggers: ['/p', '\p', '/pray']
     replace: "🙏"
     word: true
