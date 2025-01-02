@@ -87,6 +87,10 @@ matches:
     replace: "accommodations"
     word: true
     propagate_case: true
+  - triggers: ['contnn']
+    replace: "continuation"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
