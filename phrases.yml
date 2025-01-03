@@ -91,6 +91,10 @@ matches:
     replace: "continuation"
     word: true
     propagate_case: true
+  - triggers: ['fwth']
+    replace: "forth"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
