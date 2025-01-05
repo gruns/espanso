@@ -851,7 +851,7 @@ matches:
     replace: "🇪🇺"
     word: true
     propagate_case: false
-  - triggers: ['/think', '\think', '/thinking']
+  - triggers: ['/think', '\think', '/thinking', '/hrm', '\hrm']
     replace: "🤔"
     word: true
     propagate_case: false
