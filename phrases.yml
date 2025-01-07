@@ -99,6 +99,10 @@ matches:
     replace: "round"
     word: true
     propagate_case: true
+  - triggers: ['srsly']
+    replace: "seriously"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
