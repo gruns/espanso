@@ -107,6 +107,10 @@ matches:
     replace: "government"
     word: true
     propagate_case: true
+  - triggers: ['govs', 'govts', 'gvmts', 'govmts', 'govmts', 'govmnts', 'govmnts']
+    replace: "governments"
+    word: true
+    propagate_case: true
   - triggers: ['sumz', 'sumrz']
     replace: "summarize"
     word: true
