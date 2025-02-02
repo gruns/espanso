@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/boxing', '\boxing']
+    replace: "🥊"
+    word: true
+    propagate_case: false
   - triggers: ['/toast', '\toast']
     replace: "🥂"
     word: true
