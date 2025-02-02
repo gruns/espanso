@@ -3,6 +3,10 @@ matches:
     replace: "🥊"
     word: true
     propagate_case: false
+  - triggers: ['/mtn', '\mtn', '/mountain', '\mountain']
+    replace: "⛰️"
+    word: true
+    propagate_case: false
   - triggers: ['/toast', '\toast']
     replace: "🥂"
     word: true
