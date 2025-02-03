@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['anot']
+    replace: "another"
+    word: true
+    propagate_case: true
   - triggers: ['sz']
     replace: "size"
     word: true
