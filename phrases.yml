@@ -3,6 +3,10 @@ matches:
     replace: "another"
     word: true
     propagate_case: true
+  - triggers: ["anots", "anot's"]
+    replace: "another's"
+    word: true
+    propagate_case: true
   - triggers: ['sz']
     replace: "size"
     word: true
