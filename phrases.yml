@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['defly', 'deftly']
+    replace: "definitely"
+    word: true
+    propagate_case: true
   - triggers: ['anot']
     replace: "another"
     word: true
