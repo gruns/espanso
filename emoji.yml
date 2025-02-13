@@ -11,6 +11,10 @@ matches:
     replace: "🫦"
     word: true
     propagate_case: false
+  - triggers: ['/disco', '\disco']
+    replace: "🪩"
+    word: true
+    propagate_case: false
   - triggers: ['/toast', '\toast']
     replace: "🥂"
     word: true
