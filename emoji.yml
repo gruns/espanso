@@ -571,7 +571,7 @@ matches:
     replace: "🚽"
     word: true
     propagate_case: false
-  - triggers: ['\u', '/upside', '/u']
+  - triggers: ['\u', '/u', '/upside', '\upside']
     replace: "🙃"
     word: true
     propagate_case: false
