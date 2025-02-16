@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['bk']
+    replace: "back"
+    word: true
+    propagate_case: true
   - triggers: ['defly', 'deftly']
     replace: "definitely"
     word: true
