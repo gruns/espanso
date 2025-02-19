@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['whta']
+    replace: "what"
+    word: true
+    propagate_case: true
   - triggers: ['tiem']
     replace: "time"
     word: true
