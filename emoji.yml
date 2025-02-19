@@ -579,7 +579,7 @@ matches:
     replace: "🙃"
     word: true
     propagate_case: false
-  - triggers: ['/tada', '/t', '\t']
+  - triggers: ['/tada', '/t', '\t', '\tada']
     replace: "🎉"
     word: true
     propagate_case: false
