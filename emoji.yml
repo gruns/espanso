@@ -915,7 +915,7 @@ matches:
     replace: "💯"
     word: true
     propagate_case: false
-  - triggers: ['/yum', '\yum']
+  - triggers: ['/yum', '\yum', '/delish', '\delish']
     replace: "😋"
     word: true
     propagate_case: false
