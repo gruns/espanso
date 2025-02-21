@@ -19,6 +19,10 @@ matches:
     replace: "greatest"
     word: true
     propagate_case: true
+  - triggers: ['reg', 'regn']
+    replace: "regulation"
+    word: true
+    propagate_case: true
   - triggers: ['sz']
     replace: "size"
     word: true
