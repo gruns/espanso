@@ -27,6 +27,10 @@ matches:
     replace: "size"
     word: true
     propagate_case: true
+  - triggers: ['regs', 'regns']
+    replace: "regulations"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
