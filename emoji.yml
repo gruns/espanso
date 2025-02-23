@@ -923,7 +923,7 @@ matches:
     replace: "🧈"
     word: true
     propagate_case: false
-  - triggers: ['/sunrise', '\sunrise']
+  - triggers: ['/sunrise', '\sunrise', '/morning', '\morning', '/mn', '\mn']
     replace: "🌅"
     word: true
     propagate_case: false
