@@ -943,7 +943,7 @@ matches:
     replace: "🐟"
     word: true
     propagate_case: false
-  - triggers: ['/deal', '\deal', '/handshake', '\handshake']
+  - triggers: ['/deal', '\deal', '/handshake', '\handshake', '/shake', '\shake']
     replace: "🤝"
     word: true
     propagate_case: false
