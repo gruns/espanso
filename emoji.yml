@@ -979,3 +979,7 @@ matches:
     replace: "🐸"
     word: true
     propagate_case: false
+  - triggers: ['/droplet', '\droplet', '/droplets', '\droplets']
+    replace: "💦"
+    word: true
+    propagate_case: false
