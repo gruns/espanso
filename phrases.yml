@@ -31,6 +31,10 @@ matches:
     replace: "regulations"
     word: true
     propagate_case: true
+  - triggers: ['dlr']
+    replace: "dollar"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
