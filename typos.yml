@@ -1,5 +1,5 @@
 matches:
-  - triggers: ['whta']
+  - triggers: ['wht', 'whta']
     replace: "what"
     word: true
     propagate_case: true
