@@ -35,6 +35,10 @@ matches:
     replace: "dollar"
     word: true
     propagate_case: true
+  - triggers: ['dlrs']
+    replace: "dollars"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
