@@ -39,6 +39,10 @@ matches:
     replace: "dollars"
     word: true
     propagate_case: true
+  - triggers: ['cvg']
+    replace: "coverage"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
