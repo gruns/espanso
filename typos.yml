@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['burocracy']
+    replace: "bureaucracy"
+    word: true
+    propagate_case: true
   - triggers: ['wht', 'whta']
     replace: "what"
     word: true
