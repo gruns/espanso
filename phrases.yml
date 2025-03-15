@@ -43,6 +43,10 @@ matches:
     replace: "coverage"
     word: true
     propagate_case: true
+  - triggers: ['cvgs']
+    replace: "coverages"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
