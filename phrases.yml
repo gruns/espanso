@@ -47,6 +47,10 @@ matches:
     replace: "coverages"
     word: true
     propagate_case: true
+  - triggers: ['appnt']
+    replace: "appointment"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
