@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/pin', '\pin', '/pushpin', '\pushpin']
+    replace: "📌"
+    word: true
+    propagate_case: false
   - triggers: ['/decline', '\decline']
     replace: "📉"
     word: true
