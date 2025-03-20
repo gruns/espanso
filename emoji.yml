@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/camel', '\camel']
+    replace: "🐪"
+    word: true
+    propagate_case: false
   - triggers: ['/pin', '\pin', '/pushpin', '\pushpin']
     replace: "📌"
     word: true
