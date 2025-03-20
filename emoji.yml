@@ -3,6 +3,10 @@ matches:
     replace: "📌"
     word: true
     propagate_case: false
+  - triggers: ['/bmark', '\bmark', '/bookmark', '\bookmark']
+    replace: "🔖"
+    word: true
+    propagate_case: false
   - triggers: ['/decline', '\decline']
     replace: "📉"
     word: true
