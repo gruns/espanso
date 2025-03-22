@@ -51,6 +51,10 @@ matches:
     replace: "appointment"
     word: true
     propagate_case: true
+  - triggers: ['apmt']
+    replace: "apartment"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
