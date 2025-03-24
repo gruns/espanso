@@ -55,6 +55,10 @@ matches:
     replace: "apartment"
     word: true
     propagate_case: true
+  - triggers: ['/endash', '\endash']
+    replace: "–"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
