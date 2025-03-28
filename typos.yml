@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['sizeable']
+    replace: "sizable"
+    word: true
+    propagate_case: true
   - triggers: ['burocracy']
     replace: "bureaucracy"
     word: true
