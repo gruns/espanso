@@ -7,7 +7,7 @@ matches:
     replace: "bureaucracy"
     word: true
     propagate_case: true
-  - triggers: ['wht', 'whta']
+  - triggers: ['wht', 'waht', 'hwat']
     replace: "what"
     word: true
     propagate_case: true
