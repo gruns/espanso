@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/pc', '\pc', '/pcircle', '\pcircle']
+    replace: "🟣"
+    word: true
+    propagate_case: false
   - triggers: ['/camel', '\camel']
     replace: "🐪"
     word: true
