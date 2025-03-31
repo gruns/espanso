@@ -11,10 +11,6 @@ matches:
     replace: "what"
     word: true
     propagate_case: true
-  - triggers: ['tiem']
-    replace: "time"
-    word: true
-    propagate_case: true
   - triggers: ['ro']
     replace: "or"
     word: true
