@@ -3,6 +3,10 @@ matches:
     replace: "🟣"
     word: true
     propagate_case: false
+  - triggers: ['/yc', '\yc', '/ycircle', '\ycircle']
+    replace: "🟡"
+    word: true
+    propagate_case: false
   - triggers: ['/camel', '\camel']
     replace: "🐪"
     word: true
