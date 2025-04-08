@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['abst']
+    replace: "absolute"
+    word: true
+    propagate_case: true
   - triggers: ['bk']
     replace: "back"
     word: true
