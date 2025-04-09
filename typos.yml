@@ -11,6 +11,10 @@ matches:
     replace: "what"
     word: true
     propagate_case: true
+  - triggers: ['od']
+    replace: "do"
+    word: true
+    propagate_case: true
   - triggers: ['ro']
     replace: "or"
     word: true
