@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['seom']
+    replace: "some"
+    word: true
+    propagate_case: true
   - triggers: ['sizeable']
     replace: "sizable"
     word: true
