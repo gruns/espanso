@@ -27,6 +27,10 @@ matches:
     replace: "👒"
     word: true
     propagate_case: false
+  - triggers: ['/tree', '\tree']
+    replace: "🌲"
+    word: true
+    propagate_case: false
   - triggers: ['/decline', '\decline']
     replace: "📉"
     word: true
