@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/bike', '\bike']
+    replace: "🚲"
+    word: true
+    propagate_case: false
   - triggers: ['/tea', '\tea', '/teapot', '\teapot']
     replace: "🫖"
     word: true
