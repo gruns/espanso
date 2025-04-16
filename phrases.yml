@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['inting']
+    replace: "interesting"
+    word: true
+    propagate_case: true
   - triggers: ['abst']
     replace: "absolute"
     word: true
