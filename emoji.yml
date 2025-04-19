@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/locked', '\locked', '/lockandkey', '\lockandkey']
+    replace: "🔐"
+    word: true
+    propagate_case: false
   - triggers: ['/bike', '\bike']
     replace: "🚲"
     word: true
