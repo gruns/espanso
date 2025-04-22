@@ -3,6 +3,10 @@ matches:
     replace: "🔐"
     word: true
     propagate_case: false
+  - triggers: ['/clipboard', '\clipboard']
+    replace: "📋"
+    word: true
+    propagate_case: false
   - triggers: ['/bike', '\bike']
     replace: "🚲"
     word: true
