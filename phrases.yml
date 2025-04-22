@@ -3,6 +3,10 @@ matches:
     replace: "interesting"
     word: true
     propagate_case: true
+  - triggers: ['intingly']
+    replace: "interestingly"
+    word: true
+    propagate_case: true
   - triggers: ['abst']
     replace: "absolute"
     word: true
