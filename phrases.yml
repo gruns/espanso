@@ -7,6 +7,10 @@ matches:
     replace: "interestingly"
     word: true
     propagate_case: true
+  - triggers: ['shld']
+    replace: "should"
+    word: true
+    propagate_case: true
   - triggers: ['abst']
     replace: "absolute"
     word: true
