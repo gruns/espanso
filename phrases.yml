@@ -15,6 +15,10 @@ matches:
     replace: "absolute"
     word: true
     propagate_case: true
+  - triggers: ['absly', 'abstly']
+    replace: "absolutely"
+    word: true
+    propagate_case: true
   - triggers: ['bk']
     replace: "back"
     word: true
