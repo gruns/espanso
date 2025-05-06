@@ -23,6 +23,10 @@ matches:
     replace: "abbreviation"
     word: true
     propagate_case: true
+  - triggers: ['abbrevs']
+    replace: "abbreviations"
+    word: true
+    propagate_case: true
   - triggers: ['bk']
     replace: "back"
     word: true
