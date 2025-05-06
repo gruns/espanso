@@ -51,6 +51,10 @@ matches:
     replace: "regulation"
     word: true
     propagate_case: true
+  - triggers: ['gr8ns', 'gr8ness']
+    replace: "greatness"
+    word: true
+    propagate_case: true
   - triggers: ['sz']
     replace: "size"
     word: true
