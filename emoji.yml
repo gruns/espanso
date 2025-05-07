@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/shout', '\shout', '/spit', '\spit', '/spittin', '\spittin']
+    replace: "🗣️"
+    word: true
+    propagate_case: false
   - triggers: ['/locked', '\locked', '/lockandkey', '\lockandkey']
     replace: "🔐"
     word: true
