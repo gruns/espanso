@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['wtih']
+    replace: "with"
+    word: true
+    propagate_case: true
   - triggers: ['seom']
     replace: "some"
     word: true
