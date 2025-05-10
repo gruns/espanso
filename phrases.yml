@@ -91,6 +91,10 @@ matches:
     replace: "–"
     word: true
     propagate_case: true
+  - triggers: ['/emdash', '\emdash']
+    replace: "—"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
