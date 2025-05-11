@@ -95,6 +95,10 @@ matches:
     replace: "—"
     word: true
     propagate_case: true
+  - triggers: ['hvy']
+    replace: "heavy"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
