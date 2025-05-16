@@ -3,7 +3,7 @@ matches:
     replace: "with"
     word: true
     propagate_case: true
-  - triggers: ['seom']
+  - triggers: ['seom', 'soem']
     replace: "some"
     word: true
     propagate_case: true
