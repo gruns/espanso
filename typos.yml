@@ -23,6 +23,10 @@ matches:
     replace: "do"
     word: true
     propagate_case: true
+  - triggers: ['trbl']
+    replace: "trouble"
+    word: true
+    propagate_case: true
   - triggers: ['ro']
     replace: "or"
     word: true
