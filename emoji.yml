@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/troll', '\troll']
+    replace: "🧌"
+    word: true
+    propagate_case: false
   - triggers: ['/shout', '\shout', '/spit', '\spit', '/spittin', '\spittin']
     replace: "🗣️"
     word: true
