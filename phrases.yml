@@ -99,6 +99,10 @@ matches:
     replace: "heavy"
     word: true
     propagate_case: true
+  - triggers: ['vol']
+    replace: "volume"
+    word: true
+    propagate_case: true
   - triggers: ['szs']
     replace: "sizes"
     word: true
