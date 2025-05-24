@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['refc']
+    replace: "reference"
+    word: true
+    propagate_case: true
   - triggers: ['inting']
     replace: "interesting"
     word: true
