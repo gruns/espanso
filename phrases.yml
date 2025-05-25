@@ -3,6 +3,10 @@ matches:
     replace: "reference"
     word: true
     propagate_case: true
+  - triggers: ['fmlr']
+    replace: "familiar"
+    word: true
+    propagate_case: true
   - triggers: ['inting']
     replace: "interesting"
     word: true
