@@ -3,6 +3,10 @@ matches:
     replace: "🌐"
     word: true
     propagate_case: false
+  - triggers: ['/lock', '\lock']
+    replace: "🔒"
+    word: true
+    propagate_case: false
   - triggers: ['/troll', '\troll']
     replace: "🧌"
     word: true
