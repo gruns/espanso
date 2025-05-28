@@ -7,6 +7,10 @@ matches:
     replace: "🔒"
     word: true
     propagate_case: false
+  - triggers: ['/balloon', '\balloon']
+    replace: "🎈"
+    word: true
+    propagate_case: false
   - triggers: ['/troll', '\troll']
     replace: "🧌"
     word: true
