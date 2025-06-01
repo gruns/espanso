@@ -19,6 +19,10 @@ matches:
     replace: "🗣️"
     word: true
     propagate_case: false
+  - triggers: ['/bento', '\bento', '/bentobox', '\bentobox']
+    replace: "🍱"
+    word: true
+    propagate_case: false
   - triggers: ['/locked', '\locked', '/lockandkey', '\lockandkey']
     replace: "🔐"
     word: true
