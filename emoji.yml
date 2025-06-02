@@ -39,6 +39,10 @@ matches:
     replace: "🫖"
     word: true
     propagate_case: false
+  - triggers: ['/wc', '\wc', '/wcircle', '\wcircle', '/marble', '\marble']
+    replace: "⚪"
+    word: true
+    propagate_case: false
   - triggers: ['/pc', '\pc', '/pcircle', '\pcircle']
     replace: "🟣"
     word: true
