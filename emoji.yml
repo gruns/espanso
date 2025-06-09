@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/jbox', '\jbox', '/juicebox', '\juicebox']
+    replace: "🧃"
+    word: true
+    propagate_case: false
   - triggers: ['/lock', '\lock']
     replace: "🔒"
     word: true
