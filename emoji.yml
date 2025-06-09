@@ -43,7 +43,7 @@ matches:
     replace: "🫖"
     word: true
     propagate_case: false
-  - triggers: ['/wc', '\wc', '/wcircle', '\wcircle', '/marble', '\marble']
+  - triggers: ['/wc', '\wc', '/wcircle', '\wcircle']
     replace: "⚪"
     word: true
     propagate_case: false
