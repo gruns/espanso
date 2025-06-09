@@ -119,6 +119,10 @@ matches:
     replace: "opposite"
     word: true
     propagate_case: true
+  - triggers: ['szd']
+    replace: "sized"
+    word: true
+    propagate_case: true
   - triggers: ['automly']
     replace: "automatically"
     word: true
