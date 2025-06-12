@@ -123,6 +123,10 @@ matches:
     replace: "sized"
     word: true
     propagate_case: true
+  - triggers: ['szb', 'szl', 'szbl']
+    replace: "sizable"
+    word: true
+    propagate_case: true
   - triggers: ['automly']
     replace: "automatically"
     word: true
