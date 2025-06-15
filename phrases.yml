@@ -219,6 +219,10 @@ matches:
     replace: "seriously"
     word: true
     propagate_case: true
+  - triggers: ['srs']
+    replace: "serious"
+    word: true
+    propagate_case: true
   - triggers: ['gov', 'govt', 'gvmt', 'govmt', 'govmt', 'govmnt', 'govmnt']
     replace: "government"
     word: true
