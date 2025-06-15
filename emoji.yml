@@ -51,6 +51,10 @@ matches:
     replace: "🟣"
     word: true
     propagate_case: false
+  - triggers: ['/bc', '\bc', '/bcircle', '\bcircle', '/marble', '\marble']
+    replace: "🔵"
+    word: true
+    propagate_case: false
   - triggers: ['/yc', '\yc', '/ycircle', '\ycircle']
     replace: "🟡"
     word: true
