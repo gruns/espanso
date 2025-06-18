@@ -87,6 +87,10 @@ matches:
     replace: "🔪"
     word: true
     propagate_case: false
+  - triggers: ['/boat', '\boat']
+    replace: "⛵"
+    word: true
+    propagate_case: false
   - triggers: ['/decline', '\decline']
     replace: "📉"
     word: true
