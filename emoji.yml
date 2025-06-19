@@ -91,6 +91,10 @@ matches:
     replace: "⛵"
     word: true
     propagate_case: false
+  - triggers: ['/cheese', '\cheese']
+    replace: "🧀"
+    word: true
+    propagate_case: false
   - triggers: ['/decline', '\decline']
     replace: "📉"
     word: true
