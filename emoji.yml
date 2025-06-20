@@ -95,6 +95,10 @@ matches:
     replace: "🧀"
     word: true
     propagate_case: false
+  - triggers: ['/kb', '\kb', '/keyboard', '\keyboard']
+    replace: "⌨️"
+    word: true
+    propagate_case: false
   - triggers: ['/decline', '\decline']
     replace: "📉"
     word: true
