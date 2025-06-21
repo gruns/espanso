@@ -359,10 +359,6 @@ matches:
     replace: "‍💔"
     word: true
     propagate_case: false
-  - triggers: ['/train', '\train']
-    replace: "‍🚄"
-    word: true
-    propagate_case: false
   - triggers: ['/burger', '\burger', '/cheeseburger', '\cheeseburger']
     replace: "‍🍔"
     word: true
