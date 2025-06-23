@@ -543,6 +543,10 @@ matches:
     replace: "→"
     word: true
     propagate_case: false
+  - triggers: ['/-<>', '\-<>']
+    replace: "↔"
+    word: true
+    propagate_case: false
   - triggers: ['/right', '\right', '/->', '\->']
     replace: "➡️"
     word: true
