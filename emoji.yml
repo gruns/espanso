@@ -131,7 +131,7 @@ matches:
     replace: "🤦‍♂️"
     word: true
     propagate_case: false
-  - triggers: ['/smilecry', '\smilecry']
+  - triggers: ['/smilecry', '\smilecry', "/')", "\\')"]
     replace: "🥲"
     word: true
     propagate_case: false
