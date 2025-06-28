@@ -1,5 +1,5 @@
 matches:
-  - triggers: ['wtih']
+  - triggers: ['wtih', 'wiht']
     replace: "with"
     word: true
     propagate_case: true
