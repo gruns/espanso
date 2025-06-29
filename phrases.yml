@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['flt']
+    replace: "flight"
+    word: true
+    propagate_case: true
   - triggers: ['refc']
     replace: "reference"
     word: true
