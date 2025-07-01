@@ -3,6 +3,10 @@ matches:
     replace: "flight"
     word: true
     propagate_case: true
+  - triggers: ['flts']
+    replace: "flights"
+    word: true
+    propagate_case: true
   - triggers: ['refc']
     replace: "reference"
     word: true
