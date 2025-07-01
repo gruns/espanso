@@ -571,6 +571,10 @@ matches:
     replace: "🐍"
     word: true
     propagate_case: false
+  - triggers: ['/?', '\?', '/q', '/qu', '\q', '\qu', '/question', '\question']
+    replace: "❔"
+    word: true
+    propagate_case: false
   - triggers: ['/clown', '\clown']
     replace: "🤡"
     word: true
