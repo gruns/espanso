@@ -11,6 +11,10 @@ matches:
     replace: "reference"
     word: true
     propagate_case: true
+  - triggers: ['refcs']
+    replace: "references"
+    word: true
+    propagate_case: true
   - triggers: ['fmlr']
     replace: "familiar"
     word: true
