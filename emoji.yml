@@ -839,10 +839,6 @@ matches:
     replace: "🎯"
     word: true
     propagate_case: false
-  - triggers: ['\star', '/star']
-    replace: "🌠"
-    word: true
-    propagate_case: false
   - triggers: ['\sun', '/sun']
     replace: "☀️"
     word: true
