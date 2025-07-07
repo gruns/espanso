@@ -19,6 +19,10 @@ matches:
     replace: "familiar"
     word: true
     propagate_case: true
+  - triggers: ['inted']
+    replace: "interested"
+    word: true
+    propagate_case: true
   - triggers: ['inting']
     replace: "interesting"
     word: true
