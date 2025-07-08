@@ -903,10 +903,6 @@ matches:
     replace: "🙏"
     word: true
     propagate_case: false
-  - triggers: ['\moon', '/moon']
-    replace: "🌕"
-    word: true
-    propagate_case: false
   - triggers: ['/bikini', '\bikini']
     replace: "👙"
     word: true
