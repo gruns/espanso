@@ -1047,7 +1047,7 @@ matches:
     replace: "🐟"
     word: true
     propagate_case: false
-  - triggers: ['/deal', '\deal', '/handshake', '\handshake', '/shake', '\shake']
+  - triggers: ['/deal', '\deal', '/handshake', '\handshake', '/shake', '\shake', '/hshake', '\hshake']
     replace: "🤝"
     word: true
     propagate_case: false
