@@ -1091,3 +1091,7 @@ matches:
     replace: "🍝"
     word: true
     propagate_case: false
+  - triggers: ['/steam', '\steam', '/puff', '\puff']
+    replace: "😤"
+    word: true
+    propagate_case: false
