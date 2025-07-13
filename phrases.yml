@@ -79,6 +79,10 @@ matches:
     replace: "greatness"
     word: true
     propagate_case: true
+  - triggers: ['gr8s']
+    replace: "greats"
+    word: true
+    propagate_case: true
   - triggers: ['sz']
     replace: "size"
     word: true
