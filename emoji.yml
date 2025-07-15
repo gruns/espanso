@@ -1095,3 +1095,7 @@ matches:
     replace: "😤"
     word: true
     propagate_case: false
+  - triggers: ['/halo', '\halo', '/angel', '\angel']
+    replace: "‍😇"
+    word: true
+    propagate_case: false
