@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['advtg']
+    replace: "advantage"
+    word: true
+    propagate_case: true
   - triggers: ['flt']
     replace: "flight"
     word: true
