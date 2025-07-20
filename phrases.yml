@@ -7,6 +7,10 @@ matches:
     replace: "advantages"
     word: true
     propagate_case: true
+  - triggers: ['wld']
+    replace: "would"
+    word: true
+    propagate_case: true
   - triggers: ['flt']
     replace: "flight"
     word: true
