@@ -2,6 +2,9 @@ matches:
   - triggers: ['cvm']
     replace: "CVM"
     word: true
+  - triggers: ['cvms']
+    replace: "CVMs"
+    word: true
   - triggers: ['svr']
     replace: "server"
     word: true
