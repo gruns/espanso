@@ -5,6 +5,9 @@ matches:
   - triggers: ['cvms']
     replace: "CVMs"
     word: true
+  - triggers: ['vcpus']
+    replace: "vCPUs"
+    word: true
   - triggers: ['svr']
     replace: "server"
     word: true
