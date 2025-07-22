@@ -11,6 +11,10 @@ matches:
     replace: "would"
     word: true
     propagate_case: true
+  - triggers: ['abv']
+    replace: "above"
+    word: true
+    propagate_case: true
   - triggers: ['flt']
     replace: "flight"
     word: true
