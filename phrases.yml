@@ -99,6 +99,10 @@ matches:
     replace: "greats"
     word: true
     propagate_case: true
+  - triggers: ['gr8er']
+    replace: "greater"
+    word: true
+    propagate_case: true
   - triggers: ['sz']
     replace: "size"
     word: true
