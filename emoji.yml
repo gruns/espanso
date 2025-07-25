@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/dizzy', '\dizzy', '/woozy', '\woozy']
+    replace: "🥴"
+    word: true
+    propagate_case: false
   - triggers: ['/fairy', '\fairy']
     replace: "🧚"
     word: true
