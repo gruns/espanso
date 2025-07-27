@@ -1107,3 +1107,7 @@ matches:
     replace: "‍😇"
     word: true
     propagate_case: false
+  - triggers: ['/rose', '\rose']
+    replace: "‍🌹"
+    word: true
+    propagate_case: false
