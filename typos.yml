@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['fi']
+    replace: "if"
+    word: true
+    propagate_case: true
   - triggers: ['wtih', 'wiht']
     replace: "with"
     word: true
