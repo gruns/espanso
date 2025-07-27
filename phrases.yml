@@ -199,6 +199,10 @@ matches:
     replace: "NYC"
     word: true
     propagate_case: true
+  - triggers: ['aw8']
+    replace: "await"
+    word: true
+    propagate_case: true
   - triggers: ['sf']
     replace: "SF"
     word: true
