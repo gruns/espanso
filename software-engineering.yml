@@ -8,6 +8,9 @@ matches:
   - triggers: ['vcpus']
     replace: "vCPUs"
     word: true
+  - triggers: ['@tee']
+    replace: "trusted execution environment"
+    word: true
   - triggers: ['svr']
     replace: "server"
     word: true
