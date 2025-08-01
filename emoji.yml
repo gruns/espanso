@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/dynamite', '\dynamite']
+    replace: "🧨"
+    word: true
+    propagate_case: false
   - triggers: ['/dizzy', '\dizzy', '/woozy', '\woozy']
     replace: "🥴"
     word: true
