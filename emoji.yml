@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/letter', '\letter']
+    replace: "✉️"
+    word: true
+    propagate_case: false
   - triggers: ['/dynamite', '\dynamite']
     replace: "🧨"
     word: true
