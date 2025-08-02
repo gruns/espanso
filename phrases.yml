@@ -3,6 +3,10 @@ matches:
     replace: "this"
     word: true
     propagate_case: true
+  - triggers: ['tt']
+    replace: "that"
+    word: true
+    propagate_case: true
   - triggers: ['prevly']
     replace: "previously"
     word: true
