@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['ts']
+    replace: "this"
+    word: true
+    propagate_case: true
   - triggers: ['prevly']
     replace: "previously"
     word: true
