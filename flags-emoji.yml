@@ -3,6 +3,10 @@ matches:
     replace: "🇦🇺"
     word: true
     propagate_case: false
+  - triggers: ['/nor', '\nor', '/norway', '\norway']
+    replace: "🇳🇴"
+    word: true
+    propagate_case: false
   - triggers: ['/rus', '\rus', '/russian', '\russian']
     replace: "🇷🇺"
     word: true
