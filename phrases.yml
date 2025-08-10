@@ -15,7 +15,7 @@ matches:
     replace: "previously"
     word: true
     propagate_case: true
-  - triggers: ['advtg']
+  - triggers: ['advtg', 'advntg']
     replace: "advantage"
     word: true
     propagate_case: true
