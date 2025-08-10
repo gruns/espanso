@@ -87,6 +87,10 @@ matches:
     replace: "back"
     word: true
     propagate_case: true
+  - triggers: ['bcms']
+    replace: "becomes"
+    word: true
+    propagate_case: true
   - triggers: ['defly', 'deftly']
     replace: "definitely"
     word: true

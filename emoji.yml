@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/food', '\food']
+    replace: "🍲️"
+    word: true
+    propagate_case: false
   - triggers: ['/letter', '\letter']
     replace: "✉️"
     word: true
