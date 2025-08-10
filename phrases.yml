@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['agn']
+    replace: "again"
+    word: true
+    propagate_case: true
   - triggers: ['ts']
     replace: "this"
     word: true
