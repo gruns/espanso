@@ -3,6 +3,10 @@ matches:
     replace: "🍲️"
     word: true
     propagate_case: false
+  - triggers: ['/camera', '\camera']
+    replace: "📷️"
+    word: true
+    propagate_case: false
   - triggers: ['/letter', '\letter']
     replace: "✉️"
     word: true
