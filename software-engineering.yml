@@ -17,6 +17,9 @@ matches:
   - triggers: ['@tees']
     replace: "trusted execution environments"
     word: true
+  - triggers: ['@Tees', '@TEES']
+    replace: "Trusted Execution Environments"
+    word: true
   - triggers: ['svr']
     replace: "server"
     word: true
