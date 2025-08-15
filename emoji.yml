@@ -15,6 +15,10 @@ matches:
     replace: "🎤"
     word: true
     propagate_case: false
+  - triggers: ['/sunset', '\sunset']
+    replace: "🌇"
+    word: true
+    propagate_case: false
   - triggers: ['/dynamite', '\dynamite']
     replace: "🧨"
     word: true
