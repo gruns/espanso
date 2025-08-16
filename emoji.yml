@@ -111,10 +111,6 @@ matches:
     replace: "🌲"
     word: true
     propagate_case: false
-  - triggers: ['/puke', '\puke', '/throwup', '\throwup']
-    replace: "🤮"
-    word: true
-    propagate_case: false
   - triggers: ['/knife', '\knife']
     replace: "🔪"
     word: true
