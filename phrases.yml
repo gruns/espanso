@@ -51,7 +51,7 @@ matches:
     replace: "familiar"
     word: true
     propagate_case: true
-  - triggers: ['intst']
+  - triggers: ['intst', 'intrst']
     replace: "interest"
     word: true
     propagate_case: true
