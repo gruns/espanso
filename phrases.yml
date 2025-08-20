@@ -227,6 +227,10 @@ matches:
     replace: "await"
     word: true
     propagate_case: true
+  - triggers: ['aw8s']
+    replace: "awaits"
+    word: true
+    propagate_case: true
   - triggers: ['sf']
     replace: "SF"
     word: true
