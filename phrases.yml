@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['wn', 'whn']
+    replace: "when"
+    word: true
+    propagate_case: true
   - triggers: ['agn']
     replace: "again"
     word: true
