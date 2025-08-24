@@ -20,6 +20,9 @@ matches:
   - triggers: ['@Tees', '@TEES']
     replace: "Trusted Execution Environments"
     word: true
+  - triggers: ['gpu']
+    replace: "GPU"
+    word: true
   - triggers: ['svr']
     replace: "server"
     word: true
