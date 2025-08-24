@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/cherry', '\cherry']
+    replace: "🍒"
+    word: true
+    propagate_case: false
   - triggers: ['/food', '\food']
     replace: "🍲️"
     word: true
