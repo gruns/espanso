@@ -1135,3 +1135,7 @@ matches:
     replace: "‍🌹"
     word: true
     propagate_case: false
+  - triggers: ['/write', '\write', '/writing', '\writing', '/handwriting', '\handwriting', '/sign', '\sign']
+    replace: "‍✍️"
+    word: true
+    propagate_case: false
