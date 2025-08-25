@@ -1139,3 +1139,7 @@ matches:
     replace: "‍✍️"
     word: true
     propagate_case: false
+  - triggers: ['/medal', '\medal', '/firstplace', '\firstplace', '/goldmedal', '\goldmedal']
+    replace: "‍🥇"
+    word: true
+    propagate_case: false
