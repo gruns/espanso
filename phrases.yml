@@ -235,6 +235,10 @@ matches:
     replace: "awaits"
     word: true
     propagate_case: true
+  - triggers: ['aw8ed']
+    replace: "awaited"
+    word: true
+    propagate_case: true
   - triggers: ['sf']
     replace: "SF"
     word: true
