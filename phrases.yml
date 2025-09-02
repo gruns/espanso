@@ -59,7 +59,7 @@ matches:
     replace: "interest"
     word: true
     propagate_case: true
-  - triggers: ['inted']
+  - triggers: ['intd', 'inted']
     replace: "interested"
     word: true
     propagate_case: true
