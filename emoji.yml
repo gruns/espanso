@@ -7,6 +7,10 @@ matches:
     replace: "‍🍓"
     word: true
     propagate_case: false
+  - triggers: ['/bean', '\bean', '/beans', '\beans']
+    replace: "🫘"
+    word: true
+    propagate_case: false
   - triggers: ['/cherry', '\cherry']
     replace: "🍒"
     word: true
