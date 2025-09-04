@@ -239,10 +239,6 @@ matches:
     replace: "awaited"
     word: true
     propagate_case: true
-  - triggers: ['sf']
-    replace: "SF"
-    word: true
-    propagate_case: true
   - triggers: ['embs']
     replace: "embarrass"
     word: true
