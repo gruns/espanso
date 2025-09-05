@@ -1155,3 +1155,7 @@ matches:
     replace: "‍🥇"
     word: true
     propagate_case: false
+  - triggers: ['/swords', '\swords']
+    replace: "‍⚔️"
+    word: true
+    propagate_case: false
