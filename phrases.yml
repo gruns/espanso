@@ -239,6 +239,10 @@ matches:
     replace: "awaited"
     word: true
     propagate_case: true
+  - triggers: ['aw8ing']
+    replace: "awaiting"
+    word: true
+    propagate_case: true
   - triggers: ['embs']
     replace: "embarrass"
     word: true
