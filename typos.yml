@@ -75,7 +75,7 @@ matches:
     replace: "that"
     word: true
     propagate_case: true
-  - triggers: ['nd', 'nad']
+  - triggers: ['nd', 'nad', 'adn']
     replace: "and"
     word: true
     propagate_case: true
