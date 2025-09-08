@@ -319,6 +319,10 @@ matches:
     replace: "frequently"
     word: true
     propagate_case: true
+  - triggers: ['/yen', '\yen']
+    replace: "¥"
+    word: true
+    propagate_case: true
   - triggers: ['imptt']
     replace: "important"
     word: true
