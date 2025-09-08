@@ -26,6 +26,9 @@ matches:
   - triggers: ['gpus']
     replace: "GPUs"
     word: true
+  - triggers: ['tee']
+    replace: "TEE"
+    word: true
   - triggers: ['svr']
     replace: "server"
     word: true
