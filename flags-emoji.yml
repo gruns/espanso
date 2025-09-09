@@ -31,7 +31,7 @@ matches:
     replace: "🇯🇵"
     word: true
     propagate_case: false
-  - triggers: ['/usa', '\usa']
+  - triggers: ['/us', '\us', '/usa', '\usa']
     replace: "🇺🇸"
     word: true
     propagate_case: false
