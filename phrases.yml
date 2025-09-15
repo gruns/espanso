@@ -279,6 +279,10 @@ matches:
     replace: "accommodation"
     word: true
     propagate_case: true
+  - triggers: ['potl']
+    replace: "potential"
+    word: true
+    propagate_case: true
   - triggers: ['accoms']
     replace: "accommodations"
     word: true
