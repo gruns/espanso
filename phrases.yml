@@ -331,6 +331,10 @@ matches:
     replace: "€"
     word: true
     propagate_case: true
+  - triggers: ['tgr', '2gether']
+    replace: "together"
+    word: true
+    propagate_case: true
   - triggers: ['imptt']
     replace: "important"
     word: true
