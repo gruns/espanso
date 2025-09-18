@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['rt']
+    replace: "right"
+    word: true
+    propagate_case: true
   - triggers: ['wn', 'whn']
     replace: "when"
     word: true
