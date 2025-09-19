@@ -3,6 +3,10 @@ matches:
     replace: "🚨"
     word: true
     propagate_case: false
+  - triggers: ['/turtle', '\turtle']
+    replace: "🐢"
+    word: true
+    propagate_case: false
   - triggers: ['/blueberry', '\blueberry']
     replace: "🫐"
     word: true
