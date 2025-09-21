@@ -343,10 +343,6 @@ matches:
     replace: "important"
     word: true
     propagate_case: true
-  - triggers: ['nos']
-    replace: "numbers"
-    word: true
-    propagate_case: true
   - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
     replace: "unavailable"
     word: true
