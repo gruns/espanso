@@ -3,6 +3,10 @@ matches:
     replace: "if"
     word: true
     propagate_case: true
+  - triggers: ['cna']
+    replace: "can"
+    word: true
+    propagate_case: true
   - triggers: ['wtih', 'wiht']
     replace: "with"
     word: true
