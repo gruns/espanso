@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/owl', '\owl']
+    replace: "🦉️"
+    word: true
+    propagate_case: false
   - triggers: ['/crazy', '\crazy', '/zany', '\zany']
     replace: "🤪"
     word: true
