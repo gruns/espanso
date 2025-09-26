@@ -11,6 +11,10 @@ matches:
     replace: "they"
     word: true
     propagate_case: true
+  - triggers: ['btu']
+    replace: "but"
+    word: true
+    propagate_case: true
   - triggers: ['wtih', 'wiht']
     replace: "with"
     word: true
