@@ -4,6 +4,7 @@ The goals of these expansions are collectively to:
 
   * Improve typing speed through commonly used abbreviations. E.g. `abt` -> `about`, `impltn` -> `implementation`, etc.
   * Use more emojis in conversation. Emojis better convey emotion, tone, and empathy. 🙂
+  * Minimize typos by minimizing the number of keypresses.
   * Correct common typos. E.g. `teh` -> `the`.
 
 These expansions are categorized by type, one category per file:
