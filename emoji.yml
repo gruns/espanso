@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/sunflower', '\sunflower']
+    replace: "🌻"
+    word: true
+    propagate_case: false
   - triggers: ['/owl', '\owl']
     replace: "🦉️"
     word: true
