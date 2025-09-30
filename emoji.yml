@@ -7,6 +7,10 @@ matches:
     replace: "🦉️"
     word: true
     propagate_case: false
+  - triggers: ['/snow', '\snow']
+    replace: "❄️"
+    word: true
+    propagate_case: false
   - triggers: ['/crazy', '\crazy', '/zany', '\zany']
     replace: "🤪"
     word: true
