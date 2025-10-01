@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['awsm', 'awesm']
+    replace: "awesome"
+    word: true
+    propagate_case: true
   - triggers: ['rt']
     replace: "right"
     word: true
