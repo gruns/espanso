@@ -23,6 +23,10 @@ matches:
     replace: "🐢"
     word: true
     propagate_case: false
+  - triggers: ['/ys', '\ys', '/yellowsquare', '\yellowsquare']
+    replace: "🟨"
+    word: true
+    propagate_case: false
   - triggers: ['/blueberry', '\blueberry']
     replace: "🫐"
     word: true
