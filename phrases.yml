@@ -347,6 +347,10 @@ matches:
     replace: "important"
     word: true
     propagate_case: true
+  - triggers: ['immd', 'immdt']
+    replace: "immediate"
+    word: true
+    propagate_case: true
   - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
     replace: "unavailable"
     word: true
