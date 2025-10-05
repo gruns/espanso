@@ -351,6 +351,10 @@ matches:
     replace: "immediate"
     word: true
     propagate_case: true
+  - triggers: ['immdly', 'immy', 'imly', 'immly', 'immdy', 'immdl', 'immdtly']
+    replace: "immediately"
+    word: true
+    propagate_case: true
   - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
     replace: "unavailable"
     word: true
