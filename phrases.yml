@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['thn']
+    replace: "then"
+    word: true
+    propagate_case: true
   - triggers: ['awsm', 'awesm']
     replace: "awesome"
     word: true
