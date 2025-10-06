@@ -359,6 +359,10 @@ matches:
     replace: "📢"
     word: true
     propagate_case: false
+  - triggers: ['/bust', '\bust']
+    replace: "👤"
+    word: true
+    propagate_case: false
   - triggers: ['/dumpling', '\dumpling']
     replace: "🥟"
     word: true
