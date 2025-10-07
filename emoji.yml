@@ -775,7 +775,7 @@ matches:
     replace: "🏎️"
     word: true
     propagate_case: false
-  - triggers: ['/i', '/imp', '\i']
+  - triggers: ['/imp', '\imp', '/devil', '\devil']
     replace: "😈"
     word: true
     propagate_case: false
