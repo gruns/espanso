@@ -3,6 +3,10 @@ matches:
     replace: "then"
     word: true
     propagate_case: true
+  - triggers: ['thr']
+    replace: "there"
+    word: true
+    propagate_case: true
   - triggers: ['awsm', 'awesm']
     replace: "awesome"
     word: true
