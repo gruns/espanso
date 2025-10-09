@@ -363,6 +363,10 @@ matches:
     replace: "immediately"
     word: true
     propagate_case: true
+  - triggers: ['notif']
+    replace: "notification"
+    word: true
+    propagate_case: true
   - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
     replace: "unavailable"
     word: true
