@@ -367,6 +367,10 @@ matches:
     replace: "notification"
     word: true
     propagate_case: true
+  - triggers: ['notifs']
+    replace: "notifications"
+    word: true
+    propagate_case: true
   - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
     replace: "unavailable"
     word: true
