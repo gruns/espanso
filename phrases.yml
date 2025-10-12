@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['whod']
+    replace: "who'd"
+    word: true
+    propagate_case: true
   - triggers: ['thn']
     replace: "then"
     word: true
