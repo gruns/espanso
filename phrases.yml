@@ -3,6 +3,10 @@ matches:
     replace: "who'd"
     word: true
     propagate_case: true
+  - triggers: ['vry']
+    replace: "very"
+    word: true
+    propagate_case: true
   - triggers: ['thn']
     replace: "then"
     word: true
