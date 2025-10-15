@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/dove', '\dove']
+    replace: "🕊️"
+    word: true
+    propagate_case: false
   - triggers: ['/sunflower', '\sunflower']
     replace: "🌻"
     word: true
