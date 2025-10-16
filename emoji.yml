@@ -1207,3 +1207,7 @@ matches:
     replace: "‍😔"
     word: true
     propagate_case: false
+  - triggers: ['/milk', '\milk']
+    replace: "‍🥛"
+    word: true
+    propagate_case: false
