@@ -379,6 +379,10 @@ matches:
     replace: "notifications"
     word: true
     propagate_case: true
+  - triggers: ['prefc']
+    replace: "preference"
+    word: true
+    propagate_case: true
   - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
     replace: "unavailable"
     word: true
