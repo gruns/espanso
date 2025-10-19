@@ -383,6 +383,10 @@ matches:
     replace: "preference"
     word: true
     propagate_case: true
+  - triggers: ['prefcs']
+    replace: "preferences"
+    word: true
+    propagate_case: true
   - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
     replace: "unavailable"
     word: true
