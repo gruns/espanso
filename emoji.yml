@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/yoga', '\yoga']
+    replace: "🧘️"
+    word: true
+    propagate_case: false
   - triggers: ['/axe', '\axe']
     replace: "🪓️"
     word: true
