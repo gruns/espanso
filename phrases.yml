@@ -395,6 +395,10 @@ matches:
     replace: "alright"
     word: true
     propagate_case: true
+  - triggers: ['alry', 'alrdy']
+    replace: "already"
+    word: true
+    propagate_case: true
   - triggers: ['unavl', 'unavbl', 'unavalbl', 'unavailb', 'unavailbl']
     replace: "unavailable"
     word: true
