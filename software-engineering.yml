@@ -29,6 +29,9 @@ matches:
   - triggers: ['tee']
     replace: "TEE"
     word: true
+  - triggers: ['tees']
+    replace: "TEEs"
+    word: true
   - triggers: ['svr']
     replace: "server"
     word: true
