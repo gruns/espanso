@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/siren', '\siren']
+    replace: "🚨"
+    word: true
+    propagate_case: false
   - triggers: ['/yoga', '\yoga']
     replace: "🧘️"
     word: true
