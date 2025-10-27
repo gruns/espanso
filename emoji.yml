@@ -31,8 +31,8 @@ matches:
     replace: "🤪"
     word: true
     propagate_case: false
-  - triggers: ['/siren', '\siren']
-    replace: "🚨"
+  - triggers: ['/tel', '\tel', '/phone', '\phone', '/telephone', '\telephone']
+    replace: "📞"
     word: true
     propagate_case: false
   - triggers: ['/turtle', '\turtle']
