@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['confc']
+    replace: "conference"
+    word: true
+    propagate_case: true
   - triggers: ['whod']
     replace: "who'd"
     word: true
