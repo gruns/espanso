@@ -15,6 +15,10 @@ matches:
     replace: "but"
     word: true
     propagate_case: true
+  - triggers: ['absense']
+    replace: "absence"
+    word: true
+    propagate_case: true
   - triggers: ['wtih', 'wiht']
     replace: "with"
     word: true
