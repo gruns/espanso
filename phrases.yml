@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['impbl']
+    replace: "impossible"
+    word: true
+    propagate_case: true
   - triggers: ['confc']
     replace: "conference"
     word: true
