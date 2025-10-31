@@ -1,4 +1,4 @@
-  matches:
+matches:
   - triggers: ['/pumpkin', '\pumpkin']
     replace: "🎃️"
     word: true
