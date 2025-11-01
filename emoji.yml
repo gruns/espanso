@@ -35,7 +35,7 @@ matches:
     replace: "🤪"
     word: true
     propagate_case: false
-  - triggers: ['/tel', '\tel', '/phone', '\phone', '/telephone', '\telephone']
+  - triggers: ['/tel', '\tel', '/phone', '\phone', '/telephone', '\telephone', '/call', '\call']
     replace: "📞"
     word: true
     propagate_case: false
