@@ -407,11 +407,7 @@ matches:
     replace: "🥵"
     word: true
     propagate_case: false
-  - triggers: ['/call', '\call']
-    replace: "📞"
-    word: true
-    propagate_case: false
-  - triggers: ['/volcano', '\volcano']
+  - triggers: ['/lava', '\lava', '/volcano', '\volcano']
     replace: "🌋"
     word: true
     propagate_case: false
