@@ -15,6 +15,10 @@ matches:
     replace: "🪓️"
     word: true
     propagate_case: false
+  - triggers: ['/mend', '\mend']
+    replace: "❤️‍🩹"
+    word: true
+    propagate_case: false
   - triggers: ['/dove', '\dove']
     replace: "🕊️"
     word: true
