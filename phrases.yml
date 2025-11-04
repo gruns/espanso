@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['jst']
+    replace: "just"
+    word: true
+    propagate_case: true
   - triggers: ['impbl']
     replace: "impossible"
     word: true
