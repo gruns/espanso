@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/tophat', '\tophat']
+    replace: "🎩"
+    word: true
+    propagate_case: false
   - triggers: ['/pumpkin', '\pumpkin']
     replace: "🎃️"
     word: true
