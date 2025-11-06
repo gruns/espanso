@@ -11,6 +11,10 @@ matches:
     replace: "conference"
     word: true
     propagate_case: true
+  - triggers: ['confcs']
+    replace: "conferences"
+    word: true
+    propagate_case: true
   - triggers: ['whod']
     replace: "who'd"
     word: true
