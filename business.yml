@@ -7,7 +7,7 @@ matches:
     replace: "employees"
     word: true
     propagate_case: true
-  - triggers: ['empr', 'empr']
+  - triggers: ['empr', 'empr', 'emplr']
     replace: "employer"
     word: true
     propagate_case: true
