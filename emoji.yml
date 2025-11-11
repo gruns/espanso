@@ -3,6 +3,10 @@ matches:
     replace: "🎢"
     word: true
     propagate_case: false
+  - triggers: ['/diamond', '\diamond']
+    replace: "💎"
+    word: true
+    propagate_case: false
   - triggers: ['/tophat', '\tophat']
     replace: "🎩"
     word: true
