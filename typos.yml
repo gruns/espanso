@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['embrasment']
+    replace: "embrassment"
+    word: true
+    propagate_case: true
   - triggers: ['fi']
     replace: "if"
     word: true
