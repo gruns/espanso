@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/octopus', '\octopus']
+    replace: "🐙"
+    word: true
+    propagate_case: false
   - triggers: ['/rollercoaster', '\rollercoaster']
     replace: "🎢"
     word: true
