@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/scroll', '\scroll']
+    replace: "📜"
+    word: true
+    propagate_case: false
   - triggers: ['/octopus', '\octopus']
     replace: "🐙"
     word: true
