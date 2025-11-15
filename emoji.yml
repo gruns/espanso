@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/crystalball', '\crystalball']
+    replace: "🔮"
+    word: true
+    propagate_case: false
   - triggers: ['/scroll', '\scroll']
     replace: "📜"
     word: true
