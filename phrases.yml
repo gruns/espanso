@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['acqr']
+    replace: "acquire"
+    word: true
+    propagate_case: true
   - triggers: ['jst']
     replace: "just"
     word: true
