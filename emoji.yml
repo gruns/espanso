@@ -15,7 +15,7 @@ matches:
     replace: "🎢"
     word: true
     propagate_case: false
-  - triggers: ['/diamond', '\diamond']
+  - triggers: ['/diamond', '\diamond', '/gem', '\gem', '/jewel', '\jewel']
     replace: "💎"
     word: true
     propagate_case: false
