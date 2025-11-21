@@ -11,7 +11,7 @@ matches:
     replace: "employer"
     word: true
     propagate_case: true
-  - triggers: ['emprs', 'emprs']
+  - triggers: ['emprs', 'emprs', 'emplrs']
     replace: "employers"
     word: true
     propagate_case: true
