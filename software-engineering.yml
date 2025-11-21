@@ -1,4 +1,7 @@
 matches:
+  - triggers: ['infc']
+    replace: "inference"
+    word: true
   - triggers: ['cvm']
     replace: "CVM"
     word: true
