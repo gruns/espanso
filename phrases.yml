@@ -7,6 +7,10 @@ matches:
     replace: "acquires"
     word: true
     propagate_case: true
+  - triggers: ['acqrd']
+    replace: "acquired"
+    word: true
+    propagate_case: true
   - triggers: ['jst']
     replace: "just"
     word: true
