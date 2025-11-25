@@ -35,6 +35,10 @@ matches:
   - triggers: ['tees']
     replace: "TEEs"
     word: true
+  - triggers: ['attsn', 'attstn']
+    replace: "attestation"
+    word: true
+    propagate_case: true
   - triggers: ['svr']
     replace: "server"
     word: true
