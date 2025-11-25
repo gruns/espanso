@@ -123,6 +123,10 @@ matches:
     replace: "🧚"
     word: true
     propagate_case: false
+  - triggers: ['/lip', '\lip', '/lips', '\lips', '/lipbite', '\lipbite']
+    replace: "🫦"
+    word: true
+    propagate_case: false
   - triggers: ['/jbox', '\jbox', '/juicebox', '\juicebox']
     replace: "🧃"
     word: true
