@@ -31,6 +31,10 @@ matches:
     replace: "instruction"
     word: true
     propagate_case: true
+  - triggers: ['intxns', 'instxns']
+    replace: "instructions"
+    word: true
+    propagate_case: true
   - triggers: ['whod']
     replace: "who'd"
     word: true
