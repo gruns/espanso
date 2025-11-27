@@ -367,6 +367,10 @@ matches:
     replace: "serious"
     word: true
     propagate_case: true
+  - triggers: ['fwths']
+    replace: "forths"
+    word: true
+    propagate_case: true
   - triggers: ['gov', 'govt', 'gvmt', 'govmt', 'govmt', 'govmnt', 'govmnt']
     replace: "government"
     word: true
