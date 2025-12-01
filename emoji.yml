@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/suicide', '\suicide']
+    replace: "🫠🔫️"
+    word: true
+    propagate_case: false
   - triggers: ['/crystalball', '\crystalball']
     replace: "🔮"
     word: true
