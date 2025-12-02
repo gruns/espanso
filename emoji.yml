@@ -3,6 +3,10 @@ matches:
     replace: "🫠🔫️"
     word: true
     propagate_case: false
+  - triggers: ['/hospital', '\hospital']
+    replace: "🏥"
+    word: true
+    propagate_case: false
   - triggers: ['/crystalball', '\crystalball']
     replace: "🔮"
     word: true
