@@ -447,6 +447,10 @@ matches:
     replace: "available"
     word: true
     propagate_case: true
+  - triggers: ['infreqly']
+    replace: "infrequently"
+    word: true
+    propagate_case: true
   - triggers: ['avli', 'avly', 'avlty', 'avblty', 'availy', 'availby', 'availbly', 'availblty']
     replace: "availability"
     word: true
