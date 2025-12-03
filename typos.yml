@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['woudl']
+    replace: "would"
+    word: true
+    propagate_case: true
   - triggers: ['embrasment']
     replace: "embrassment"
     word: true
