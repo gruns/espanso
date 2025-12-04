@@ -7,6 +7,10 @@ matches:
     replace: "🏥"
     word: true
     propagate_case: false
+  - triggers: ['/cheers', '\cheers']
+    replace: "🍻"
+    word: true
+    propagate_case: false
   - triggers: ['/crystalball', '\crystalball']
     replace: "🔮"
     word: true
