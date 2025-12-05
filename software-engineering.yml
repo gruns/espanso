@@ -39,6 +39,10 @@ matches:
     replace: "attestation"
     word: true
     propagate_case: true
+  - triggers: ['attsns', 'attstns']
+    replace: "attestations"
+    word: true
+    propagate_case: true
   - triggers: ['svr']
     replace: "server"
     word: true
