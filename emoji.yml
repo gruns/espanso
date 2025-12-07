@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/soda', '\soda']
+    replace: "🥤"
+    word: true
+    propagate_case: false
   - triggers: ['/suicide', '\suicide']
     replace: "🫠🔫️"
     word: true
