@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['ahve']
+    replace: "have"
+    word: true
+    propagate_case: true
   - triggers: ['woudl']
     replace: "would"
     word: true
