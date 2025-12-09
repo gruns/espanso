@@ -999,7 +999,7 @@ matches:
     replace: "👶"
     word: true
     propagate_case: false
-  - triggers: ['/xmas', '/xmastree', '/christmas']
+  - triggers: ['/xmas', '\xmas', '/xmastree', '\xmastree', '/christmas', '\christmas']
     replace: "🎄"
     word: true
     propagate_case: false
