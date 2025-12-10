@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['brk']
+    replace: "break"
+    word: true
+    propagate_case: true
   - triggers: ['acqr']
     replace: "acquire"
     word: true
