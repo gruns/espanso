@@ -3,6 +3,10 @@ matches:
     replace: "have"
     word: true
     propagate_case: true
+  - triggers: ['withdrawl']
+    replace: "withdrawal"
+    word: true
+    propagate_case: true
   - triggers: ['woudl']
     replace: "would"
     word: true
