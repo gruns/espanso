@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/goat', '\goat']
+    replace: "🐐"
+    word: true
+    propagate_case: false
   - triggers: ['/soda', '\soda']
     replace: "🥤"
     word: true
