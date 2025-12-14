@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['approxt']
+    replace: "approximate"
+    word: true
+    propagate_case: true
   - triggers: ['brk']
     replace: "break"
     word: true
