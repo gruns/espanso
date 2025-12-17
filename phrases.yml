@@ -3,6 +3,10 @@ matches:
     replace: "approximate"
     word: true
     propagate_case: true
+  - triggers: ['approxly']
+    replace: "approximately"
+    word: true
+    propagate_case: true
   - triggers: ['brk']
     replace: "break"
     word: true
