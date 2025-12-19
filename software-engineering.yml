@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['intfc']
+    replace: "interface"
+    word: true
+    propagate_case: true
   - triggers: ['infc']
     replace: "inference"
     word: true
