@@ -3,6 +3,10 @@ matches:
     replace: "interface"
     word: true
     propagate_case: true
+  - triggers: ['intfcs']
+    replace: "interfaces"
+    word: true
+    propagate_case: true
   - triggers: ['infc']
     replace: "inference"
     word: true
