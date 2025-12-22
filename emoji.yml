@@ -3,6 +3,10 @@ matches:
     replace: "👸"
     word: true
     propagate_case: false
+  - triggers: ['/crossedarms', '\crossedarms']
+    replace: "🙅"
+    word: true
+    propagate_case: false
   - triggers: ['/growingheart', '\growingheart', '/beatingheart', '\beatingheart']
     replace: "💗"
     word: true
