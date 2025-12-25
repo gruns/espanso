@@ -1227,7 +1227,7 @@ matches:
     replace: "☕"
     word: true
     propagate_case: false
-  - triggers: ['/hearteyes', '\hearteyes']
+  - triggers: ['/heyes', '\heyes', '/hearteyes', '\hearteyes']
     replace: "😍"
     word: true
     propagate_case: false
