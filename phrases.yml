@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['whr']
+    replace: "where"
+    word: true
+    propagate_case: true
   - triggers: ['rmbr']
     replace: "remember"
     word: true
