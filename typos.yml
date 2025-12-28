@@ -11,10 +11,6 @@ matches:
     replace: "would"
     word: true
     propagate_case: true
-  - triggers: ['embrasment']
-    replace: "embrassment"
-    word: true
-    propagate_case: true
   - triggers: ['fi']
     replace: "if"
     word: true
