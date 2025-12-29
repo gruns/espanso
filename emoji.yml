@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/mendingheart', '\mendingheart']
+    replace: "❤️‍🩹"
+    word: true
+    propagate_case: false
   - triggers: ['/queen', '\queen']
     replace: "👸"
     word: true
