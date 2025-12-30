@@ -319,7 +319,7 @@ matches:
     replace: "🦃️️"
     word: true
     propagate_case: false
-  - triggers: ['/package', '\package']
+  - triggers: ['/package', '\package', '/pkg', '\pkg']
     replace: "📦️️"
     word: true
     propagate_case: false
