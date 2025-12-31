@@ -7,6 +7,10 @@ matches:
     replace: "interfaces"
     word: true
     propagate_case: true
+  - triggers: ['intfcing']
+    replace: "interfacing"
+    word: true
+    propagate_case: true
   - triggers: ['infc']
     replace: "inference"
     word: true
