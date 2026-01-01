@@ -151,6 +151,10 @@ matches:
     replace: "interestingly"
     word: true
     propagate_case: true
+  - triggers: ['intsts', 'intrsts']
+    replace: "interests"
+    word: true
+    propagate_case: true
   - triggers: ['shld']
     replace: "should"
     word: true
