@@ -331,7 +331,7 @@ matches:
     replace: "🪦️️"
     word: true
     propagate_case: false
-  - triggers: ['/memo', '\memo', '/task', '\task', '/note', '\note']
+  - triggers: ['/memo', '\memo', '/task', '\task', '/note', '\note', '/todo', '\todo']
     replace: "📝️️"
     word: true
     propagate_case: false
