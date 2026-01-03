@@ -347,7 +347,7 @@ matches:
     replace: "🏄‍♂️️"
     word: true
     propagate_case: false
-  - triggers: ['/flushed', \flushed']
+  - triggers: ['/flushed', \flushed', '/shame', '\shame']
     replace: "😳️"
     word: true
     propagate_case: false
