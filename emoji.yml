@@ -439,6 +439,10 @@ matches:
     replace: "📚"
     word: true
     propagate_case: false
+  - triggers: ['/bust', '\bust']
+    replace: "👤"
+    word: true
+    propagate_case: false
   - triggers: ['/busts', '\busts', '/twopeople', '\twopeople']
     replace: "👥"
     word: true
