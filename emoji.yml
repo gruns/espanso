@@ -971,10 +971,6 @@ matches:
     replace: "✈️"
     word: true
     propagate_case: false
-  - triggers: ['\tear', "/'", "\\'", '/tear', "/'(", "\'("]
-    replace: "😢"
-    word: true
-    propagate_case: false
   - triggers: ['\pizza', '/pizza']
     replace: "🍕"
     word: true
