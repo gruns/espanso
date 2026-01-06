@@ -475,6 +475,10 @@ matches:
     replace: "infrequently"
     word: true
     propagate_case: true
+  - triggers: ['smzd', 'sumzd']
+    replace: "summarized"
+    word: true
+    propagate_case: true
   - triggers: ['avli', 'avly', 'avlty', 'avblty', 'availy', 'availby', 'availbly', 'availblty']
     replace: "availability"
     word: true
