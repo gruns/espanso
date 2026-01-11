@@ -507,10 +507,6 @@ matches:
     replace: "🏨"
     word: true
     propagate_case: false
-  - triggers: ['/dove', '\dove']
-    replace: "‍🕊️"
-    word: true
-    propagate_case: false
   - triggers: ['/broken', '\broken', '/brokenheart', '\brokenheart']
     replace: "‍💔"
     word: true
