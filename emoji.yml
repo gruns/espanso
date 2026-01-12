@@ -507,7 +507,7 @@ matches:
     replace: "🏨"
     word: true
     propagate_case: false
-  - triggers: ['/broken', '\broken', '/brokenheart', '\brokenheart']
+  - triggers: ['/broken', '\broken', '/brokenheart', '\brokenheart', '/heartbreak', '\heartbreak', '/heartbroken', '\heartbroken']
     replace: "‍💔"
     word: true
     propagate_case: false
