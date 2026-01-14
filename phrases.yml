@@ -479,6 +479,10 @@ matches:
     replace: "summarized"
     word: true
     propagate_case: true
+  - triggers: ['smzing', 'sumzing']
+    replace: "summarizing"
+    word: true
+    propagate_case: true
   - triggers: ['avli', 'avly', 'avlty', 'avblty', 'availy', 'availby', 'availbly', 'availblty']
     replace: "availability"
     word: true
