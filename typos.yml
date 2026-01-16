@@ -15,6 +15,10 @@ matches:
     replace: "canceled"
     word: true
     propagate_case: true
+  - triggers: ['embrassed', 'embarassed']
+    replace: "embarrassed"
+    word: true
+    propagate_case: true
   - triggers: ['fi']
     replace: "if"
     word: true
