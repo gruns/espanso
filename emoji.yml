@@ -527,7 +527,7 @@ matches:
     replace: "‍💊"
     word: true
     propagate_case: false
-  - triggers: ['/barf', '\barf', '/vomit', '\vomit', '/throwup', '\throwup', '/bleh', '\bleh']
+  - triggers: ['/puke', '\puke', '/barf', '\barf', '/vomit', '\vomit', '/throwup', '\throwup', '/bleh', '\bleh']
     replace: "‍🤮"
     word: true
     propagate_case: false
