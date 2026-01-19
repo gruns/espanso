@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/xhands', '\xhands', '/nohands', '\nohands']
+    replace: "🙅‍♂️"
+    word: true
+    propagate_case: false
   - triggers: ['/flower', '\flower']
     replace: "🌷"
     word: true
