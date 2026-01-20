@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['4evr', '4ever']
+    replace: "forever"
+    word: true
+    propagate_case: true
   - triggers: ['whr']
     replace: "where"
     word: true
