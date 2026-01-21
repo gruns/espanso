@@ -3,7 +3,7 @@ matches:
     replace: "🧂"
     word: true
     propagate_case: false
-  - triggers: ['/xhands', '\xhands', '/nohands', '\nohands']
+  - triggers: ['/xhands', '\xhands', '/xarms', '\xarms', '/xman', '\xman', '/crossedarms', '\crossedarms']
     replace: "🙅‍♂️"
     word: true
     propagate_case: false
