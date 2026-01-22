@@ -3,6 +3,10 @@ matches:
     replace: "forever"
     word: true
     propagate_case: true
+  - triggers: ['wtsapp']
+    replace: "whatsapp"
+    word: true
+    propagate_case: true
   - triggers: ['whr']
     replace: "where"
     word: true
