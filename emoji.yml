@@ -475,6 +475,10 @@ matches:
     replace: "📫️"
     word: true
     propagate_case: false
+  - triggers: ['/mail', '\mail']
+    replace: "✉️️"
+    word: true
+    propagate_case: false
   - triggers: ['/spicy', '\spicy', '/pepper', '\pepper']
     replace: "🌶️"
     word: true
