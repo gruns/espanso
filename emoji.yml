@@ -551,7 +551,7 @@ matches:
     replace: "📄"
     word: true
     propagate_case: false
-  - triggers: ['/trashcan', '\trashcan']
+  - triggers: ['/trash', '\trash', '/trashcan', '\trashcan']
     replace: "‍🗑️"
     word: true
     propagate_case: false
