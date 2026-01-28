@@ -23,6 +23,10 @@ matches:
     replace: "embarrassing"
     word: true
     propagate_case: true
+  - triggers: ['embrasment', 'embarassment']
+    replace: "embarrassment"
+    word: true
+    propagate_case: true
   - triggers: ['fi']
     replace: "if"
     word: true
