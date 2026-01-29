@@ -203,6 +203,10 @@ matches:
     replace: "another's"
     word: true
     propagate_case: true
+  - triggers: ['bcming']
+    replace: "becoming"
+    word: true
+    propagate_case: true
   - triggers: ['gr8st', 'gr8est']
     replace: "greatest"
     word: true
