@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/salad', '\salad']
+    replace: "🥗"
+    word: true
+    propagate_case: false
   - triggers: ['/shaking', '\shaking', '/buzzing', '\buzzing']
     replace: "🫨"
     word: true
