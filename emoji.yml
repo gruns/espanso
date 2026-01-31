@@ -651,7 +651,7 @@ matches:
     replace: "‍🪦"
     word: true
     propagate_case: false
-  - triggers: ['/*', '\*', '/-', '\-']
+  - triggers: ['/-', '\-']
     replace: "‍●"
     word: true
     propagate_case: false
