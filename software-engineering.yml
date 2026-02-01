@@ -24,6 +24,9 @@ matches:
   - triggers: ['vcpus']
     replace: "vCPUs"
     word: true
+  - triggers: ['@cc']
+    replace: "confidential computing"
+    word: true
   - triggers: ['@tee']
     replace: "trusted execution environment"
     word: true
