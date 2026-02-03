@@ -691,7 +691,7 @@ matches:
     replace: "☠️"
     word: true
     propagate_case: false
-  - triggers: ['/skull', '\skull']
+  - triggers: ['/dead', '\dead', '/skull', '\skull']
     replace: "💀"
     word: true
     propagate_case: false
