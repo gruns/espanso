@@ -507,6 +507,10 @@ matches:
     replace: "unfortunately"
     word: true
     propagate_case: true
+  - triggers: ['imptc']
+    replace: "importance"
+    word: true
+    propagate_case: true
   - triggers: ['uncf', 'uncomf']
     replace: "uncomfortable"
     word: true
