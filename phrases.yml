@@ -511,6 +511,10 @@ matches:
     replace: "importance"
     word: true
     propagate_case: true
+  - triggers: ['imptty', 'imptly', 'impttly']
+    replace: "importantly"
+    word: true
+    propagate_case: true
   - triggers: ['uncf', 'uncomf']
     replace: "uncomfortable"
     word: true
