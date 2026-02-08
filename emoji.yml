@@ -655,7 +655,7 @@ matches:
     replace: "‍🌭"
     word: true
     propagate_case: false
-  - triggers: ['/tombstone', '\tombstone']
+  - triggers: ['/tombstone', '\tombstone', '/gravestone', '\gravestone']
     replace: "‍🪦"
     word: true
     propagate_case: false
