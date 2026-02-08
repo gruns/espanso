@@ -3,6 +3,10 @@ matches:
     replace: "ℹ️"
     word: true
     propagate_case: false
+  - triggers: ['/leg', '\leg']
+    replace: "🦵"
+    word: true
+    propagate_case: false
   - triggers: ['/salad', '\salad']
     replace: "🥗"
     word: true
