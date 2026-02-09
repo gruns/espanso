@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['unforseen']
+    replace: "unforeseen"
+    word: true
+    propagate_case: true
   - triggers: ['ahve']
     replace: "have"
     word: true
