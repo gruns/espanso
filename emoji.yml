@@ -739,7 +739,7 @@ matches:
     replace: "🛰️"
     word: true
     propagate_case: false
-  - triggers: ['/!', '\!', '/exclamation', '\exclamation']
+  - triggers: ['/!r', '\!r', '/rexclamation', '\rexclamation']
     replace: "❗️"
     word: true
     propagate_case: false
