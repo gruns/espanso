@@ -3,6 +3,10 @@ matches:
     replace: "summary"
     word: true
     propagate_case: true
+  - triggers: ['defn']
+    replace: "definition"
+    word: true
+    propagate_case: true
   - triggers: ['4evr', '4ever']
     replace: "forever"
     word: true
