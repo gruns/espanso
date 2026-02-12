@@ -743,7 +743,7 @@ matches:
     replace: "❗️"
     word: true
     propagate_case: false
-  - triggers: ['/!w', '\!w', '/wexclamation', '\wexclamation']
+  - triggers: ['/!', '\!', '/exclamation', '\exclamation']
     replace: "❕"
     word: true
     propagate_case: false
