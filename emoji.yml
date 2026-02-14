@@ -971,7 +971,7 @@ matches:
     replace: "💥"
     word: true
     propagate_case: false
-  - triggers: ['/stareyes', '\stareyes']
+  - triggers: ['/seyes', '\seyes', '/stareyes', '\stareyes']
     replace: "🤩"
     word: true
     propagate_case: false
