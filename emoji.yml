@@ -975,7 +975,7 @@ matches:
     replace: "🤩"
     word: true
     propagate_case: false
-  - triggers: ['/horns', '/metal', '/rock']
+  - triggers: ['/metal', '\metal', '/rock', '\rock']
     replace: "🤘"
     word: true
     propagate_case: false
