@@ -7,6 +7,10 @@ matches:
     replace: "definition"
     word: true
     propagate_case: true
+  - triggers: ['defns']
+    replace: "definitions"
+    word: true
+    propagate_case: true
   - triggers: ['4evr', '4ever']
     replace: "forever"
     word: true
