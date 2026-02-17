@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/lobster', '\lobster']
+    replace: "🦞️"
+    word: true
+    propagate_case: false
   - triggers: ['/info', '\info']
     replace: "ℹ️"
     word: true
