@@ -535,6 +535,10 @@ matches:
     replace: "acquisition"
     word: true
     propagate_case: true
+  - triggers: ['avlies', 'avlties']
+    replace: "availabilities"
+    word: true
+    propagate_case: true
   - triggers: ['bgd']
     replace: "background"
     word: true
