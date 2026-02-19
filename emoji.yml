@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/gear', '\gear']
+    replace: "⚙️"
+    word: true
+    propagate_case: false
   - triggers: ['/lobster', '\lobster']
     replace: "🦞️"
     word: true
