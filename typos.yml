@@ -31,6 +31,10 @@ matches:
     replace: "embarrassment"
     word: true
     propagate_case: true
+  - triggers: ['arnet', "arnt'"]
+    replace: "aren't"
+    word: true
+    propagate_case: true
   - triggers: ['fi']
     replace: "if"
     word: true
