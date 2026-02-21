@@ -3,6 +3,10 @@ matches:
     replace: "⚙️"
     word: true
     propagate_case: false
+  - triggers: ['/wrench', '\wrench']
+    replace: "🔧"
+    word: true
+    propagate_case: false
   - triggers: ['/lobster', '\lobster']
     replace: "🦞️"
     word: true
