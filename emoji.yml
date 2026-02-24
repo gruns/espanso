@@ -3,6 +3,10 @@ matches:
     replace: "👊️"
     word: true
     propagate_case: false
+  - triggers: ['/germ', '\germ']
+    replace: "🦠️"
+    word: true
+    propagate_case: false
   - triggers: ['/gear', '\gear']
     replace: "⚙️"
     word: true
