@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['custmz']
+    replace: "customize"
+    word: true
+    propagate_case: true
   - triggers: ['smry']
     replace: "summary"
     word: true
