@@ -3,6 +3,10 @@ matches:
     replace: "customize"
     word: true
     propagate_case: true
+  - triggers: ['custming']
+    replace: "customizing"
+    word: true
+    propagate_case: true
   - triggers: ['smry']
     replace: "summary"
     word: true
