@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['lcl']
+    replace: "local"
+    word: true
+    propagate_case: true
   - triggers: ['custmz']
     replace: "customize"
     word: true
