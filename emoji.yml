@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/snowboard', '\snowboard']
+    replace: "🏂"
+    word: true
+    propagate_case: false
   - triggers: ['/punch', '\punch']
     replace: "👊️"
     word: true
