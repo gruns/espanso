@@ -3,6 +3,10 @@ matches:
     replace: "local"
     word: true
     propagate_case: true
+  - triggers: ['lcls']
+    replace: "locals"
+    word: true
+    propagate_case: true
   - triggers: ['custmz']
     replace: "customize"
     word: true
