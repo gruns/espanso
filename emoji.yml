@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/news', '\news', '/newspaper', '\newspaper']
+    replace: "📰"
+    word: true
+    propagate_case: false
   - triggers: ['/snowboard', '\snowboard']
     replace: "🏂"
     word: true
