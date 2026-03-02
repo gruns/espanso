@@ -7,6 +7,10 @@ matches:
     replace: "🏂"
     word: true
     propagate_case: false
+  - triggers: ['/cellphone', '\cellphone', '/mobilephone', '\mobilephone']
+    replace: "📱️"
+    word: true
+    propagate_case: false
   - triggers: ['/punch', '\punch']
     replace: "👊️"
     word: true
