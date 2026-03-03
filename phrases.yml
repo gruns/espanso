@@ -7,6 +7,10 @@ matches:
     replace: "locals"
     word: true
     propagate_case: true
+  - triggers: ['lcly']
+    replace: "locally"
+    word: true
+    propagate_case: true
   - triggers: ['custmz']
     replace: "customize"
     word: true
