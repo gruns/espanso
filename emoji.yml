@@ -19,6 +19,10 @@ matches:
     replace: "🦠️"
     word: true
     propagate_case: false
+  - triggers: ['/construction', '\construction']
+    replace: "🚧️"
+    word: true
+    propagate_case: false
   - triggers: ['/gear', '\gear']
     replace: "⚙️"
     word: true
