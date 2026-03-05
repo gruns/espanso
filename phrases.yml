@@ -19,6 +19,10 @@ matches:
     replace: "customizing"
     word: true
     propagate_case: true
+  - triggers: ['pvt']
+    replace: "private"
+    word: true
+    propagate_case: true
   - triggers: ['smry']
     replace: "summary"
     word: true
