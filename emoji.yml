@@ -315,7 +315,7 @@ matches:
     replace: "⌨️"
     word: true
     propagate_case: false
-  - triggers: ['/decline', '\decline']
+  - triggers: ['/decrease', '\decrease', '/graphdown', '\graphdown', '/decline', '\decline']
     replace: "📉"
     word: true
     propagate_case: false
