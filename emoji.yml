@@ -475,7 +475,7 @@ matches:
     replace: "🚬"
     word: true
     propagate_case: false
-  - triggers: ['/babyangel', '\babyangel', '/angelbaby', '\angelbaby']
+  - triggers: ['/bangel', '\bangel', '/babyangel', '\babyangel', '/angelbaby', '\angelbaby']
     replace: "👼​"
     word: true
     propagate_case: false
