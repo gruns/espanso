@@ -31,6 +31,10 @@ matches:
     replace: "definition"
     word: true
     propagate_case: true
+  - triggers: ['pvc', 'pvcy']
+    replace: "privacy"
+    word: true
+    propagate_case: true
   - triggers: ['defns']
     replace: "definitions"
     word: true
