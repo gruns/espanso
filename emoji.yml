@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/speech', '\speech']
+    replace: "💬️"
+    word: true
+    propagate_case: false
   - triggers: ['/news', '\news', '/newspaper', '\newspaper']
     replace: "📰"
     word: true
