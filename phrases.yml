@@ -95,6 +95,10 @@ matches:
     replace: "conferences"
     word: true
     propagate_case: true
+  - triggers: ['acqring']
+    replace: "acquiring"
+    word: true
+    propagate_case: true
   - triggers: ['intxn', 'instxn']
     replace: "instruction"
     word: true
