@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['bfr']
+    replace: "beore"
+    word: true
+    propagate_case: true
   - triggers: ['lcl']
     replace: "local"
     word: true
