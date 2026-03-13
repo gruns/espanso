@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['privlg']
+    replace: "privilege"
+    word: true
+    propagate_case: true
   - triggers: ['intfc']
     replace: "interface"
     word: true
