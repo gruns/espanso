@@ -143,6 +143,10 @@ matches:
     replace: "again"
     word: true
     propagate_case: true
+  - triggers: ['thrs']
+    replace: "there's"
+    word: true
+    propagate_case: true
   - triggers: ['ts']
     replace: "this"
     word: true
