@@ -7,6 +7,10 @@ matches:
     replace: "🍖️"
     word: true
     propagate_case: false
+  - triggers: ['/steak', '\steak']
+    replace: "🥩️"
+    word: true
+    propagate_case: false
   - triggers: ['/speech', '\speech']
     replace: "💬️"
     word: true
