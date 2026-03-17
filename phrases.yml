@@ -563,6 +563,10 @@ matches:
     replace: "importance"
     word: true
     propagate_case: true
+  - triggers: ['freqcy']
+    replace: "frequency"
+    word: true
+    propagate_case: true
   - triggers: ['imptty', 'imptly', 'impttly']
     replace: "importantly"
     word: true
