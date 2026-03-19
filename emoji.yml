@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/whiteflag', '\whiteflag']
+    replace: "🏳️"
+    word: true
+    propagate_case: false
   - triggers: ['/egg', '\egg']
     replace: "🥚️"
     word: true
