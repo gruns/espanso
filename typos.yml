@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['thos']
+    replace: "those"
+    word: true
+    propagate_case: true
   - triggers: ['unforseen']
     replace: "unforeseen"
     word: true
