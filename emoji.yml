@@ -7,6 +7,10 @@ matches:
     replace: "🚩"
     word: true
     propagate_case: false
+  - triggers: ['/doctor', '\doctor']
+    replace: "👨‍⚕️️"
+    word: true
+    propagate_case: false
   - triggers: ['/egg', '\egg']
     replace: "🥚️"
     word: true
