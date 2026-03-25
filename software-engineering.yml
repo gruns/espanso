@@ -7,6 +7,10 @@ matches:
     replace: "privileges"
     word: true
     propagate_case: true
+  - triggers: ['accelr']
+    replace: "accelerator"
+    word: true
+    propagate_case: true
   - triggers: ['intfc']
     replace: "interface"
     word: true
