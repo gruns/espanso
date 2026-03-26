@@ -3,6 +3,10 @@ matches:
     replace: "🏳️"
     word: true
     propagate_case: false
+  - triggers: ['/frame', '\frame']
+    replace: "🖼️️"
+    word: true
+    propagate_case: false
   - triggers: ['/redflag', '\redflag']
     replace: "🚩"
     word: true
