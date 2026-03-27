@@ -7,6 +7,10 @@ matches:
     replace: "🖼️️"
     word: true
     propagate_case: false
+  - triggers: ['/snap', '\snap']
+    replace: "🫰️"
+    word: true
+    propagate_case: false
   - triggers: ['/redflag', '\redflag']
     replace: "🚩"
     word: true
