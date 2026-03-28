@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['confd']
+    replace: "confidential"
+    word: true
+    propagate_case: true
   - triggers: ['privlg']
     replace: "privilege"
     word: true
