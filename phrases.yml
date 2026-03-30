@@ -603,6 +603,10 @@ matches:
     replace: "opportunity"
     word: true
     propagate_case: true
+  - triggers: ['unavly', 'unavlity', 'unavaily']
+    replace: "unavailability"
+    word: true
+    propagate_case: true
   - triggers: ['opties', 'oppties', 'optties']
     replace: "opportunities"
     word: true
