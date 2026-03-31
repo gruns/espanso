@@ -631,7 +631,7 @@ matches:
     replace: "‍🚂"
     word: true
     propagate_case: false
-  - triggers: ['/pill', '\pill', '/drug', '\drug', '/drugs', '\drugs']
+  - triggers: ['/pill', '\pill', '/drug', '\drug', '/drugs', '\drugs', '/medicine', '\medicine']
     replace: "‍💊"
     word: true
     propagate_case: false
