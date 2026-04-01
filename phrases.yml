@@ -623,6 +623,10 @@ matches:
     replace: "languages"
     word: true
     propagate_case: true
+  - triggers: ['acqns']
+    replace: "acquisitions"
+    word: true
+    propagate_case: true
   - triggers: ['cal']
     replace: "calendar"
     word: true
