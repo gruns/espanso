@@ -3,6 +3,10 @@ matches:
     replace: "confidential"
     word: true
     propagate_case: true
+  - triggers: ['confly']
+    replace: "confidentially"
+    word: true
+    propagate_case: true
   - triggers: ['privlg']
     replace: "privilege"
     word: true
