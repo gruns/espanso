@@ -1003,10 +1003,6 @@ matches:
     replace: "✅"
     word: true
     propagate_case: false
-  - triggers: ['/uncheck', '\uncheck']
-    replace: "✔️️"
-    word: true
-    propagate_case: false
   - triggers: ['/rabbit', '/bunny', '\bunny', '\rabbit']
     replace: "🐇"
     word: true
