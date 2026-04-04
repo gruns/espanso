@@ -639,6 +639,10 @@ matches:
     replace: "priorities"
     word: true
     propagate_case: true
+  - triggers: ['4got']
+    replace: "forgot"
+    word: true
+    propagate_case: true
   - triggers: ['prioz', 'priotz']
     replace: "prioritize"
     word: true
