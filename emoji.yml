@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/msgebox', '\msgbox']
+    replace: "📨"
+    word: true
+    propagate_case: false
   - triggers: ['/whiteflag', '\whiteflag']
     replace: "🏳️"
     word: true
