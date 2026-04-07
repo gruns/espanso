@@ -63,6 +63,10 @@ matches:
     replace: "with"
     word: true
     propagate_case: true
+  - triggers: ['ti']
+    replace: "it"
+    word: true
+    propagate_case: true
   - triggers: ['seom', 'soem']
     replace: "some"
     word: true
