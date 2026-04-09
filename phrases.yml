@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['lk']
+    replace: "like"
+    word: true
+    propagate_case: true
   - triggers: ['bfr']
     replace: "beore"
     word: true
