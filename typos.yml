@@ -123,6 +123,10 @@ matches:
     replace: "ever"
     word: true
     propagate_case: true
+  - triggers: ['evry']
+    replace: "every"
+    word: true
+    propagate_case: true
   - triggers: ['teh', 'hte']
     replace: "the"
     word: true
