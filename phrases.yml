@@ -43,6 +43,10 @@ matches:
     replace: "privacy"
     word: true
     propagate_case: true
+  - triggers: ['pvtly']
+    replace: "privately"
+    word: true
+    propagate_case: true
   - triggers: ['defns']
     replace: "definitions"
     word: true
