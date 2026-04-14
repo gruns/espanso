@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/dnd', '\dnd']
+    replace: "🔕"
+    word: true
+    propagate_case: false
   - triggers: ['/msgebox', '\msgbox']
     replace: "📨"
     word: true
