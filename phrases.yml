@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['devmnt']
+    replace: "development"
+    word: true
+    propagate_case: true
   - triggers: ['lk']
     replace: "like"
     word: true
