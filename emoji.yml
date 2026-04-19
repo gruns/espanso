@@ -11,6 +11,10 @@ matches:
     replace: "📴"
     word: true
     propagate_case: false
+  - triggers: ['/ninja', '\ninja']
+    replace: "🥷"
+    word: true
+    propagate_case: false
   - triggers: ['/msgebox', '\msgbox']
     replace: "📨"
     word: true
