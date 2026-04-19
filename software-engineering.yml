@@ -78,6 +78,10 @@ matches:
   - triggers: ['tees']
     replace: "TEEs"
     word: true
+  - triggers: ['attstd']
+    replace: "attested"
+    word: true
+    propagate_case: true
   - triggers: ['attsn', 'attstn']
     replace: "attestation"
     word: true
