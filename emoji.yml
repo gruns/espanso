@@ -15,6 +15,10 @@ matches:
     replace: "🥷"
     word: true
     propagate_case: false
+  - triggers: ['/boba', '\boba']
+    replace: "🧋"
+    word: true
+    propagate_case: false
   - triggers: ['/msgebox', '\msgbox']
     replace: "📨"
     word: true
