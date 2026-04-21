@@ -3,6 +3,10 @@ matches:
     replace: "development"
     word: true
     propagate_case: true
+  - triggers: ['devmntns']
+    replace: "developments"
+    word: true
+    propagate_case: true
   - triggers: ['lk']
     replace: "like"
     word: true
