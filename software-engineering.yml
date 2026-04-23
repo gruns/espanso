@@ -82,7 +82,7 @@ matches:
     replace: "attested"
     word: true
     propagate_case: true
-  - triggers: ['attsn', 'attstn']
+  - triggers: ['attst', 'attsn', 'attstn', 'attestn']
     replace: "attestation"
     word: true
     propagate_case: true
