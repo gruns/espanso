@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['mtup']
+    replace: "meetup"
+    word: true
+    propagate_case: true
   - triggers: ['devmnt']
     replace: "development"
     word: true
