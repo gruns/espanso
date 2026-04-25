@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['thes', 'thse']
+    replace: "these"
+    word: true
+    propagate_case: true
   - triggers: ['thos']
     replace: "those"
     word: true
