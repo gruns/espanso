@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['bzns', 'bizns']
+    replace: "business"
+    word: true
+    propagate_case: true
   - triggers: ['emp', 'empy']
     replace: "employee"
     word: true
