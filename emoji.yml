@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/antenna', '\antenna']
+    replace: "📡"
+    word: true
+    propagate_case: false
   - triggers: ['/truck', '\truck']
     replace: "🚚"
     word: true
