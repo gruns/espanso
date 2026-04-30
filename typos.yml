@@ -143,6 +143,10 @@ matches:
     replace: "that"
     word: true
     propagate_case: true
+  - triggers: ['tahts', 'thts']
+    replace: "that's"
+    word: true
+    propagate_case: true
   - triggers: ['nd', 'nad', 'adn']
     replace: "and"
     word: true
