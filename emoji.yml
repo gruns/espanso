@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/bug', '\bug']
+    replace: "🪲"
+    word: true
+    propagate_case: false
   - triggers: ['/antenna', '\antenna']
     replace: "📡"
     word: true
