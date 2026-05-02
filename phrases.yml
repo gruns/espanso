@@ -179,6 +179,10 @@ matches:
     replace: "that"
     word: true
     propagate_case: true
+  - triggers: ['rts']
+    replace: "rights"
+    word: true
+    propagate_case: true
   - triggers: ['prevly']
     replace: "previously"
     word: true
