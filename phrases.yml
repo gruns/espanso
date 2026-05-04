@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['sovn']
+    replace: "sovereign"
+    word: true
+    propagate_case: true
   - triggers: ['mtup']
     replace: "meetup"
     word: true
