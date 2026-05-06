@@ -1143,7 +1143,7 @@ matches:
     replace: "😎"
     word: true
     propagate_case: false
-  - triggers: ['/target', '\target', '/bullseye', '\bullseye']
+  - triggers: ['/tgt', '\tgt', '/target', '\target', '/bullseye', '\bullseye']
     replace: "🎯"
     word: true
     propagate_case: false
