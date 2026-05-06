@@ -1051,6 +1051,10 @@ matches:
     replace: "✅"
     word: true
     propagate_case: false
+  - triggers: ['/uncheck', '\uncheck', '/unchecked', '\unchecked']
+    replace: "☑️️"
+    word: true
+    propagate_case: false
   - triggers: ['/rabbit', '/bunny', '\bunny', '\rabbit']
     replace: "🐇"
     word: true
