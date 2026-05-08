@@ -155,7 +155,7 @@ matches:
     replace: "to"
     word: true
     propagate_case: true
-  - triggers: ['ths']
+  - triggers: ['ths', 'thsi', 'htis']
     replace: "this"
     word: true
     propagate_case: true
