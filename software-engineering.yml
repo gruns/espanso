@@ -86,7 +86,7 @@ matches:
     replace: "attestation"
     word: true
     propagate_case: true
-  - triggers: ['attsns', 'attstns']
+  - triggers: ['attsts', 'attsns', 'attstns', 'attestns']
     replace: "attestations"
     word: true
     propagate_case: true
