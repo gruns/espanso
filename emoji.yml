@@ -1227,7 +1227,7 @@ matches:
     replace: "🥳"
     word: true
     propagate_case: false
-  - triggers: ['/santa']
+  - triggers: ['/santa', '\santa']
     replace: "🎅"
     word: true
     propagate_case: false
