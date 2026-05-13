@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['h8']
+    replace: "hate"
+    word: true
+    propagate_case: true
   - triggers: ['sovn']
     replace: "sovereign"
     word: true
