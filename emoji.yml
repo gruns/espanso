@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/seedling', '\seedling']
+    replace: "🌱"
+    word: true
+    propagate_case: false
   - triggers: ['/wand', '\wand', '/magicwand', '\magicwand']
     replace: "🪄"
     word: true
