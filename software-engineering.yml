@@ -90,7 +90,7 @@ matches:
     replace: "attestations"
     word: true
     propagate_case: true
-  - triggers: ['svr']
+  - triggers: ['svr', 'srvr']
     replace: "server"
     word: true
     propagate_case: true
