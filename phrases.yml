@@ -3,6 +3,10 @@ matches:
     replace: "hate"
     word: true
     propagate_case: true
+  - triggers: ['h8d']
+    replace: "hated"
+    word: true
+    propagate_case: true
   - triggers: ['sovn']
     replace: "sovereign"
     word: true
