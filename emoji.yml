@@ -207,6 +207,10 @@ matches:
     replace: "🔮"
     word: true
     propagate_case: false
+  - triggers: ['/bank', '\bank']
+    replace: "🏦"
+    word: true
+    propagate_case: false
   - triggers: ['/scroll', '\scroll']
     replace: "📜"
     word: true
