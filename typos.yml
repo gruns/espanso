@@ -163,7 +163,7 @@ matches:
     replace: "from"
     word: true
     propagate_case: true
-  - triggers: ['nto']
+  - triggers: ['nto', 'ont']
     replace: "not"
     word: true
     propagate_case: true
