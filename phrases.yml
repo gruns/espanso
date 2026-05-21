@@ -7,6 +7,10 @@ matches:
     replace: "hated"
     word: true
     propagate_case: true
+  - triggers: ['h8s']
+    replace: "hates"
+    word: true
+    propagate_case: true
   - triggers: ['sovn']
     replace: "sovereign"
     word: true
