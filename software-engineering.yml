@@ -94,7 +94,7 @@ matches:
     replace: "server"
     word: true
     propagate_case: true
-  - triggers: ['svrs']
+  - triggers: ['svrs', 'srvrs']
     replace: "servers"
     word: true
     propagate_case: true
