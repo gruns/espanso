@@ -11,6 +11,10 @@ matches:
     replace: "hates"
     word: true
     propagate_case: true
+  - triggers: ['h8ing']
+    replace: "hating"
+    word: true
+    propagate_case: true
   - triggers: ['sovn']
     replace: "sovereign"
     word: true
