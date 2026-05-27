@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/egypt', '\egypt']
+    replace: "🇪🇬"
+    word: true
+    propagate_case: false
   - triggers: ['/ch', '\ch']
     replace: "🇨🇭"
     word: true
