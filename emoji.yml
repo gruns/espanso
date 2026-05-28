@@ -19,6 +19,10 @@ matches:
     replace: "📡"
     word: true
     propagate_case: false
+  - triggers: ['/paper', '\paper']
+    replace: "📄"
+    word: true
+    propagate_case: false
   - triggers: ['/truck', '\truck']
     replace: "🚚"
     word: true
