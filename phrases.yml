@@ -19,6 +19,10 @@ matches:
     replace: "sovereign"
     word: true
     propagate_case: true
+  - triggers: ['sovnty']
+    replace: "sovereignty"
+    word: true
+    propagate_case: true
   - triggers: ['mtup']
     replace: "meetup"
     word: true
