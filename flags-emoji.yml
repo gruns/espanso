@@ -3,7 +3,7 @@ matches:
     replace: "🇪🇬"
     word: true
     propagate_case: false
-  - triggers: ['/ch', '\ch']
+  - triggers: ['/ch', '\ch', '/swiss', '\swiss']
     replace: "🇨🇭"
     word: true
     propagate_case: false
