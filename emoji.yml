@@ -43,7 +43,7 @@ matches:
     replace: "🧋"
     word: true
     propagate_case: false
-  - triggers: ['/msgebox', '\msgbox']
+  - triggers: ['/msgbox', '\msgbox']
     replace: "📨"
     word: true
     propagate_case: false
