@@ -115,6 +115,10 @@ matches:
     replace: "approximately"
     word: true
     propagate_case: true
+  - triggers: ['whrs']
+    replace: "where's"
+    word: true
+    propagate_case: true
   - triggers: ['brk']
     replace: "break"
     word: true
