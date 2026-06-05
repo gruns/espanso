@@ -98,6 +98,10 @@ matches:
     replace: "servers"
     word: true
     propagate_case: true
+  - triggers: ['svrless']
+    replace: "serverless"
+    word: true
+    propagate_case: true
   - triggers: ['scrn']
     replace: "screen"
     word: true
