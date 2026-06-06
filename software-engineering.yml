@@ -143,6 +143,10 @@ matches:
     replace: "network"
     word: true
     propagate_case: true
+  - triggers: ['fmt']
+    replace: "format"
+    word: true
+    propagate_case: true
   - triggers: ['fmting']
     replace: "formatting"
     word: true
