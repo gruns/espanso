@@ -239,6 +239,10 @@ matches:
     replace: "above"
     word: true
     propagate_case: true
+  - triggers: ['ttll']
+    replace: "that'll"
+    word: true
+    propagate_case: true
   - triggers: ['flt']
     replace: "flight"
     word: true
