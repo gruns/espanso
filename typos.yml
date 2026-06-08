@@ -43,8 +43,8 @@ matches:
     replace: "aren't"
     word: true
     propagate_case: true
-  - triggers: ['fi']
-    replace: "if"
+  - triggers: ['burocracy']
+    replace: "bureaucracy"
     word: true
     propagate_case: true
   - triggers: ['cna']
@@ -63,8 +63,8 @@ matches:
     replace: "absence"
     word: true
     propagate_case: true
-  - triggers: ['wtih', 'wiht']
-    replace: "with"
+  - triggers: ['fi']
+    replace: "if"
     word: true
     propagate_case: true
   - triggers: ['ti']
