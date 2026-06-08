@@ -147,7 +147,7 @@ matches:
     replace: "🦞️"
     word: true
     propagate_case: false
-  - triggers: ['/info', '\info']
+  - triggers: ['/i', '\i', '/info', '\info']
     replace: "ℹ️"
     word: true
     propagate_case: false
