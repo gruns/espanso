@@ -155,6 +155,10 @@ matches:
     replace: "🦵"
     word: true
     propagate_case: false
+  - triggers: ['/sailboat', '\sailboat']
+    replace: "⛵"
+    word: true
+    propagate_case: false
   - triggers: ['/salad', '\salad']
     replace: "🥗"
     word: true
