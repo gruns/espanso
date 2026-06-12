@@ -627,6 +627,10 @@ matches:
     replace: "unfortunately"
     word: true
     propagate_case: true
+  - triggers: ['freqnt']
+    replace: "frequent"
+    word: true
+    propagate_case: true
   - triggers: ['imptc']
     replace: "importance"
     word: true
