@@ -147,6 +147,10 @@ matches:
     replace: "format"
     word: true
     propagate_case: true
+  - triggers: ['fmts']
+    replace: "formats"
+    word: true
+    propagate_case: true
   - triggers: ['fmting']
     replace: "formatting"
     word: true
