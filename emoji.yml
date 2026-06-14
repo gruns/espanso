@@ -355,6 +355,10 @@ matches:
     replace: "🔒"
     word: true
     propagate_case: false
+  - triggers: ['/locked', '\locked', '/lockkey', '\lockkey', '/lockandkey', '\lockandkey']
+    replace: "🔐"
+    word: true
+    propagate_case: false
   - triggers: ['/balloon', '\balloon']
     replace: "🎈"
     word: true
@@ -373,10 +377,6 @@ matches:
     propagate_case: false
   - triggers: ['/bento', '\bento', '/bentobox', '\bentobox']
     replace: "🍱"
-    word: true
-    propagate_case: false
-  - triggers: ['/locked', '\locked', '/lockandkey', '\lockandkey']
-    replace: "🔐"
     word: true
     propagate_case: false
   - triggers: ['/clipboard', '\clipboard']
