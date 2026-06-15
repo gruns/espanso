@@ -715,6 +715,10 @@ matches:
     replace: "forgot"
     word: true
     propagate_case: true
+  - triggers: ['4gtn', '4gotn']
+    replace: "forgotten"
+    word: true
+    propagate_case: true
   - triggers: ['prioz', 'priotz']
     replace: "prioritize"
     word: true
