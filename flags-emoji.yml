@@ -11,7 +11,7 @@ matches:
     replace: "🇮🇳"
     word: true
     propagate_case: false
-  - triggers: ['/denmark', '\denmark']
+  - triggers: ['/den', '\den', '/denmark', '\denmark']
     replace: "🇩🇰"
     word: true
     propagate_case: false
