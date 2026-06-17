@@ -443,7 +443,7 @@ matches:
     replace: "⌨️"
     word: true
     propagate_case: false
-  - triggers: ['/decrease', '\decrease', '/graphdown', '\graphdown', '/decline', '\decline']
+  - triggers: ['/decline', '\decline']
     replace: "📉"
     word: true
     propagate_case: false
