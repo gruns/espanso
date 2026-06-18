@@ -67,7 +67,7 @@ matches:
     replace: "🇩🇪"
     word: true
     propagate_case: false
-  - triggers: ['/ned', '\ned', '/nederlands', '\nederlands', '/netherlands', '\netherlands']
+  - triggers: ['/nl', '\nl', '/ned', '\ned', '/netherlands', '\netherlands']
     replace: "🇳🇱"
     word: true
     propagate_case: false
