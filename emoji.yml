@@ -491,7 +491,7 @@ matches:
     replace: "🧱️️"
     word: true
     propagate_case: false
-  - triggers: ['/bulb', '\bulb', '/light', '\light', '/idea', '\idea']
+  - triggers: ['/bulb', '\bulb', '/light', '\light', '/idea', '\idea', '/lightbulb', '\lightbulb']
     replace: "💡️️"
     word: true
     propagate_case: false
