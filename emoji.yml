@@ -579,7 +579,7 @@ matches:
     replace: "🥐"
     word: true
     propagate_case: false
-  - triggers: ['/calendar', '\calendar']
+  - triggers: ['/cal', '\cal', '/calendar', '\calendar']
     replace: "📅"
     word: true
     propagate_case: false
