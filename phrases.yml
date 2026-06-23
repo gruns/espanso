@@ -119,6 +119,10 @@ matches:
     replace: "where's"
     word: true
     propagate_case: true
+  - triggers: ['whrd']
+    replace: "where'd"
+    word: true
+    propagate_case: true
   - triggers: ['brk']
     replace: "break"
     word: true
