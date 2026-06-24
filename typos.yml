@@ -43,10 +43,6 @@ matches:
     replace: "aren't"
     word: true
     propagate_case: true
-  - triggers: ['burocracy']
-    replace: "bureaucracy"
-    word: true
-    propagate_case: true
   - triggers: ['cna']
     replace: "can"
     word: true
