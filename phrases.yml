@@ -779,6 +779,10 @@ matches:
     replace: "traditional"
     word: true
     propagate_case: true
+  - triggers: ['conts', 'contns', 'contus']
+    replace: "continues"
+    word: true
+    propagate_case: true
   - triggers: ['wdyt']
     replace: "what do you think"
     word: true
