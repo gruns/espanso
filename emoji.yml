@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/sheart', '\sheart', '/sparkleheart', '\sparkleheart']
+    replace: "💖"
+    word: true
+    propagate_case: false
   - triggers: ['/wifi', '\wifi']
     replace: "🛜"
     word: true
