@@ -819,6 +819,10 @@ matches:
     replace: "monday"
     word: true
     propagate_case: true
+  - triggers: ['tgts']
+    replace: "targets"
+    word: true
+    propagate_case: true
   - triggers: ['mons']
     replace: "mondays"
     word: true
