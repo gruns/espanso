@@ -951,6 +951,10 @@ matches:
     replace: "📈"
     word: true
     propagate_case: false
+  - triggers: ['/decrease', '\decrease', '/downgraph', '\downgraph', '/graphdown', '\graphdown', '/decline', '\decline']
+    replace: "📉"
+    word: true
+    propagate_case: false
   - triggers: ['/smirk', '\smirk']
     replace: "😏"
     word: true
