@@ -159,6 +159,10 @@ matches:
     replace: "formatting"
     word: true
     propagate_case: true
+  - triggers: ['fmtings']
+    replace: "formattings"
+    word: true
+    propagate_case: true
   - triggers: ['creds']
     replace: "credentials"
     word: true
