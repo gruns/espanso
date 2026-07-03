@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/zen', '\zen', '/lotuspose', '\lotuspose']
+    replace: "🧘‍♂️"
+    word: true
+    propagate_case: false
   - triggers: ['/jar', '\jar']
     replace: "🫙"
     word: true
