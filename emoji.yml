@@ -975,10 +975,6 @@ matches:
     replace: "🤒"
     word: true
     propagate_case: false
-  - triggers: ['/warn', '\warn', '/warning', '\warning', '/alert', '\alert', '/important', '\important']
-    replace: "⚠️"
-    word: true
-    propagate_case: false
   - triggers: ['\taco', '/taco']
     replace: "🌮"
     word: true
@@ -1121,6 +1117,10 @@ matches:
     propagate_case: false
   - triggers: ['\up', '/up']
     replace: "☝️"
+    word: true
+    propagate_case: false
+  - triggers: ['/warn', '\warn', '/warning', '\warning', '/alert', '\alert', '/important', '\important', '/!a', '\!a']
+    replace: "⚠️"
     word: true
     propagate_case: false
   - triggers: ['/chef', '\chef', '\pinched', '/chefskiss', '\chefs', '/pinched', '/pinch', '/chefs', '\chefskiss', '\pinch']
