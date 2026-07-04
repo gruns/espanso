@@ -12,8 +12,9 @@ These expansions are categorized by type, one category per file:
   * [phrases.yml](phrases.yml): Common text expansions for speed. E.g. `abt` -> `about`.
   * [emoji.yml](emoji.yml): Shorthand for commonly used emojis. E.g. `/)` for 🙂.
   * [typos.yml](typos.yml): Fixes for common typos. E.g. `teh` -> `the`.
-  * [software-engineering.yml](software-engineering.yml): Software expansions. For nerds. E.g. `sfw` -> `software`.
   * [flags-emoji.yml](flags-emoji.yml): Country flag emojis. E.g. `/swe` for 🇸🇪.
+  * [business.yml](business.yml): Misc business expansions. E.g. `bzns` for `business`.
+  * [software-engineering.yml](software-engineering.yml): Software expansions. For nerds. E.g. `sfw` -> `software`.
 
 And for more robust abbreviation completion, add these additional word separators to your Espanso configuration file in `~/Library/Application Support/espanso/config/default.yml`:
 
