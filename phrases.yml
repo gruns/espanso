@@ -823,6 +823,10 @@ matches:
     replace: "targets"
     word: true
     propagate_case: true
+  - triggers: ['tgtd']
+    replace: "targeted"
+    word: true
+    propagate_case: true
   - triggers: ['mons']
     replace: "mondays"
     word: true
