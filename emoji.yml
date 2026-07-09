@@ -163,7 +163,7 @@ matches:
     replace: "🦵"
     word: true
     propagate_case: false
-  - triggers: ['/sailboat', '\sailboat']
+  - triggers: ['/boat', '\boat', '/sailboat', '\sailboat']
     replace: "⛵"
     word: true
     propagate_case: false
@@ -437,10 +437,6 @@ matches:
     propagate_case: false
   - triggers: ['/knife', '\knife']
     replace: "🔪"
-    word: true
-    propagate_case: false
-  - triggers: ['/boat', '\boat']
-    replace: "⛵"
     word: true
     propagate_case: false
   - triggers: ['/cheese', '\cheese']
