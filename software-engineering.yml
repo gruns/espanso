@@ -243,6 +243,10 @@ matches:
     replace: "issuing"
     word: true
     propagate_case: true
+  - triggers: ['reiss']
+    replace: "reissue"
+    word: true
+    propagate_case: true
   - triggers: ['engr']
     replace: "engineer"
     word: true
