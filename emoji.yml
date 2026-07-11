@@ -447,10 +447,6 @@ matches:
     replace: "⌨️"
     word: true
     propagate_case: false
-  - triggers: ['/decline', '\decline']
-    replace: "📉"
-    word: true
-    propagate_case: false
   - triggers: ['/boxing', '\boxing']
     replace: "🥊"
     word: true
