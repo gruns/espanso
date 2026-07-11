@@ -159,7 +159,7 @@ matches:
     replace: "this"
     word: true
     propagate_case: true
-  - triggers: ['fro']
+  - triggers: ['fro', 'frm']
     replace: "from"
     word: true
     propagate_case: true
