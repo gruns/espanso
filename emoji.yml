@@ -343,7 +343,7 @@ matches:
     replace: "🧨"
     word: true
     propagate_case: false
-  - triggers: ['/dizzy', '\dizzy', '/woozy', '\woozy']
+  - triggers: ['/dizzy', '\dizzy', '/woozy', '\woozy', '/tipsy', '\tipsy']
     replace: "🥴"
     word: true
     propagate_case: false
