@@ -827,6 +827,10 @@ matches:
     replace: "targeted"
     word: true
     propagate_case: true
+  - triggers: ['tgting']
+    replace: "targeting"
+    word: true
+    propagate_case: true
   - triggers: ['mons']
     replace: "mondays"
     word: true
