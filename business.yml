@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['revn']
+    replace: "revenue"
+    word: true
+    propagate_case: true
   - triggers: ['bzns', 'bizns']
     replace: "business"
     word: true
