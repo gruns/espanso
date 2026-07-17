@@ -807,7 +807,7 @@ matches:
     replace: "‍🍌"
     word: true
     propagate_case: false
-  - triggers: ['/huff', '\huff', '/exhale', '\exhale', '/oof', '\oof', '/phew', '\phew']
+  - triggers: ['/sigh', '\sigh', '/huff', '\huff', '/exhale', '\exhale', '/oof', '\oof', '/phew', '\phew']
     replace: "‍😮‍💨"
     word: true
     propagate_case: false
