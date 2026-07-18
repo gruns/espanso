@@ -843,6 +843,10 @@ matches:
     replace: "tuesdays"
     word: true
     propagate_case: true
+  - triggers: ['whc']
+    replace: "which"
+    word: true
+    propagate_case: true
   - triggers: ['wedn']
     replace: "wednesday"
     word: true
