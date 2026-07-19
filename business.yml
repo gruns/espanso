@@ -3,6 +3,10 @@ matches:
     replace: "revenue"
     word: true
     propagate_case: true
+  - triggers: ['revns']
+    replace: "revenues"
+    word: true
+    propagate_case: true
   - triggers: ['bzns', 'bizns']
     replace: "business"
     word: true
