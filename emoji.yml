@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/pants', '\pants']
+    replace: "👖"
+    word: true
+    propagate_case: false
   - triggers: ['/zen', '\zen', '/lotuspose', '\lotuspose']
     replace: "🧘‍♂️"
     word: true
