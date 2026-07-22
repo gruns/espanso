@@ -519,6 +519,10 @@ matches:
     replace: "round"
     word: true
     propagate_case: true
+  - triggers: ['smrly', 'simrly']
+    replace: "similarly"
+    word: true
+    propagate_case: true
   - triggers: ['srsly']
     replace: "seriously"
     word: true
