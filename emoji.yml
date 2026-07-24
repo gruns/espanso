@@ -3,6 +3,10 @@ matches:
     replace: "🔩"
     word: true
     propagate_case: false
+  - triggers: ['/hammer', '\hammer']
+    replace: "🔨"
+    word: true
+    propagate_case: false
   - triggers: ['/pants', '\pants']
     replace: "👖"
     word: true
