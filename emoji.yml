@@ -995,7 +995,7 @@ matches:
     replace: "🛬"
     word: true
     propagate_case: false
-  - triggers: ['/ghost', '\ghost']
+  - triggers: ['/ghost', '\ghost', '/spooky', '\spooky']
     replace: "👻"
     word: true
     propagate_case: false
