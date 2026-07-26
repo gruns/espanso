@@ -271,6 +271,10 @@ matches:
     replace: "timezones"
     word: true
     propagate_case: true
+  - triggers: ['sfw']
+    replace: "software"
+    word: true
+    propagate_case: true
   - triggers: ['hwr', 'hdw']
     replace: "hardware"
     word: true
