@@ -691,7 +691,7 @@ matches:
     replace: "🦒"
     word: true
     propagate_case: false
-  - triggers: ['/cc', '\cc', '/card', '\card', '/creditcard', '\creditcard']
+  - triggers: ['/card', '\card', '/creditcard', '\creditcard']
     replace: "💳"
     word: true
     propagate_case: false
