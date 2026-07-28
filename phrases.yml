@@ -3,6 +3,10 @@ matches:
     replace: "and/or"
     word: true
     propagate_case: true
+  - triggers: ['simuly']
+    replace: "simultaneously"
+    word: true
+    propagate_case: true
   - triggers: ['h8']
     replace: "hate"
     word: true
