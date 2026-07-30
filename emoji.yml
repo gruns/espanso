@@ -1083,7 +1083,7 @@ matches:
     replace: "🏠"
     word: true
     propagate_case: false
-  - triggers: ['/money', '\money']
+  - triggers: ['/$', '\$', '/money', '\money']
     replace: "💰"
     word: true
     propagate_case: false
