@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/blood', '\blood']
+    replace: "🩸"
+    word: true
+    propagate_case: false
   - triggers: ['/boltandnut', '\boltandnut']
     replace: "🔩"
     word: true
