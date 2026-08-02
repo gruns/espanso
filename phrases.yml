@@ -275,6 +275,10 @@ matches:
     replace: "familiar"
     word: true
     propagate_case: true
+  - triggers: ['blw']
+    replace: "below"
+    word: true
+    propagate_case: true
   - triggers: ['intst', 'intrst']
     replace: "interest"
     word: true
