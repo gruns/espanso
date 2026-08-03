@@ -48,7 +48,7 @@ matches:
   - triggers: ['vcpus']
     replace: "vCPUs"
     word: true
-  - triggers: ['@cc']
+  - triggers: ['/cc', '\cc']
     replace: "confidential computing"
     word: true
   - triggers: ['@CC']
