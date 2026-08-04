@@ -207,7 +207,7 @@ matches:
     replace: "❤️‍🩹"
     word: true
     propagate_case: false
-  - triggers: ['/queen', '\queen']
+  - triggers: ['\queen', '/queen', '\princess', '/princess']
     replace: "👸"
     word: true
     propagate_case: false
