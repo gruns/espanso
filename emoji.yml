@@ -271,7 +271,7 @@ matches:
     replace: "🎃️"
     word: true
     propagate_case: false
-  - triggers: ['/siren', '\siren']
+  - triggers: ['/siren', '\siren', '/alarm', '\alarm']
     replace: "🚨"
     word: true
     propagate_case: false
