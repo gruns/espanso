@@ -1063,7 +1063,7 @@ matches:
     replace: "🍷"
     word: true
     propagate_case: false
-  - triggers: ['\zipper', '/zipper']
+  - triggers: ['\zipper', '/zipper', '/zipface', '\zipface']
     replace: "🤐"
     word: true
     propagate_case: false
