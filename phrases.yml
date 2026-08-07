@@ -871,6 +871,10 @@ matches:
     replace: "what's"
     word: true
     propagate_case: true
+  - triggers: ['wtd']
+    replace: "what'd"
+    word: true
+    propagate_case: true
   - triggers: ['wedns']
     replace: "wednesdays"
     word: true
