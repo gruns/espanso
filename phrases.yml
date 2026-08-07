@@ -915,6 +915,10 @@ matches:
     replace: "include"
     word: true
     propagate_case: true
+  - triggers: ['sund']
+    replace: "sunday"
+    word: true
+    propagate_case: true
   - triggers: ['incls', 'inclds']
     replace: "includes"
     word: true
