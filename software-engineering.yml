@@ -51,7 +51,7 @@ matches:
   - triggers: ['/cc', '\cc']
     replace: "confidential computing"
     word: true
-  - triggers: ['@CC']
+  - triggers: ['/CC', '\CC']
     replace: "Confidential Computing"
     word: true
   - triggers: ['@tee']
