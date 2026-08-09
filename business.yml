@@ -31,6 +31,10 @@ matches:
     replace: "employment"
     word: true
     propagate_case: true
+  - triggers: ['empmts', 'empmnts']
+    replace: "employments"
+    word: true
+    propagate_case: true
   - triggers: ['jd']
     replace: "JD"
     word: true
