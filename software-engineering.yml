@@ -54,7 +54,7 @@ matches:
   - triggers: ['/CC', '\CC']
     replace: "Confidential Computing"
     word: true
-  - triggers: ['@tee']
+  - triggers: ['/tee', '\tee']
     replace: "trusted execution environment"
     word: true
   - triggers: ['@Tee', '@TEE']
