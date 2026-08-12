@@ -1211,6 +1211,10 @@ matches:
     replace: "👑"
     word: true
     propagate_case: false
+  - triggers: ['\queen', '/queen', '\princess', '/princess']
+    replace: "👸"
+    word: true
+    propagate_case: false
   - triggers: ['/D', '\D']
     replace: "😃"
     word: true
