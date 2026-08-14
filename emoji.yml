@@ -1355,7 +1355,7 @@ matches:
     replace: "🤗"
     word: true
     propagate_case: false
-  - triggers: ['/poof', '\poof']
+  - triggers: ['/poof', '\poof', '/speed', '\speed']
     replace: "💨"
     word: true
     propagate_case: false
