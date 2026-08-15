@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/juggler', '\juggler', '/juggling', '\juggling']
+    replace: "🤹"
+    word: true
+    propagate_case: false
   - triggers: ['/blood', '\blood']
     replace: "🩸"
     word: true
