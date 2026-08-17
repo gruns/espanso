@@ -959,6 +959,10 @@ matches:
     replace: "waters"
     word: true
     propagate_case: true
+  - triggers: ['wtrd']
+    replace: "watered"
+    word: true
+    propagate_case: true
   - triggers: ['pricepnt']
     replace: "pricepoint"
     word: true
