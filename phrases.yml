@@ -955,6 +955,10 @@ matches:
     replace: "needn't"
     word: true
     propagate_case: true
+  - triggers: ['wtrs']
+    replace: "waters"
+    word: true
+    propagate_case: true
   - triggers: ['pricepnt']
     replace: "pricepoint"
     word: true
