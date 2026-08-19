@@ -57,7 +57,7 @@ matches:
   - triggers: ['/tee', '\tee']
     replace: "trusted execution environment"
     word: true
-  - triggers: ['@Tee', '@TEE']
+  - triggers: ['/Tee', '\Tee', '/TEE', '\TEE']
     replace: "Trusted Execution Environment"
     word: true
   - triggers: ['@tees']
