@@ -975,6 +975,10 @@ matches:
     replace: "touchpoint"
     word: true
     propagate_case: true
+  - triggers: ['brot']
+    replace: "brought"
+    word: true
+    propagate_case: true
   - triggers: ['datapnt']
     replace: "datapoint"
     word: true
