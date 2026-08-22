@@ -983,6 +983,10 @@ matches:
     replace: "datapoint"
     word: true
     propagate_case: true
+  - triggers: ["thots"]
+    replace: "thoughts"
+    word: true
+    propagate_case: true
   - triggers: ['kb']
     replace: "keyboard"
     word: true
