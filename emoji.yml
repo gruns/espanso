@@ -3,6 +3,10 @@ matches:
     replace: "🤹"
     word: true
     propagate_case: false
+  - triggers: ['/vibrate', '\vibrate']
+    replace: "🫨"
+    word: true
+    propagate_case: false
   - triggers: ['/blood', '\blood']
     replace: "🩸"
     word: true
