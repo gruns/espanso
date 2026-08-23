@@ -987,6 +987,10 @@ matches:
     replace: "thoughts"
     word: true
     propagate_case: true
+  - triggers: ["afterthot"]
+    replace: "afterthought"
+    word: true
+    propagate_case: true
   - triggers: ['kb']
     replace: "keyboard"
     word: true
