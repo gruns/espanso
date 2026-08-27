@@ -63,7 +63,7 @@ matches:
   - triggers: ['/tees', '\tees']
     replace: "trusted execution environments"
     word: true
-  - triggers: ['@Tees', '@TEES', '@TEEs']
+  - triggers: ['/Tees', '\Tees', '/TEES', '\TEES', '/TEEs', '\TEEs']
     replace: "Trusted Execution Environments"
     word: true
   - triggers: ['gpu']
