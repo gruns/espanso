@@ -66,9 +66,6 @@ matches:
   - triggers: ['/Tees', '\Tees', '/TEES', '\TEES', '/TEEs', '\TEEs']
     replace: "Trusted Execution Environments"
     word: true
-  - triggers: ['gpu']
-    replace: "GPU"
-    word: true
   - triggers: ['gpus']
     replace: "GPUs"
     word: true
