@@ -1003,6 +1003,10 @@ matches:
     replace: "keyboards"
     word: true
     propagate_case: true
+  - triggers: ['pricepnts']
+    replace: "pricepoints"
+    word: true
+    propagate_case: true
   - triggers: ['rqr', 'reqr']
     replace: "require"
     word: true
