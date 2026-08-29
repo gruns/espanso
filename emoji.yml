@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/desert', '\desert']
+    replace: "🏜️"
+    word: true
+    propagate_case: false
   - triggers: ['/juggler', '\juggler', '/juggling', '\juggling']
     replace: "🤹"
     word: true
