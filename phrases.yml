@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['indp', 'indpt']
+    replace: "independent"
+    word: true
+    propagate_case: true
   - triggers: ['andor']
     replace: "and/or"
     word: true
