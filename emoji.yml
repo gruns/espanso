@@ -7,10 +7,6 @@ matches:
     replace: "🤹"
     word: true
     propagate_case: false
-  - triggers: ['/vibrate', '\vibrate']
-    replace: "🫨"
-    word: true
-    propagate_case: false
   - triggers: ['/blood', '\blood']
     replace: "🩸"
     word: true
@@ -199,7 +195,7 @@ matches:
     replace: "🥗"
     word: true
     propagate_case: false
-  - triggers: ['/shaking', '\shaking', '/buzzing', '\buzzing']
+  - triggers: ['/shaking', '\shaking', '/buzzing', '\buzzing', '/vibrate', '\vibrate']
     replace: "🫨"
     word: true
     propagate_case: false
