@@ -3,6 +3,10 @@ matches:
     replace: "independent"
     word: true
     propagate_case: true
+  - triggers: ['indply', 'indptly']
+    replace: "independently"
+    word: true
+    propagate_case: true
   - triggers: ['andor']
     replace: "and/or"
     word: true
