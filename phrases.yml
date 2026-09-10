@@ -1075,6 +1075,10 @@ matches:
     replace: "isn't"
     word: true
     propagate_case: true
+  - triggers: ['smh', 'smhw', 'smhow']
+    replace: "somehow"
+    word: true
+    propagate_case: true
   - triggers: ['amt']
     replace: "amount"
     word: true
