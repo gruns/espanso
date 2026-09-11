@@ -1079,6 +1079,10 @@ matches:
     replace: "somehow"
     word: true
     propagate_case: true
+  - triggers: ['smby', 'smbdy']
+    replace: "somebody"
+    word: true
+    propagate_case: true
   - triggers: ['amt']
     replace: "amount"
     word: true
