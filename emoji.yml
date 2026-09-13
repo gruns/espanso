@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/cold', '\cold', '/freezing', '\freezing']
+    replace: "🥶️"
+    word: true
+    propagate_case: false
   - triggers: ['/desert', '\desert']
     replace: "🏜️"
     word: true
