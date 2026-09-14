@@ -1087,6 +1087,10 @@ matches:
     replace: "amount"
     word: true
     propagate_case: true
+  - triggers: ['e1s', 'every1s']
+    replace: "everyone's"
+    word: true
+    propagate_case: true
   - triggers: ['rly']
     replace: "really"
     word: true
