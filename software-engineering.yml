@@ -269,7 +269,7 @@ matches:
     replace: "software"
     word: true
     propagate_case: true
-  - triggers: ['hwr', 'hdw']
+  - triggers: ['hdw']
     replace: "hardware"
     word: true
     propagate_case: true
