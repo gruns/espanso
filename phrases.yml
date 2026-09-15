@@ -1099,6 +1099,10 @@ matches:
     replace: "sounds good"
     word: true
     propagate_case: true
+  - triggers: ['mtr']
+    replace: "matter"
+    word: true
+    propagate_case: true
   - triggers: ['rdy']
     replace: "ready"
     word: true
