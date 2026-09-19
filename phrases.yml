@@ -239,6 +239,10 @@ matches:
     replace: "rights"
     word: true
     propagate_case: true
+  - triggers: ['wns', 'whns']
+    replace: "when's"
+    word: true
+    propagate_case: true
   - triggers: ['wnvr', 'whnvr']
     replace: "whenever"
     word: true
