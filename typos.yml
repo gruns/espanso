@@ -139,7 +139,7 @@ matches:
     replace: "of"
     word: true
     propagate_case: true
-  - triggers: ['tht', 'htat', 'taht', 'thta']
+  - triggers: ['tht', 'htat', 'taht', 'thta', 'tat']
     replace: "that"
     word: true
     propagate_case: true
