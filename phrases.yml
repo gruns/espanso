@@ -1135,6 +1135,10 @@ matches:
     replace: "forwarded"
     word: true
     propagate_case: true
+  - triggers: ['accting']
+    replace: "accounting"
+    word: true
+    propagate_case: true
   - triggers: ['dmg']
     replace: "damage"
     word: true
