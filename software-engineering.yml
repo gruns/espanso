@@ -285,7 +285,7 @@ matches:
     replace: "vulnerabilities"
     word: true
     propagate_case: true
-  - triggers: ['ts']
+  - triggers: ['tstmp']
     replace: "timestamp"
     word: true
     propagate_case: true
