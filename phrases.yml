@@ -1139,6 +1139,10 @@ matches:
     replace: "accounting"
     word: true
     propagate_case: true
+  - triggers: ['acctant']
+    replace: "accountant"
+    word: true
+    propagate_case: true
   - triggers: ['dmg']
     replace: "damage"
     word: true
