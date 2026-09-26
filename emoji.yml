@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/genie', '\genie']
+    replace: "🧞"
+    word: true
+    propagate_case: false
   - triggers: ['/butterfly', '\butterfly']
     replace: "🦋️"
     word: true
