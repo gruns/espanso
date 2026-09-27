@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/dress', '\dress']
+    replace: "👗"
+    word: true
+    propagate_case: false
   - triggers: ['/genie', '\genie']
     replace: "🧞"
     word: true
