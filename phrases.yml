@@ -1147,6 +1147,10 @@ matches:
     replace: "accountant"
     word: true
     propagate_case: true
+  - triggers: ['acctants']
+    replace: "accountants"
+    word: true
+    propagate_case: true
   - triggers: ['dmg']
     replace: "damage"
     word: true
