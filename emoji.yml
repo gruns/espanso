@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/shootingstar', '\shootingstar']
+    replace: "🌠"
+    word: true
+    propagate_case: false
   - triggers: ['/dress', '\dress']
     replace: "👗"
     word: true
