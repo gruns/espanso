@@ -289,7 +289,7 @@ matches:
     replace: "timestamp"
     word: true
     propagate_case: true
-  - triggers: ['tss']
+  - triggers: ['tstmps']
     replace: "timestamps"
     word: true
     propagate_case: true
