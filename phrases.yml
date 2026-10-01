@@ -1,8 +1,4 @@
 matches:
-  - triggers: ['lst']
-    replace: "last"
-    word: true
-    propagate_case: true
   - triggers: ['indp', 'indpt']
     replace: "independent"
     word: true
