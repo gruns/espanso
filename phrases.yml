@@ -1167,6 +1167,10 @@ matches:
     replace: "¯\\_(ツ)_/¯"
     word: true
     propagate_case: true
+  - triggers: ['fwdable']
+    replace: "forwardable"
+    word: true
+    propagate_case: true
   - triggers: ['evt']
     replace: "event"
     word: true
