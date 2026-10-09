@@ -1183,6 +1183,10 @@ matches:
     replace: "damaged"
     word: true
     propagate_case: true
+  - triggers: ['dmging']
+    replace: "damaging"
+    word: true
+    propagate_case: true
   - triggers: ['bccd']
     replace: "bcc'd"
     word: true
