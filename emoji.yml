@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/hugging', '\hugging']
+    replace: "🫂"
+    word: true
+    propagate_case: false
   - triggers: ['/teddy', '\teddy', '/teddybear', '\teddybear']
     replace: "🧸"
     word: true
