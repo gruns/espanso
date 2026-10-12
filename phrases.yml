@@ -311,6 +311,10 @@ matches:
     replace: "interestingly"
     word: true
     propagate_case: true
+  - triggers: ['refcing']
+    replace: "referencing"
+    word: true
+    propagate_case: true
   - triggers: ['intsts', 'intrsts']
     replace: "interests"
     word: true
