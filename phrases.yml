@@ -1195,6 +1195,10 @@ matches:
     replace: "bcc'd"
     word: true
     propagate_case: true
+  - triggers: ['/tableflip', '\tableflip']
+    replace: "(╯°□°)╯︵ ┻━┻"
+    word: true
+    propagate_case: true
   - triggers: ['txn']
     replace: "transaction"
     word: true
