@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/c8s', '\c8s']
+    replace: "confidential kubernetes"
+    word: true
+    propagate_case: true
   - triggers: ['confd']
     replace: "confidential"
     word: true
