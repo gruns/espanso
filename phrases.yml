@@ -1211,6 +1211,10 @@ matches:
     replace: "transactional"
     word: true
     propagate_case: true
+  - triggers: ['xplant']
+    replace: "transplant"
+    word: true
+    propagate_case: true
   - triggers: ['mtxn', 'microtxn']
     replace: "microtransaction"
     word: true
