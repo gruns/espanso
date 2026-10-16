@@ -1215,6 +1215,10 @@ matches:
     replace: "transplant"
     word: true
     propagate_case: true
+  - triggers: ['xplants']
+    replace: "transplants"
+    word: true
+    propagate_case: true
   - triggers: ['mtxn', 'microtxn']
     replace: "microtransaction"
     word: true
