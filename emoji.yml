@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/watermelon', '\watermelon']
+    replace: "🍉"
+    word: true
+    propagate_case: false
   - triggers: ['/hugging', '\hugging']
     replace: "🫂"
     word: true
