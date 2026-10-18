@@ -1251,6 +1251,10 @@ matches:
     replace: "unruhestifter"
     word: true
     propagate_case: true
+  - triggers: ['passthrus']
+    replace: "passthroughs"
+    word: true
+    propagate_case: true
   - triggers: ['flw']
     replace: "follow"
     word: true
