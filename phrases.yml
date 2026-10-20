@@ -1259,6 +1259,10 @@ matches:
     replace: "breakthrough"
     word: true
     propagate_case: true
+  - triggers: ['breakthrus']
+    replace: "breakthroughs"
+    word: true
+    propagate_case: true
   - triggers: ['flw']
     replace: "follow"
     word: true
