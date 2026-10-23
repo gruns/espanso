@@ -1267,6 +1267,10 @@ matches:
     replace: "playthrough"
     word: true
     propagate_case: true
+  - triggers: ['playthrus']
+    replace: "playthroughs"
+    word: true
+    propagate_case: true
   - triggers: ['flw']
     replace: "follow"
     word: true
