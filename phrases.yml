@@ -1263,6 +1263,10 @@ matches:
     replace: "breakthroughs"
     word: true
     propagate_case: true
+  - triggers: ['playthru']
+    replace: "playthrough"
+    word: true
+    propagate_case: true
   - triggers: ['flw']
     replace: "follow"
     word: true
