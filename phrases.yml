@@ -1287,6 +1287,10 @@ matches:
     replace: "follow-up"
     word: true
     propagate_case: true
+  - triggers: ['flws']
+    replace: "follows"
+    word: true
+    propagate_case: true
   - triggers: ['fups', 'flwups']
     replace: "follow-ups"
     word: true
