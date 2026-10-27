@@ -7,6 +7,10 @@ matches:
     replace: "🍉"
     word: true
     propagate_case: false
+  - triggers: ['/popcorn', '\popcorn']
+    replace: "🍿"
+    word: true
+    propagate_case: false
   - triggers: ['/hugging', '\hugging']
     replace: "🫂"
     word: true
