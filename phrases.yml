@@ -1295,6 +1295,10 @@ matches:
     replace: "follow-ups"
     word: true
     propagate_case: true
+  - triggers: ['flwr', 'flwer']
+    replace: "follower"
+    word: true
+    propagate_case: true
   - triggers: ['difc', 'diffc', 'diffce']
     replace: "difference"
     word: true
