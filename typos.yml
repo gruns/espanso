@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['mont']
+    replace: "month"
+    word: true
+    propagate_case: true
   - triggers: ['thes', 'thse']
     replace: "these"
     word: true
