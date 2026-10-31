@@ -1339,6 +1339,10 @@ matches:
     replace: "transmissions"
     word: true
     propagate_case: true
+  - triggers: ['str8s']
+    replace: "straights"
+    word: true
+    propagate_case: true
   - triggers: ['pkging']
     replace: "packaging"
     word: true
