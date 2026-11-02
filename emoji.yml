@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/rock', '\rock']
+    replace: "🪨‍"
+    word: true
+    propagate_case: false
   - triggers: ['/astronaut', '\astronaut']
     replace: "🧑‍🚀"
     word: true
