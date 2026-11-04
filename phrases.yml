@@ -1367,6 +1367,10 @@ matches:
     replace: "transfers"
     word: true
     propagate_case: true
+  - triggers: ['pkgd']
+    replace: "packaged"
+    word: true
+    propagate_case: true
   - triggers: ['lvl']
     replace: "level"
     word: true
