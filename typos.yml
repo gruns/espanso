@@ -3,6 +3,10 @@ matches:
     replace: "month"
     word: true
     propagate_case: true
+  - triggers: ['montly']
+    replace: "monthly"
+    word: true
+    propagate_case: true
   - triggers: ['thes', 'thse']
     replace: "these"
     word: true
