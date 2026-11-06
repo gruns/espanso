@@ -7,6 +7,10 @@ matches:
     replace: "monthly"
     word: true
     propagate_case: true
+  - triggers: ['receival']
+    replace: "receipt"
+    word: true
+    propagate_case: true
   - triggers: ['thes', 'thse']
     replace: "these"
     word: true
