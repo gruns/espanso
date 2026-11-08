@@ -1,4 +1,7 @@
 matches:
+  - triggers: ['arr']
+    replace: "ARR"
+    word: true
   - triggers: ['revn']
     replace: "revenue"
     word: true
