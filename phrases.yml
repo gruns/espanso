@@ -223,6 +223,10 @@ matches:
     replace: "there'll"
     word: true
     propagate_case: true
+  - triggers: ['thrafter']
+    replace: "thereafter"
+    word: true
+    propagate_case: true
   - triggers: ['thrs']
     replace: "there's"
     word: true
