@@ -227,6 +227,10 @@ matches:
     replace: "thereafter"
     word: true
     propagate_case: true
+  - triggers: ['thrb4']
+    replace: "therebefore"
+    word: true
+    propagate_case: true
   - triggers: ['thrs']
     replace: "there's"
     word: true
