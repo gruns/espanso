@@ -11,6 +11,10 @@ matches:
     replace: "receipt"
     word: true
     propagate_case: true
+  - triggers: ['receivals']
+    replace: "receipts"
+    word: true
+    propagate_case: true
   - triggers: ['thes', 'thse']
     replace: "these"
     word: true
