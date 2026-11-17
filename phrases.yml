@@ -1395,6 +1395,10 @@ matches:
     replace: "leverages"
     word: true
     propagate_case: true
+  - triggers: ['lvging']
+    replace: "leveraging"
+    word: true
+    propagate_case: true
   - triggers: ['lvls']
     replace: "levels"
     word: true
