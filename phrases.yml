@@ -1415,6 +1415,10 @@ matches:
     replace: "obviously"
     word: true
     propagate_case: true
+  - triggers: ['obvs']
+    replace: "obvious"
+    word: true
+    propagate_case: true
   - triggers: ['mo']
     replace: "month"
     word: true
