@@ -55,6 +55,10 @@ matches:
     replace: "👜️️"
     word: true
     propagate_case: false
+  - triggers: ['/bags', '\bags', '/shopping', '\shopping']
+    replace: "🛍️️"
+    word: true
+    propagate_case: false
   - triggers: ['/cold', '\cold', '/freezing', '\freezing']
     replace: "🥶️"
     word: true
