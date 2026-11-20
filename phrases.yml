@@ -1447,6 +1447,10 @@ matches:
     replace: "right now"
     word: true
     propagate_case: true
+  - triggers: ['bimonly']
+    replace: "bimonthly"
+    word: true
+    propagate_case: true
   - triggers: ['gh']
     replace: "github"
     word: true
