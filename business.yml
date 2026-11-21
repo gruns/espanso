@@ -6,6 +6,10 @@ matches:
     replace: "manufacturer"
     word: true
     propagate_case: true
+  - triggers: ['mfrs']
+    replace: "manufacturers"
+    word: true
+    propagate_case: true
   - triggers: ['revn']
     replace: "revenue"
     word: true
