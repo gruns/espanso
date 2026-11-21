@@ -1215,6 +1215,10 @@ matches:
     replace: "transaction"
     word: true
     propagate_case: true
+  - triggers: ['evtful']
+    replace: "eventful"
+    word: true
+    propagate_case: true
   - triggers: ['txns']
     replace: "transactions"
     word: true
