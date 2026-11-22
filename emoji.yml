@@ -187,10 +187,6 @@ matches:
     replace: "🥚️"
     word: true
     propagate_case: false
-  - triggers: ['/meat', '\meat']
-    replace: "🍖️"
-    word: true
-    propagate_case: false
   - triggers: ['/steak', '\steak']
     replace: "🥩️"
     word: true
