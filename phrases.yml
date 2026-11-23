@@ -1463,6 +1463,9 @@ matches:
     replace: "that's"
     word: true
     propagate_case: true
+  - triggers: ['LI']
+    replace: "linkedin"
+    word: true
   - triggers: ['pnts']
     replace: "points"
     word: true
