@@ -1,4 +1,8 @@
 matches:
+  - triggers: ['/candle', '\candle']
+    replace: "🕯️"
+    word: true
+    propagate_case: false
   - triggers: ['/rock', '\rock']
     replace: "🪨‍"
     word: true
