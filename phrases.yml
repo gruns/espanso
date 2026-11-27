@@ -1219,6 +1219,10 @@ matches:
     replace: "eventful"
     word: true
     propagate_case: true
+  - triggers: ['unsub']
+    replace: "unsubscribe"
+    word: true
+    propagate_case: true
   - triggers: ['txns']
     replace: "transactions"
     word: true
