@@ -1514,7 +1514,7 @@ matches:
     replace: "requests"
     word: true
     propagate_case: true
-  - triggers: ['w/in', 'wi']
+  - triggers: ['w/in', 'wi', 'w/n']
     replace: "within"
     word: true
     propagate_case: true
